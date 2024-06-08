@@ -3,6 +3,8 @@ import { frontendSideBar } from './frontend'
 import { designSideBar } from './design'
 import { studySideBar } from './study'
 import { operateSideBar } from './operate'
+import { openSideBar } from './open'
+import { toolSideBar } from './tool'
 
 export const sidebar = {
   '/backend/': backendSideBar,
@@ -10,4 +12,6 @@ export const sidebar = {
   '/design/': designSideBar,
   '/study/': studySideBar,
   '/operate/': operateSideBar,
+  '/open/': openSideBar,
+  '/tool/': toolSideBar,
 }

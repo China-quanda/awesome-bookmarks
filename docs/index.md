@@ -62,13 +62,13 @@ features:
     icon:
       src: /images/nest.svg
     details: 构建高效、可扩展 Node.js 服务器端应用程序的框架。
-    link: https://fanyi.youdao.com/index.html#/
+    link: https://nestjs.com/
     linkText: 查看详情
   - title: Prisma
     icon:
       src: /images/prisma.svg
     details: Node ORM框架，快速地构建应用程序并减少错误。
-    link: https://fanyi.youdao.com/index.html#/
+    link: https://prisma.yoga/
     linkText: 查看详情
   - title: iconfont
     details: 国内功能很强大且图标内容很丰富的矢量图标库，阿里巴巴体验团队倾力打造。
