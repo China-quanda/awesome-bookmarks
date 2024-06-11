@@ -13,6 +13,11 @@ export const studySideBar = [{
 				{ text: '人人都是产品经理', link: 'https://www.woshipm.com/' },
 				{ text: '知乎', link: 'https://www.zhihu.com/' },
 				{ text: '头条号', link: 'https://mp.toutiao.com/profile_v4/index' },
+				{ text: '简书', link: 'https://www.jianshu.com/' },
+				{ text: '51博客', link: 'https://blog.51cto.com/' },
+				{ text: '博客园', link: 'https://www.cnblogs.com/' },
+				{ text: 'PHP中文网', link: 'https://www.php.cn/blog/admin/article.html' },
+				{ text: '语雀', link: 'https://www.yuque.com/dashboard' },
 		  ]
 		},
     {

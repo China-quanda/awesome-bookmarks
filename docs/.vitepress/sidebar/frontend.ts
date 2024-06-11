@@ -12,13 +12,20 @@ export const frontendSideBar = [{
       ]
     },
     {
-      text: 'react',
-      collapsed: false,
-      items: [
-        { text: '总结篇', link: '/summarize/index' },
-        { text: '总结篇1', link: '/summarize/summarize1' },
-        { text: '总结篇2', link: '/summarize/summarize2' }
-      ]
+      text: '图标',
+      link: '/frontend/icon/index' 
+    },
+    {
+      text: '动画',
+      link: '/frontend/animista/index' 
+    },
+    {
+      text: '插件',
+      link: '/frontend/plugins/index' 
+    },
+    {
+      text: '图表',
+      link: '/frontend/echarts/index' 
     },
     {
       text: 'ag',
