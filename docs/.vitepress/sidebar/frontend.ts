@@ -3,15 +3,14 @@ export const frontendSideBar = [{
   text: '前端',
   items:[
     {
-      text: 'vue系列',
-      collapsed: false,
-      items: [
-        { text: '教学篇', link: '/teach/index' },
-        { text: '教学篇1', link: '/teach/teach1' },
-        { text: '教学篇2', link: '/teach/teach2' }
-      ]
+      text: 'pc组件库',
+      link: '/frontend/pc-component/index' 
     },
-    {
+		{
+      text: '移动端组件库组件库',
+      link: '/frontend/m-component/index' 
+    },
+		{
       text: '图标',
       link: '/frontend/icon/index' 
     },
@@ -28,13 +27,32 @@ export const frontendSideBar = [{
       link: '/frontend/echarts/index' 
     },
     {
-      text: 'ag',
-      collapsed: false,
-      items: [
-        { text: '团队篇', link: '/team/index' },
-        { text: '团队篇1', link: '/team/team1' },
-        { text: '团队篇2', link: '/team/team2' }
-      ]
+      text: '框架',
+      link: '/frontend/frame/index' 
+    },
+    {
+      text: '编译',
+      link: '/frontend/compile/index' 
+    },
+    {
+      text: '模版引擎',
+      link: '/frontend/template-engine/index' 
+    },
+		{
+      text: '包管理工具',
+      link: '/frontend/package-management/index' 
+    },
+		{
+      text: 'css',
+      link: '/frontend/css/index' 
+    },
+		{
+      text: 'git',
+      link: '/frontend/git/index' 
+    },
+		{
+      text: 'js运行工具',
+      link: '/frontend/run-tool/index' 
     }
   ]
 }]

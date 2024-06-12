@@ -36,6 +36,7 @@ export const studySideBar = [{
 		  items: [
 				{ text: '书栈网', link: 'https://www.bookstack.cn/' },
 				{ text: '书籍知识库', link: 'https://www.zhishikoo.com/' },
+				{ text: 'MDN Web Docs', link: 'https://developer.mozilla.org/zh-CN/' , icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACM0lEQVQ4jU2S30tUQRTHz5m5P+e6udAGrWjha/WWtGLZklIumwjVQ/W3BELQfyO95gqBmvkrfDFRelgtie3B8Mr+uPdy78yd08O4m/Mw8IXvfM+Zcz54ozRCRIg4uAEAEQEAAK5KY7CMHrg554iotdZaI6JlcQDM83xgsExGPwzb7Y6UUgjf8zytdbvdJiIhhOM4xsmD4Jp5gIh5LhcW5ufn60mctFotz/PevH09/ehhGIbn5+eWZQP0KyBimmblkZsfPrz3fN+2ra2dL5XKg8XFd1EUnf09Ozr6IYQvJVkmnjEWRb2ZmSfN5nGr9YdbHADqz2tbm9tSSc454uWnGfSPJpqbe7q9vZMkCWMcAKvV6tr6GuecIQMgAgQAZvrJsmykXJ6YuL/caIjAT+J4bHR8fPz2ysrnIBCa9GDUrN9PPDU1mWXZ3t7eUDDU7fZqtWfHzZOTk6bn+VrToJF+BZnW67Xd3W9KpZZtMc5nZ2dWV9eJFGfM7NPMnwGAlLI4XKxMVpY/LQNAHMW3xkbv3rvTaKwg2koprQkREAgAGOe814seV6dLpdLGxiaALaV8+erFRXixv//ddXzf9x3b0bqPQiAKWufF4vDXjc2Dg0PHcTudzq+fp0tLH09PfzuOHYbh4eFRt9vjnAMAlq6XETFJEqVUoVAgoCRO0jR1XVcIQURR1HNs13Ev0UBDK2MMEfM8N0NjjBHpPNcAwDknIsMiEf2n1SzSUKiUQkQjtdZXif4H9y5AmuLgRAoAAAAASUVORK5CYII="},
 		    { text: '菜鸟教程', link: 'https://www.runoob.com/' },
 				{ text: 'w3school 在线教程', link: 'https://www.w3school.com.cn/' },
 				{ text: 'Java 全栈知识体系', link: 'https://pdai.tech/' },

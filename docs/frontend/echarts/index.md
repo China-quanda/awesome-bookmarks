@@ -45,6 +45,11 @@
       <td><a href="https://antv.antgroup.com/" target="_blank">AntV</a></td>
       <td>AntV | 蚂蚁数据可视化</td>
     </tr>
+		<tr>
+		  <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACgklEQVQ4jZWSS0hUcRTGv///fx9zZ3LGcZA0ItNQe9EmXFpDDwUxiEJJKIoWBS2qRbRodamoRVAQiNgiISjqTgsjKipMxE3E9H6KDwIrR/M54zzuvXPvaTEhPqaib3n4+M53Dj+GxTIMgakKjpEEQQ87AKMlnvwi9n/znCQAgE4cOnMBoOzOcAPjvMZxnLG0Pds5foCN/C1gLn3Vzd4gk1a3kpBbbEmFhwNOKjHkZM2t3/dXfss1WXoOh0EKrlO9Ja97A83XEoCV3e43rUx8yhLasgrBRAd04miK8HwNRHhfuHRX6P5Jh6TUcDykKQoVxk2bpR3OmZ3Jcl+g0lcwMpo4V/sChiEQiSxowQhgeIo6hNDRla1/sKfv9paAJ1XFbMshMMYkmRi58XQ6UzN2qHIQ7VEZVZsJPXChM5fpBK4zwuT7wiNB30xb29ejl8/ELh0MyVNFlk0EEAnVK1wrE7WE0hBrLv05t749KjMAIAOCNcNJffH2ajy1fvcn49pza8cpL02zrMMZA4irmnDNdJ/Es/cyrAApk8dCfn4395gmEABwy7mIoFbUuaa5VrMnbtlasVAl4py7nJkJKH5/dcJTdlrDTOOF8vPKQFdobAEkFIVse9WoXEybkuO+G+WvPlsmL2hU3GSxy9XkrOvvObb86ocrJSc24gfOsjq8nAvQdXBdh2v3S3VMiEdCcTmm7e7HyfrXz2bCxSXy6OTxFa1BYdt7LUk5rK41I7QYUqIcWOY70ZQdVGM04SGaANEQiPpB7oAyMP0xsO23ly8gcX4IYyB6i5W2Ku90iW/gQpJsEk981fGH8z1/5Jt05KVu/uZ/igisuxsSEQQRBBkQ+Xy/ALFPIEpY0WcvAAAAAElFTkSuQmCC"/></td>
+		  <td><a href="https://www.ucharts.cn/v2/#/" target="_blank">uCharts官网</a></td>
+		  <td>uCharts官网 - 秋云uCharts跨平台图表库</td>
+		</tr>
     <tr>
       <td><img src=""/></td>
       <td><a href="" target="_blank">test</a></td>

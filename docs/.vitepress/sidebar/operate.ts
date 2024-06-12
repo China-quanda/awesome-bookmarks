@@ -47,6 +47,7 @@ export const operateSideBar = [{
           { text: '工业和信息化部', link: 'https://wap.miit.gov.cn/' },
           { text: 'Node.js 性能平台 阿里云', link: 'https://help.aliyun.com/document_detail/60314.html' },
           { text: 'Staticfile CDN', link: 'https://staticfile.org/' },
+          { text: 'BootCDN-CDN 加速服务', link: 'https://www.bootcdn.cn/index.html' ,icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC00lEQVQ4jVWTTWhcdRTFf/f/3ps3mUw6idbg+EHRII0t2toSKYofsYitiBU34iLUCqWKC92JghtFV+KiBYUgBYMrcVEjWEtsUapgC2mb0gS/mmBDoWkrOtrM5M28//+4eFMxd3FX917Ouecck+QBkySvYLFFhsGvfy3pg+nDeInX7nuCDTfeYgB58IrMycwMkEkKQcHMnAyskbX4ZO44E3Pfc6X5DwA3lKs8P7yNFzc+zNpKH4CCgjlzsi4CBzA5f1oHzkxx7uoilTilFEUAdIJnuZNxV3+dl+4d5bn12xSZOSCYpPDLn5fsvZNf6tiFWXPmqMQlAkISGBiGM6OVt+l4z0h9SG/d/7RtGVyHE/DuiS+YnJ+mLyn/txwkMMNhAPgQ6IlK1NIKxy/+xDs/HsJLikPwXOtkrEl6AFjxHYJENUnxCmQ+B8DMaPucnjilLynTDp62z3FmRmwOIVZ8TjVJOTA6xq6hrVxablAr9bB/dIzx7XsYrKyh5TNEtwwcsu51T71a49OdLzP7x0UOzn7HY7dvYGLHPs5eWeSrhRkmduxj/UCdzHcKYlJB0YpGCKKVt4mcsfeeR3n7gWd5/9RhPjp7lLWVPpqdNnkIGCBAGM66UBIXc7n5N7u/Hqde6eeR24bZO3WQQ79Ns2toC8MDdV44Ms584zJpVCqeDMQAQQEzSKOEldDhzR8+J7Li+7dWB/jm91kmz58idhHl7kwePEGB2MyolSo0sha9vSmpiym5CBXA8AoA9CZpQRVoZC1qaYU0Togl8cbIUzgXcWRhBt+VkOte6EpoGMt5BoJnhrby+siTJC5ilZWPLc5p/+kpTi6dJ3Ux5TgBCv2becamm9bx6ubH2XnHpkKE61YOkhnIzCzzOZ/9fIKPz33LQuMqIG7u7WfPxocYu/tBqqVyYXJpVZj+H2cwbKnZ0IczR7nWznhl83burA0aErnCqjj/CxQyZYlhcOJvAAAAAElFTkSuQmCC'},
         ]
       }
     ]
