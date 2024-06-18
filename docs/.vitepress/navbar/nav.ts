@@ -29,6 +29,10 @@ export const nav = [
     link: '/tool/index'
   },
   {
+    text: '项目',
+    link: '/project/index'
+  },
+  {
     text: '看看',
     items: [
       {
