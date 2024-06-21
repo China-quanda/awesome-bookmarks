@@ -3,54 +3,6 @@ export const studySideBar = [{
   text: '学习',
   items:[
 		{
-		  text: '编程资讯',
-		  collapsed: false,
-		  items: [
-				{ text: '稀土掘金', link: 'https://juejin.cn/' },
-				{ text: 'CSDN开发者社区', link: 'https://www.csdn.net/' },
-				{ text: 'SegmentFault 思否', link: 'https://segmentfault.com/' },
-				{ text: 'Stack Overflow', link: 'https://stackoverflow.com/' },
-				{ text: '人人都是产品经理', link: 'https://www.woshipm.com/' },
-				{ text: '知乎', link: 'https://www.zhihu.com/' },
-				{ text: '头条号', link: 'https://mp.toutiao.com/profile_v4/index' },
-				{ text: '简书', link: 'https://www.jianshu.com/' },
-				{ text: '51博客', link: 'https://blog.51cto.com/' },
-				{ text: '博客园', link: 'https://www.cnblogs.com/' },
-				{ text: 'PHP中文网', link: 'https://www.php.cn/blog/admin/article.html' },
-				{ text: '语雀', link: 'https://www.yuque.com/dashboard' },
-		  ]
-		},
-    {
-      text: '成人高考',
-      collapsed: false,
-      items: [
-				{ text: '湘潭大学', link: 'https://xtdx.web2.superchutou.com/#/schoolProfile' },
-				{ text: '湘潭大学继教院考试系统', link: 'https://i.mooc.chaoxing.com/space/index?t=1713511695628' },
-				{ text: '个人空间', link: 'https://i.chaoxing.com/base' },
-				{ text: '青书学堂', link: 'https://www.qingshuxuetang.com/' },
-      ]
-    },
-		{
-		  text: '电子书',
-		  collapsed: false,
-		  items: [
-				{ text: '书栈网', link: 'https://www.bookstack.cn/' },
-				{ text: '书籍知识库', link: 'https://www.zhishikoo.com/' },
-				{ text: 'MDN Web Docs', link: 'https://developer.mozilla.org/zh-CN/' , icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACM0lEQVQ4jU2S30tUQRTHz5m5P+e6udAGrWjha/WWtGLZklIumwjVQ/W3BELQfyO95gqBmvkrfDFRelgtie3B8Mr+uPdy78yd08O4m/Mw8IXvfM+Zcz54ozRCRIg4uAEAEQEAAK5KY7CMHrg554iotdZaI6JlcQDM83xgsExGPwzb7Y6UUgjf8zytdbvdJiIhhOM4xsmD4Jp5gIh5LhcW5ufn60mctFotz/PevH09/ehhGIbn5+eWZQP0KyBimmblkZsfPrz3fN+2ra2dL5XKg8XFd1EUnf09Ozr6IYQvJVkmnjEWRb2ZmSfN5nGr9YdbHADqz2tbm9tSSc454uWnGfSPJpqbe7q9vZMkCWMcAKvV6tr6GuecIQMgAgQAZvrJsmykXJ6YuL/caIjAT+J4bHR8fPz2ysrnIBCa9GDUrN9PPDU1mWXZ3t7eUDDU7fZqtWfHzZOTk6bn+VrToJF+BZnW67Xd3W9KpZZtMc5nZ2dWV9eJFGfM7NPMnwGAlLI4XKxMVpY/LQNAHMW3xkbv3rvTaKwg2koprQkREAgAGOe814seV6dLpdLGxiaALaV8+erFRXixv//ddXzf9x3b0bqPQiAKWufF4vDXjc2Dg0PHcTudzq+fp0tLH09PfzuOHYbh4eFRt9vjnAMAlq6XETFJEqVUoVAgoCRO0jR1XVcIQURR1HNs13Ev0UBDK2MMEfM8N0NjjBHpPNcAwDknIsMiEf2n1SzSUKiUQkQjtdZXif4H9y5AmuLgRAoAAAAASUVORK5CYII="},
-		    { text: '菜鸟教程', link: 'https://www.runoob.com/' },
-				{ text: 'w3school 在线教程', link: 'https://www.w3school.com.cn/' },
-				{ text: 'Java 全栈知识体系', link: 'https://pdai.tech/' },
-		  ]
-		},
-    {
-      text: '视频教程',
-      collapsed: false,
-      items: [
-         { text: '拉勾教育 ', link: 'https://kaiwu.lagou.com/' },
-				 { text: '慕课网', link: 'https://www.imooc.com/' },
-      ]
-    },
-		{
 		  text: '资源网站',
 		  collapsed: false,
 		  items: [
