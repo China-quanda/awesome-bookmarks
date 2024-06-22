@@ -52,6 +52,11 @@
 		</tr>
     <tr>
       <td><img src=""/></td>
+      <td><a href="https://github.com/xiaopujun/light-chaser" target="_blank">light-chaser</a></td>
+      <td>light-chaser</td>
+    </tr>
+    <tr>
+      <td><img src=""/></td>
       <td><a href="" target="_blank">test</a></td>
       <td>test</td>
     </tr>
