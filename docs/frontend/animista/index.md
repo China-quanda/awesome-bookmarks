@@ -81,6 +81,11 @@
       <td>CSSFX - Beautifully simple click-to-copy CSS effects</td>
     </tr>
     <tr>
+      <td><img style="width:16px;" src="https://www.transition.style/favicon.png"/></td>
+      <td><a href="https://www.transition.style/" target="_blank">test</a></td>
+      <td>Transition.css - easy transitions with clip-path</td>
+    </tr>
+    <tr>
       <td><img src=""/></td>
       <td><a href="" target="_blank">test</a></td>
       <td>test</td>
