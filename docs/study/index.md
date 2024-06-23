@@ -100,6 +100,16 @@
   </tr>
   <tr>
     <td><img src=""/></td>
+    <td><a href="https://www.ixigua.com/" target="_blank">西瓜视频</a></td>
+    <td>西瓜视频</td>
+  </tr>
+  <tr>
+    <td><img src=""/></td>
+    <td><a href="https://www.douyin.com/?recommend=1" target="_blank">抖音</a></td>
+    <td>抖音</td>
+  </tr>
+  <tr>
+    <td><img src=""/></td>
     <td><a href="https://blog.51cto.com/" target="_blank">51博客</a></td>
     <td>51博客</td>
   </tr>
