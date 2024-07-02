@@ -97,10 +97,6 @@ export const nav = [
             link: 'https://biemoyu.com/'
           },
           {
-            text: 'Chrome 绿色插件资源', 
-            link: 'https://www.chajianxw.com/plugin/search?q=Listen+1'
-          },
-          {
             text: '吾爱导航', 
             link: 'https://www.gxfcseo.com/'
           },
