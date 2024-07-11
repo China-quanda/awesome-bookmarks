@@ -5,6 +5,8 @@ import { studySideBar } from './study'
 import { operateSideBar } from './operate'
 import { openSideBar } from './open'
 import { toolSideBar } from './tool'
+import { articleSideBar } from './article'
+import { navigationSideBar } from './navigation'
 
 export const sidebar = {
   '/backend/': backendSideBar,
@@ -14,4 +16,6 @@ export const sidebar = {
   '/operate/': operateSideBar,
   '/open/': openSideBar,
   '/tool/': toolSideBar,
+  '/article/': articleSideBar,
+  '/navigation/': navigationSideBar,
 }
