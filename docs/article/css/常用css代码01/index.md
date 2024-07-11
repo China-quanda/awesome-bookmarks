@@ -3,23 +3,6 @@
 ## 效果
 
 ![xenxh-gco3y.gif](./images/xenxh-gco3y.gif)
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css" />
-  </head>
-  <body>
-    <div class="app">
-      <div class="bg">
-        <div class="b-wrap"></div>
-      </div>
-      <div class="box"></div>
-    </div>
-  </body>
-</html> -->
 
 
 ## html代码
