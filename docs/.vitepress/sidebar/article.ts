@@ -70,6 +70,7 @@ export const articleSideBar = [{
       collapsed: true,
       items: [
         { text: '列表', link: '/article/git' },
+        { text: '将本地仓库项目上传github和gitee仓库中', link: '/article/git/将本地仓库项目上传github和gitee仓库中/index' },
       ]
     },
     {
