@@ -20,6 +20,7 @@ export default defineConfig({
       console.log('document', document);
       `
     ]
+    
   ],
   themeConfig: {
     logo: '/images/logo.svg',
