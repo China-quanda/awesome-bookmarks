@@ -1,5 +1,7 @@
 ## 效果
-<!DOCTYPE html>
+
+![xenxh-gco3y.gif](./images/xenxh-gco3y.gif)
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,7 +17,8 @@
       <div class="box"></div>
     </div>
   </body>
-</html>
+</html> -->
+
 
 ## html代码
 ```html
