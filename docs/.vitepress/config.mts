@@ -9,7 +9,7 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   metaChunk: true,
-  base: '/awesome-bookmarks/',
+  // base: '/awesome-bookmarks/',
   head: [
     ['link', { rel: 'icon', href: '/awesome-bookmarks/images/logo.svg' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
@@ -20,7 +20,7 @@ export default defineConfig({
       console.log('document', document);
       `
     ]
-    
+
   ],
   themeConfig: {
     logo: '/images/logo.svg',
