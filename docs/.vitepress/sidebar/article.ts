@@ -14,6 +14,7 @@ export const articleSideBar = [{
       collapsed: true,
       items: [
         { text: '列表', link: '/article/uniapp' },
+        { text: '解决uniapp微信小程序Android与iOS系统获取蓝牙广播包中deviceid不同的办法', link: '/article/uniapp/解决uniapp微信小程序Android与iOS系统获取蓝牙广播包中deviceid不同的办法/index' },
       ]
     },
     {
