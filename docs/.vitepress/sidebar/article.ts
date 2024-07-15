@@ -44,6 +44,7 @@ export const articleSideBar = [{
       items: [
         { text: '列表', link: '/article/css' },
         { text: '常用css代码01', link: '/article/css/常用css代码01/index' },
+        { text: '使用 CSS drop-shadow函数 为 PNG 透明图片添加设置阴影', link: '/article/css/使用 CSS drop-shadow函数 为 PNG 透明图片添加设置阴影/index' },
       ]
     },
     {
