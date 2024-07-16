@@ -36,6 +36,7 @@ export const articleSideBar = [{
       collapsed: true,
       items: [
         { text: '列表', link: '/article/javaScript' },
+        { text: 'JavaScript node通过url解析网址 获取 title标题 keywords关键词 description描述 favicon图标', link: '/article/javaScript/JavaScript node通过url解析网址 获取 title标题 keywords关键词 description描述 favicon图标/index' },
       ]
     },
     {
