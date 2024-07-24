@@ -7,6 +7,7 @@ export const articleSideBar = [{
       collapsed: true,
       items: [
         { text: '列表', link: '/article/vue' },
+        { text: 'Vite启动后提示Network use --host to expose', link: '/article/vue/Vite启动后提示Network use --host to expose' },
       ]
     },
     {
