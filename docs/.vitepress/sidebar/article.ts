@@ -48,6 +48,7 @@ export const articleSideBar = [{
         { text: '列表', link: '/article/css' },
         { text: '常用css代码01', link: '/article/css/常用css代码01/index' },
         { text: '使用 CSS drop-shadow函数 为 PNG 透明图片添加设置阴影', link: '/article/css/使用 CSS drop-shadow函数 为 PNG 透明图片添加设置阴影/index' },
+        { text: 'html+css实现switch开关效果', link: '/article/html/html+css实现switch开关效果/index' },
       ]
     },
     {
@@ -56,6 +57,7 @@ export const articleSideBar = [{
       items: [
         { text: '列表', link: '/article/html' },
         { text: '电子签名signature', link: '/article/html/电子签名signature/index' },
+        { text: 'html+css实现switch开关效果', link: '/article/html/html+css实现switch开关效果/index' },
       ]
     },
     {
