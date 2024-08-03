@@ -1,16 +1,26 @@
 import { defineConfig } from 'vitepress'
 import { sidebar } from './sidebar'
 import { nav } from './navbar'
+// import { componentPreview, containerPreview } from '@vitepress-demo-preview/plugin'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // 站点级选项
+  lang: 'cn-ZH',
   title: "Awesome Bookmarks",
   description: "Awesome Bookmarks",
   cleanUrls: true,
   lastUpdated: true,
   metaChunk: true,
+  appearance: true, // 默认 true，设为 false 则无法切换dark/light主题，可选 'dark' true false
   // base: '/awesome-bookmarks/',
-  head: [
+  // 生成 sitemap
+  // https://vitepress.dev/zh/guide/sitemap-generation
+  sitemap: {
+    hostname: 'https://bookmarks.i6i8.cn'
+    // lastmodDateOnly: false
+  },
+  head: [ 
     ['link', { rel: 'icon', href: '/awesome-bookmarks/images/logo.svg' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     // ['link', { rel: 'stylesheet', href: 'https://xxx.com/static/layui/css/layui.css' }],
@@ -22,6 +32,18 @@ export default defineConfig({
     ]
 
   ],
+  markdown: {
+    theme: {
+      light: 'vitesse-light',
+      dark: 'vitesse-dark'
+    },
+    lineNumbers: true, // 是否显示行数，默认false
+    config(md) {
+      // md.use(componentPreview)
+      // md.use(containerPreview)
+    }
+  },
+  // 主题级选项
   themeConfig: {
     logo: '/images/logo.svg',
     siteTitle: 'AwesomeBookmarks',
@@ -29,18 +51,41 @@ export default defineConfig({
       level: 'deep',
       label: '当前页'
     },
-    search: {
+
+    // 展示搜索框 algolia 搜索服务 与 内置 search 可二选一
+    search: { // vitepress 内置 search
       provider: 'local'
     },
+
+    // algolia: {
+    //   appId: 'SHDNEYGA8Z',
+    //   apiKey: '91419401b0b0efd31b610e54e5b97249',
+    //   indexName: 'vue-amazing-ui'
+    //   // searchParameters: {
+    //   //   faeFilters: ['tags:guide,api']
+    //   // }
+    // },
+
+    // 广告
+    // carbonAds: {
+    //   code: 'your-carbon-code',
+    //   placement: 'your-carbon-placement'
+    // },
+   
     docFooter: {
-      prev: '上一页',
-      next: '下一页'
+      prev: '←上一页',
+      next: '下一页→'
+    },
+    lastUpdatedText: '上次更新时间',
+    editLink: {
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      text: 'Suggest changes to this page',
     },
     // https://vitepress.dev/reference/default-theme-config
     nav,
 
     sidebar,
-
+    // 默认支持icon包括：'discord'|'facebook'|'github'|'instagram'|'linkedin'|'mastodon'|'slack'|'twitter'|'youtube'
     socialLinks: [
       { icon: 'github', link: 'https://github.com/China-quanda/' },
       {

@@ -2,6 +2,10 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: Bookmarks
+titleTemplate: quanda Awesome Bookmarks
+editLink: true
+lastUpdated: true
 hero:
   name: "Awesome Bookmarks"
   text: "Awesome Bookmarks"
@@ -9,18 +13,23 @@ hero:
   image:
     src: /images/ext.svg
     alt: Awesome Bookmarks
-  # actions:
-  #   - theme: brand
-  #     text: Markdown Examples
-  #     link: /markdown-examples
-  #   - theme: alt
-  #     text: API Examples
-  #     link: /api-examples
-  #   - theme: brand
-  #     text: extension
-  #     link: https://18055975947.github.io/extension/
-  #     target: _blank
-  #     rel: external
+  actions:
+    - theme: brand
+      text: 导航
+      link: /navigation/index
+    - theme: alt
+      text: 文章
+      link: /article/index
+    - theme: alt
+      text: github
+      link: https://github.com/China-quanda/
+      target: _blank
+      rel: external
+    - theme: alt
+      text: gitee
+      link: https://gitee.com/china-quanda
+      target: _blank
+      rel: external
 features:
   - title: Vue
     icon:
