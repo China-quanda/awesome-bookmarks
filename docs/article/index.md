@@ -46,7 +46,7 @@ The count is: {{ count }}
 
 ### 链接
 
-[内部链接](./代码格式化)
+[内部链接](../article/index.md)
 [外部链接](https://github.com/vuejs/vitepress)
 
 

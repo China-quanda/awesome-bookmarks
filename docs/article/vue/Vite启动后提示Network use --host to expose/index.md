@@ -93,7 +93,7 @@ Vite 启动后提示：`Network:use --host to expose`
 
 ## 解决方法
 
-到 Vite 官网，在导航找到 配置，再点击左侧的 开发服务器选项 [点我快速到达]([https://](https://cn.vitejs.dev/config/server-options.html))
+到 Vite 官网，在导航找到 配置，再点击左侧的 开发服务器选项 [点我快速到达](https://cn.vitejs.dev/config/server-options.html)
 
 ![1.png](./images/1.png)
 
