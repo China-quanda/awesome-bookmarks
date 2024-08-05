@@ -104,5 +104,13 @@ export const articleSideBar = [{
         { text: '列表', link: '/article/electron' },
       ]
     },
+    {
+      text: 'node.js',
+      collapsed: true,
+      items: [
+        { text: 'node', link: '/article/node/index' },
+        { text: 'npm设置源地址', link: '/article/node/npm设置源地址/index' },
+      ]
+    },
   ]
 }]
