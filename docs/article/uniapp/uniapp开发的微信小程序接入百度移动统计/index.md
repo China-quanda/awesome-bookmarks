@@ -16,23 +16,22 @@
 
 官方接入配置说明：[技术人员接入指南](https://mtj.baidu.com/static/userguide/book/chapter1/tguide.html)
 
-1. 注册账户并登录[百度移动统计官网](https://mtj.baidu.com/);
-2. 创建应用时选择小程序-微信小程序平台并获取AppKey；
+####  1、注册账户并登录[百度移动统计官网](https://mtj.baidu.com/);
+#### 2、创建应用时选择小程序-微信小程序平台并获取AppKey；
 
 <div align="center">
   <img src="./images/WX20240806-104337.png">
 </div>
-<br />
 
-3. 如果已创建的应用，请从"设置->应用信息"中查看AppKey;
+#### 3、如果已创建的应用，请从"设置->应用信息"中查看AppKey;
 
 ![图片](./images/WX20240806-104654.png)
 
-4. 下载微信小[程序统计SDK](https://mtj.baidu.com/web/sdk/index)。
+#### 4、下载微信小[程序统计SDK](https://mtj.baidu.com/web/sdk/index)。
 
 ### 2.3 配置SDK
 
-1、在百度统计平台 的 「小程序SDK」 里下载「微信小程序统计SDK」，把解压缩得到的 `mtj-wx-sdk.js` 和 `mtj-wx-sdk.config.js` 拷贝到 uniapp小程序项目 的 `src/utils` 文件夹中。
+#### 1、在百度统计平台 的 「小程序SDK」 里下载「微信小程序统计SDK」，把解压缩得到的 `mtj-wx-sdk.js` 和 `mtj-wx-sdk.config.js` 拷贝到 uniapp小程序项目 的 `src/utils` 文件夹中。
 
 <div align="center">
   <img src="./images/WX20240805-174453.png">
@@ -41,24 +40,24 @@
 
 <!-- ![图片](./images/WX20240805-174453.png) -->
 
-2、编辑 `mtj-wx-sdk.config.js`，填写 `appKey` 字段:
+#### 2、编辑 `mtj-wx-sdk.config.js`，填写 `appKey` 字段:
 
 ```js
 appKey: '您小程序的AppKey',
 ```
 ![图片](./images/WX20240805-173533.png)
 
-3、编辑 uniapp小程序项目根目录下 的 `main.js`，在文件最顶部加入：
+#### 3、编辑 uniapp小程序项目根目录下 的 `main.js`，在文件最顶部加入：
 ```js
 import './utils/mtj-wx-sdk.js';
 ```
 ![图片](./images/WX20240805-173403.png)
 
-4、登录[微信公众平台](https://mp.weixin.qq.com/)，进入小程序的 `设置` -> `开发设置` -> `服务器域名`，把`https://hmma.baidu.com`加入 `request`合法域名
+#### 4、登录[微信公众平台](https://mp.weixin.qq.com/)，进入小程序的 `设置` -> `开发设置` -> `服务器域名`，把`https://hmma.baidu.com`加入 `request`合法域名
 
 ![图片](./images/WX20240805-173043.png)
 
-5、检查sdk是否接入成功
+#### 5、检查sdk是否接入成功
 
 打开控制台可以看到向百度统计发送了埋点数据
 

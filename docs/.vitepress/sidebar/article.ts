@@ -16,6 +16,7 @@ export const articleSideBar = [{
       items: [
         { text: '列表', link: '/article/uniapp' },
         { text: '解决uniapp微信小程序Android与iOS系统获取蓝牙广播包中deviceid不同的办法', link: '/article/uniapp/解决uniapp微信小程序Android与iOS系统获取蓝牙广播包中deviceid不同的办法/index' },
+        { text: 'uniapp开发的微信小程序接入百度移动统计', link: '/article/uniapp/uniapp开发的微信小程序接入百度移动统计/index' },
       ]
     },
     {
@@ -30,6 +31,8 @@ export const articleSideBar = [{
       collapsed: true,
       items: [
         { text: '列表', link: '/article/wxminiapp' },
+        { text: '解决uniapp微信小程序Android与iOS系统获取蓝牙广播包中deviceid不同的办法', link: '/article/uniapp/解决uniapp微信小程序Android与iOS系统获取蓝牙广播包中deviceid不同的办法/index' },
+        { text: 'uniapp开发的微信小程序接入百度移动统计', link: '/article/uniapp/uniapp开发的微信小程序接入百度移动统计/index' },
       ]
     },
     {
