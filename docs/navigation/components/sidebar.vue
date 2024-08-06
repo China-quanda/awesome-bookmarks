@@ -37,6 +37,11 @@ defineProps({
   border-top: 3px solid #007AFF;
 
   .list {
+    height: 70vh;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+    display: none;
+  }
 
     // display: flex;
     // flex-direction: column;
