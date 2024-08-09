@@ -1,6 +1,6 @@
 <template>
   <div v-if="show" class="iframe-box" :class="{ 'full-screen': screenStatus === 'off-screen' }">
-    <iframe class="iframe-tag" ref="iframeRef" :src="url" frameborder="0" allowfullscreen
+    <iframe class="iframe-tag" ref="iframeRef" :src="site.url" frameborder="0" allowfullscreen
       sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation"
       @load="onLoad" @error="onError"></iframe>
     <div class="loading" v-if="loading">
@@ -15,8 +15,8 @@
           stroke-dasharray="0 440" stroke-linecap="round"></circle>
       </svg>
     </div>
-    <div class="btn-group" v-if="!loading">
-      <button @click="togglePreviewStatus">
+    <div class="btn-group">
+      <button v-if="!loading" @click="togglePreviewStatus">
         <svg v-if="previewStatus === 'preview-close'" width="16" height="16" viewBox="0 0 48 48" fill="none"
           xmlns="http://www.w3.org/2000/svg">
           <path d="M24 36C35.0457 36 44 24 44 24C44 24 35.0457 12 24 12C12.9543 12 4 24 4 24C4 24 12.9543 36 24 36Z"
@@ -39,7 +39,7 @@
             stroke-linejoin="round" />
         </svg>
       </button>
-      <button v-if="previewStatus === 'preview-close'" @click="visit">
+      <button v-if="previewStatus === 'preview-close' && !loading" @click="visit">
         <svg width="16" height="16" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="34.6074" y="3.4939" width="14" height="18" rx="2" transform="rotate(45 34.6074 3.4939)" stroke="#333"
             stroke-width="4" stroke-linejoin="round" />
@@ -49,7 +49,7 @@
             stroke-linejoin="round" />
         </svg>
       </button>
-      <button v-if="previewStatus === 'preview-close'" @click="toggleFullScreen">
+      <button v-if="previewStatus === 'preview-close' && !loading" @click="toggleFullScreen">
         <svg v-if="screenStatus === 'full-screen'" width="16" height="16" viewBox="0 0 48 48" fill="none"
           xmlns="http://www.w3.org/2000/svg">
           <path d="M33 6H42V15" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
@@ -76,10 +76,13 @@
 
 <script setup lang="ts">
 import { ref, onMounted ,watch} from 'vue'
+import { useData } from 'vitepress'
+
+const { title } = useData()
 const show = defineModel(false)
 
 const props = withDefaults(defineProps<{
-  url: string;
+  site:any
 }>(), {
   url: '',
 });
@@ -88,18 +91,20 @@ const loading = ref(true)
 const screenStatus = ref<'full-screen' | 'off-screen'>('full-screen')
 const previewStatus = ref<'preview-open' | 'preview-close'>('preview-close')
 
-watch(()=>props.url,()=>{
-  console.log('watch',props.url)
+watch(()=>props.site,()=>{
+  console.log('watch',props.site)
   loading.value = true
+  document.title = `${props.site.title} - ${title.value}`
 })
 
 function close() {
   show.value = false
   loading.value = false
+  document.title = title.value
 }
 
 function visit() {
-  window.open(props.url)
+  window.open(props.site.url)
   close()
 }
 
@@ -418,15 +423,15 @@ defineExpose({
   padding: 10px 15px;
 
   button {
-    padding: 10px;
+    padding: 8px;
     border-radius: 999px;
     // background-color: var(--vp-c-bg);
-    // border: 1px solid var(--vp-c-brand);
+    border: 1px solid var(--vp-c-brand);
     color: var(--vp-c-brand);
     -webkit-backdrop-filter: saturate(180%) blur(3px);
     backdrop-filter: saturate(180%) blur(3px);
     background: hsla(0, 0%, 100%, .5);
-    box-shadow: 0px 0px 10px rgb(238 242 245 / 100%);
+    // box-shadow: 0px 0px 10px rgb(238 242 245 / 100%);
 
     &:hover {
 

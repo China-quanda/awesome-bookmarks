@@ -4,7 +4,7 @@
       <Search v-model="keyword"></Search>
     </div>
     <div class="home-bottom">
-      <Iframe v-model="showIframe" :url="urlIframe"></Iframe>
+      <Iframe v-model="showIframe" :site="iframeData"></Iframe>
     </div>
     <main class="home-main" v-if="true">
       <div class="home-left" v-show="showLeft">
@@ -24,17 +24,15 @@ import Sidebar from './components/sidebar.vue'
 import Search from './components/search.vue'
 import Iframe from './components/iframe.vue'
 const showIframe = ref(false)
-const urlIframe = ref('')
+const iframeData = ref({})
 // fetch('http://127.0.0.1:3000/h')
 //   .then(async (result) => {
 //     const res = await result.json()
 //     console.log('res', res)
 //   })
 //   .catch((err) => { console.log(err) })
-function clickItem(e){
-  console.log('click',e)
-  urlIframe.value = e.url
-  // showIframe.value = false
+function clickItem(site){
+  iframeData.value = site
   if(!showIframe.value){
     showIframe.value = true
   }
