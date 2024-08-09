@@ -9,13 +9,20 @@
         </div>
       </div>
       <div class="list">
-        <a class="item" v-for="site in item.children" :key=site.id :href="site.url" target="_blank">
+        <!-- <a class="item" v-for="site in item.children" :key=site.id :href="site.url" target="_blank">
           <div class="top">
             <img v-if="site.icon" class="icon" :src="site.icon">
             <p class="title"><b>{{ site.title }}</b></p>
           </div>
           <p class="desc">{{ site.desc || '描述' }}</p>
-        </a>
+        </a> -->
+        <div class="item" v-for="site in item.children" :key=site.id :href="site.url" target="_blank" @click="clickItem(site)">
+          <div class="top">
+            <img v-if="site.icon" class="icon" :src="site.icon">
+            <p class="title"><b>{{ site.title }}</b></p>
+          </div>
+          <p class="desc">{{ site.desc || '描述' }}</p>
+        </div>
       </div>
     </div>
 
@@ -30,6 +37,15 @@ defineProps({
     default: () => []
   }
 })
+const emit = defineEmits<{
+  (e: 'onClick', item: any): void
+}>()
+
+function clickItem(site){
+  emit('onClick',site)
+}
+
+
 </script>
 
 <style scoped lang="scss">
@@ -117,6 +133,7 @@ defineProps({
     gap: 15px;
 
     .item {
+      cursor: pointer;
       padding: 9px;
       // background-color: #f5f7fd;
       background-color: var(--vp-c-bg);
