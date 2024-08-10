@@ -45,6 +45,7 @@ export const articleSideBar = [{
         { text: 'JavaScript node通过url解析网址 获取 title标题 keywords关键词 description描述 favicon图标', link: '/article/javaScript/JavaScript node通过url解析网址 获取 title标题 keywords关键词 description描述 favicon图标/index' },
         { text: '电子签名signature', link: '/article/html/电子签名signature/index' },
         { text: '进制转换', link: '/article/javaScript/进制转换.md' },
+        { text: '前端对图片不同区域进行点击事件', link: '/article/html/前端对图片不同区域进行点击事件/' },
       ]
     },
     {
@@ -64,6 +65,7 @@ export const articleSideBar = [{
         { text: '列表', link: '/article/html' },
         { text: '电子签名signature', link: '/article/html/电子签名signature/index' },
         { text: 'html+css实现switch开关效果', link: '/article/html/html+css实现switch开关效果/index' },
+        { text: '前端对图片不同区域进行点击事件', link: '/article/html/前端对图片不同区域进行点击事件/' },
       ]
     },
     {
