@@ -18,6 +18,7 @@ export const articleSideBar = [{
         { text: '解决uniapp微信小程序Android与iOS系统获取蓝牙广播包中deviceid不同的办法', link: '/article/uniapp/解决uniapp微信小程序Android与iOS系统获取蓝牙广播包中deviceid不同的办法/index' },
         { text: 'uniapp开发的微信小程序接入百度移动统计', link: '/article/uniapp/uniapp开发的微信小程序接入百度移动统计/index' },
         { text: 'uni-app开发的小程序版本更新提示', link: '/article/uniapp/uni-app开发的小程序版本更新提示/index' },
+        { text: 'uniapp开发的微信小程序提示errMsg:getLocation:fail:require permission desc', link: '/article/uniapp/uniapp开发的微信小程序提示errMsg:getLocation:fail:require permission desc' },
       ]
     },
     {
@@ -35,6 +36,7 @@ export const articleSideBar = [{
         { text: '解决uniapp微信小程序Android与iOS系统获取蓝牙广播包中deviceid不同的办法', link: '/article/uniapp/解决uniapp微信小程序Android与iOS系统获取蓝牙广播包中deviceid不同的办法/index' },
         { text: 'uniapp开发的微信小程序接入百度移动统计', link: '/article/uniapp/uniapp开发的微信小程序接入百度移动统计/index' },
         { text: 'uni-app开发的小程序版本更新提示', link: '/article/uniapp/uni-app开发的小程序版本更新提示/index' },
+        { text: 'uniapp开发的微信小程序提示errMsg:getLocation:fail:require permission desc', link: '/article/uniapp/uniapp开发的微信小程序提示errMsg:getLocation:fail:require permission desc' },
       ]
     },
     {
