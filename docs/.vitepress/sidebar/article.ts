@@ -91,6 +91,7 @@ export const articleSideBar = [{
         { text: '列表', link: '/article/git' },
         { text: '将本地仓库项目上传github和gitee仓库中', link: '/article/git/将本地仓库项目上传github和gitee仓库中/index' },
         { text: 'Git新建分支不要有主分支的代码', link: '/article/git/Git新建分支不要有主分支的代码/index' },
+        { text: '在家里电脑使用git push 将本地仓库上传到远程仓库，使用公司电脑git pull 后公司电脑本地仓库却未改变', link: '/article/git/在家里电脑使用git push 将本地仓库上传到远程仓库，使用公司电脑git pull 后公司电脑本地仓库却未改变' },
       ]
     },
     {
