@@ -123,6 +123,7 @@ export const articleSideBar = [{
         { text: 'npm设置源地址', link: '/article/node/npm设置源地址/index' },
         { text: '使用NodeJS解析chrome书签', link: '/article/node/使用NodeJS解析chrome书签' },
         { text: 'pnpm无法加载文件因为在此系统上禁止运行脚本', link: '/article/node/pnpm无法加载文件因为在此系统上禁止运行脚本' },
+        { text: '使用node.js生成不限制的微信小程序码', link: '/article/node/使用node.js生成不限制的微信小程序码' },
       ]
     },
   ]
