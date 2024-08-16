@@ -54,8 +54,8 @@ async function getAccessToken(appid, secret) {
     },
   });
 
-  if (response?.errcode) {
-    throw new Error(JSON.stringify(getCodeRes))
+  if (response.data?.errcode) {
+    throw new Error(JSON.stringify(response.data))
   }
 
   return response.data.access_token;
@@ -86,8 +86,8 @@ async function generateWxaCodeUnlimited(access_token, data) {
     responseType: "arraybuffer",
   });
 
-  if (response?.errcode) {
-    throw new Error(JSON.stringify(getCodeRes))
+  if (response.data?.errcode) {
+    throw new Error(JSON.stringify(response.data))
   }
 
   return response.data
@@ -283,8 +283,8 @@ async function getAccessToken(appid, secret) {
     },
   });
 
-  if (response?.errcode) {
-    throw new Error(JSON.stringify(getCodeRes))
+  if (response.data?.errcode) {
+    throw new Error(JSON.stringify(response.data))
   }
 
   return response.data.access_token;
@@ -311,8 +311,8 @@ async function generateWxaCodeUnlimited(access_token, data) {
     responseType: "arraybuffer",
   });
 
-  if (response?.errcode) {
-    throw new Error(JSON.stringify(getCodeRes))
+  if (response.data?.errcode) {
+    throw new Error(JSON.stringify(response.data))
   }
 
   return response.data
