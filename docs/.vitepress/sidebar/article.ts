@@ -116,6 +116,14 @@ export const articleSideBar = [{
       ]
     },
     {
+      text: 'other',
+      collapsed: true,
+      items: [
+        { text: '列表', link: '/article/other' },
+        { text: 'PD18 M系列 商业版激活教程', link: '/article/other/PD18 M系列 商业版激活教程' },
+      ]
+    },
+    {
       text: 'node.js',
       collapsed: true,
       items: [
