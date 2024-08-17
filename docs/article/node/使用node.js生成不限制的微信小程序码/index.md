@@ -17,7 +17,7 @@
 - 安装 `axios` 或其他 HTTP 库来发送请求。
 - 安装 `cors` 用于处理跨域请求。
 
-## 步骤：
+## 生成小程序码步骤：
 
 - 获取 Access Token：通过调用微信的 API 接口获取 Access Token [接口说明](https://developers.weixin.qq.com/miniprogram/dev/OpenApiDoc/mp-access-token/getAccessToken.html)。
 - 生成小程序码：使用 Access Token 调用生成小程序码的接口 [接口说明](https://developers.weixin.qq.com/miniprogram/dev/OpenApiDoc/qrcode-link/qr-code/getUnlimitedQRCode.html)。
