@@ -19,6 +19,7 @@ export const articleSideBar = [{
         { text: 'uniapp开发的微信小程序接入百度移动统计', link: '/article/uniapp/uniapp开发的微信小程序接入百度移动统计/index' },
         { text: 'uni-app开发的小程序版本更新提示', link: '/article/uniapp/uni-app开发的小程序版本更新提示/index' },
         { text: 'uniapp开发的微信小程序提示errMsg:getLocation:fail:require permission desc', link: '/article/uniapp/uniapp开发的微信小程序提示errMsg:getLocation:fail:require permission desc' },
+        { text: 'uni-app和Node.js实现app更新功能', link: '/article/node/uni-app和Node.js实现app更新功能' },
       ]
     },
     {
@@ -134,6 +135,7 @@ export const articleSideBar = [{
         { text: 'pnpm无法加载文件因为在此系统上禁止运行脚本', link: '/article/node/pnpm无法加载文件因为在此系统上禁止运行脚本' },
         { text: '使用node.js生成不限制的微信小程序码', link: '/article/node/使用node.js生成不限制的微信小程序码' },
         { text: 'Node.js接入geetest极验行为验证4.0滑动码', link: '/article/node/Node.js接入geetest极验行为验证4.0滑动码' },
+        { text: 'uni-app和Node.js实现app更新功能', link: '/article/node/uni-app和Node.js实现app更新功能' },
       ]
     },
   ]
