@@ -1,24 +1,12 @@
 export const nav = [
   { text: '首页', link: '/' },
   {
-    text: '设计',
-    link: '/design/index'
-  },
-  {
     text: '前端',
     link: '/frontend/index'
   },
   {
     text: '后端',
     link: '/backend/index'
-  },
-  {
-    text: '运营',
-    link: '/operate/index'
-  },
-  {
-    text: '开放平台',
-    link: '/open/index'
   },
   {
     text: '学习',

@@ -3460,16 +3460,65 @@ title: '图虫网', url: 'https://tuchong.com/'
 ])
 // 其他 otherList
 const otherList = ref([
+{
+    "id": 1,
+    "url": "https://www.uisources.com/",
+    "icon": "",
+    "title": "uisources",
+    "desc": "国外ui参考网站，全部都是真实上线的产品"
+  },
   {
-    id: 1, desc:'', icon:'',
+    "id": 2,
+    "url": "https://codefuse.alipay.com/welcome/product",
+    "icon": "",
+    "title": "codefuse",
+    "desc": "CodeFuse，是蚂蚁集团自研的智能研发平台。2024年4月，CodeFuse推出“图生代码”新功能，支持开发人员用产品设计图一键生成代码"
+  },
+  {
+    "id": 3,
+    "url": "https://vxetable.cn/#/table/start/install",
+    "icon": "",
+    "title": "vxetable",
+    "desc": "vxe-table一个基于 Vue（支持 Vue3） 的 PC 端全功能表格组件，满足你对 table 绝大多数需求，可与任意组件库完美兼容。我之前做过一个广告数据监测的项目，要展示的数据量较大，配element 的 table 组件可把我折腾坏了，后来找了挺多开源表格，有各种各样的问题，最后锁定了 Vxe table ，用上才发现它是如此强大。"
+  },
+  {
+    "id": 4,
+    "url": "https://github.com/palxiao/poster-design.git",
+    "icon": "",
+    "title": "poster-design",
+    "desc": "一款漂亮且功能强大的在线图片设计器，仿稿定设计，适用于多种场景：海报生成、电商产品图、文章长图、视频/公众号封面等，让设计更简单！"
+  },
+  {
+    "id": 5,
+    "url": "https://elements.envato.com/",
+    "icon": "",
+    "title": "envato",
+    "desc": "字体，图片，视频，代码，ui，源码，ppt，音乐，等素材"
+  },
+  {
+    "id": 6,
+    "url": "https://v2.formilyjs.org/",
+    "icon": "",
+    "title": "formilyjs",
+    "desc": "阿里巴巴统一前端表单解决方案"
+  },
+  {
+    "id": 7,
+    "url": "https://lowcode-engine.cn/index",
+    "icon": "",
+    "title": "LowCodeEngine",
+    "desc": "低代码引擎"
+  },
+  {
+    id: 8, desc:'', icon:'',
 title: 'Figma软件汉化', url: 'https://www.figma.cool/cn'
   },
   {
-    id: 2, desc:'', icon:'',
+    id: 9, desc:'', icon:'',
     title: 'Figma 提升访问速度 2.0', url: 'https://zhuanlan.zhihu.com/p/402819516?utm_medium=social&utm_oi=1365070314515251200&utm_content=group3_article&utm_campaign=shareopn&s_r=0'
   },
   {
-    id: 3, desc:'', icon:'',
+    id: 10, desc:'', icon:'',
 title: 'Figma 中文社区', url: 'https://www.figma.cool/'
   }
 ])
@@ -3518,6 +3567,158 @@ setTimeout(() => {
   })
 }, 0);
 
+
+// 运营operate
+// 站长平台
+const operateWebmasterPlatform = ref([
+  { id: 1, desc:'', icon:'',title: '360站长平台', url: 'https://zhanzhang.so.com/' },
+  { id: 2, desc:'', icon:'',title: '搜狗资源平台', url: 'https://zhanzhang.sogou.com/' },
+  { id: 3, desc:'', icon:'',title: '百度资源平台', url: 'https://ziyuan.baidu.com/' },
+  { id: 4, desc:'', icon:'',title: 'seo综合查询', url: 'https://seo.chinaz.com/?q=i6i8.cn' },
+  { id: 5, desc:'', icon:'',title: '友盟', url: 'https://www.umeng.com/' },
+  { id: 6, desc:'', icon:'',title: '百度统计', url: 'https://tongji.baidu.com/' },
+  { id: 7, desc:'', icon:'',title: '站长工具', url: 'https://tool.chinaz.com/' },
+])
+// 服务器厂商
+const operateCloud = ref([
+  { id: 1, desc:'', icon:'',title: '观星云', url: 'https://www.guanxingyun.com/' },
+  { id: 2, desc:'', icon:'',title: '亚马逊AWS云服务', url: 'https://aws.amazon.com/cn/' },
+  { id: 3, desc:'', icon:'',title: '七牛云', url: 'http://www.qiniup.com/' },
+  { id: 4, desc:'', icon:'',title: '阿里云', url: 'https://www.aliyun.com/' },
+  { id: 5, desc:'', icon:'',title: '腾讯云', url: 'https://cloud.tencent.com/' },
+  { id: 6, desc:'', icon:'',title: '华为云', url: 'https://www.huaweicloud.com/' },
+  { id: 7, desc:'', icon:'',title: 'vercel', url: 'https://vercel.com/' },
+])
+// 应用分发
+const operateDistributePlatform = ref([
+  { id: 1, desc:'', icon:'',title: '蒲公英', url: 'https://www.pgyer.com/app/distribution' },
+  { id: 2, desc:'', icon:'',title: '香蕉云编', url: 'https://www.yunedit.com/' },
+  { id: 3, desc:'', icon:'',title: 'App Uploader', url: 'https://www.appuploader.net/' }
+])
+// 运营其他
+const operateOtherPlatform = ref([
+  { id: 1, desc:'',title: '备案知识入门专栏', url: 'https://wanwang.aliyun.com/qualificationrec/bazszl' },
+  { id: 2, desc:'',title: '国家企业信用信息公示系统', url: 'http://www.gsxt.gov.cn/index.html' },
+  { id: 3, desc:'',title: 'HTML5产业联盟', url: 'https://www.html5plus.org/' },
+  { id: 4, desc:'',title: '工业和信息化部', url: 'https://wap.miit.gov.cn/' },
+  { id: 5, desc:'',title: 'Node.js 性能平台 阿里云', url: 'https://help.aliyun.com/document_detail/60314.html' },
+  { id: 6, desc:'',title: 'Staticfile CDN', url: 'https://staticfile.org/' },
+  { id: 7, desc:'',title: 'BootCDN-CDN 加速服务', url: 'https://www.bootcdn.cn/index.html' ,icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC00lEQVQ4jVWTTWhcdRTFf/f/3ps3mUw6idbg+EHRII0t2toSKYofsYitiBU34iLUCqWKC92JghtFV+KiBYUgBYMrcVEjWEtsUapgC2mb0gS/mmBDoWkrOtrM5M28//+4eFMxd3FX917Ouecck+QBkySvYLFFhsGvfy3pg+nDeInX7nuCDTfeYgB58IrMycwMkEkKQcHMnAyskbX4ZO44E3Pfc6X5DwA3lKs8P7yNFzc+zNpKH4CCgjlzsi4CBzA5f1oHzkxx7uoilTilFEUAdIJnuZNxV3+dl+4d5bn12xSZOSCYpPDLn5fsvZNf6tiFWXPmqMQlAkISGBiGM6OVt+l4z0h9SG/d/7RtGVyHE/DuiS+YnJ+mLyn/txwkMMNhAPgQ6IlK1NIKxy/+xDs/HsJLikPwXOtkrEl6AFjxHYJENUnxCmQ+B8DMaPucnjilLynTDp62z3FmRmwOIVZ8TjVJOTA6xq6hrVxablAr9bB/dIzx7XsYrKyh5TNEtwwcsu51T71a49OdLzP7x0UOzn7HY7dvYGLHPs5eWeSrhRkmduxj/UCdzHcKYlJB0YpGCKKVt4mcsfeeR3n7gWd5/9RhPjp7lLWVPpqdNnkIGCBAGM66UBIXc7n5N7u/Hqde6eeR24bZO3WQQ79Ns2toC8MDdV44Ms584zJpVCqeDMQAQQEzSKOEldDhzR8+J7Li+7dWB/jm91kmz58idhHl7kwePEGB2MyolSo0sha9vSmpiym5CBXA8AoA9CZpQRVoZC1qaYU0Togl8cbIUzgXcWRhBt+VkOte6EpoGMt5BoJnhrby+siTJC5ilZWPLc5p/+kpTi6dJ3Ux5TgBCv2becamm9bx6ubH2XnHpkKE61YOkhnIzCzzOZ/9fIKPz33LQuMqIG7u7WfPxocYu/tBqqVyYXJpVZj+H2cwbKnZ0IczR7nWznhl83burA0aErnCqjj/CxQyZYlhcOJvAAAAAElFTkSuQmCC'},
+])
+setTimeout(() => {
+  const alist = [
+    {
+      id: 43,
+      title: '站长平台',
+      icon: '',
+      children: operateWebmasterPlatform.value
+    },
+    {
+      id: 44,
+      title: '服务器厂商',
+      icon: '',
+      children: operateCloud.value
+    },
+    {
+      id: 45,
+      title: '应用分发',
+      icon: '',
+      children: operateDistributePlatform.value
+    },
+    {
+      id: 46,
+      title: '运营其他',
+      icon: '',
+      children: operateOtherPlatform.value
+    }
+  ]
+  alist.forEach(item => {
+    list.value.push(item)
+    sidebarList.value.push(removeChildren(item))
+  })
+}, 0);
+
+
+// 开放平台 open
+// 开放平台应用
+const openSApply = ref([
+  { id: 1, desc: '', title: '个推', url: 'https://www.getui.com/' },
+  { id: 2, desc: '', title: '微信测试号管理', url: 'https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index' },
+  { id: 3, desc: '', title: '微信官方文档', url: 'https://developers.weixin.qq.com/doc/' },
+  { id: 4, desc: '', title: '微信公众平台', url: 'https://mp.weixin.qq.com/' },
+  { id: 5, desc: '', title: '微信开放平台', url: 'https://open.weixin.qq.com/' },
+  { id: 6, desc: '', title: '淘宝开放平台', url: 'https://open.taobao.com/' },
+  { id: 7, desc: '', title: '支付宝开放平台', url: 'https://openhome.alipay.com/' },
+  { id: 8, desc: '', title: '新浪微博开放平台', url: 'https://open.weibo.com/' },
+  { id: 9, desc: '', title: 'QQ开放平台', url: 'https://q.qq.com/' },
+  { id: 10, desc: '', title: '钉钉开放平台', url: 'https://open.dingtalk.com/' },
+  { id: 11, desc: '', title: '腾讯开放平台', url: 'https://open.tencent.com/' },
+  { id: 12, desc: '', title: '抖音开放平台', url: 'https://open.douyin.com/platform' },
+  { id: 13, desc: '', title: '海康开放平台', url: 'https://open.hikvision.com/#home' },
+  { id: 14, desc: '', title: '讯飞开放平台', url: 'https://www.xfyun.cn/' },
+  { id: 15, desc: '', title: '微信调试 / Errno错误码', url: 'https://developers.weixin.qq.com/miniprogram/dev/framework/usability/PublicErrno.html' },
+])
+// 地图
+const openMap = ref([
+  { id: 1, desc: '', title: '百度地图开放平台', url: 'https://lbsyun.baidu.com/' },
+  { id: 2, desc: '', title: '腾讯地图开放平台', url: 'https://lbs.qq.com/' },
+  { id: 3, desc: '', title: '高德地图开放平台', url: 'https://lbs.amap.com/' },
+])
+// 手机厂商
+const openMobile = ref([
+  { id: 1, desc: '', title: '魅族开放平台', url: 'http://open.flyme.cn/' },
+  { id: 2, desc: '', title: '小米开放平台', url: 'https://dev.mi.com/platform' },
+  { id: 3, desc: '', title: 'OPPO开放平台', url: 'https://open.oppomobile.com/' },
+])
+// 手机系统
+const openSystem = ref([
+  { id: 1, desc: '', title: 'Apple Developer', url: 'https://developer.apple.com/' },
+  { id: 2, desc: '', title: 'Android Developers', url: 'https://developer.android.google.cn/develop?hl=zh-cn' },
+  { id: 3, desc: '', title: 'HarmonyOS Developers', url: 'https://developer.huawei.com/consumer/cn/develop/' },
+])
+// 开放平台其他
+const openOther = ref([
+  { id: 1, desc: '', title: '免费API - 提供免费接口调用', url: 'https://api.aa1.cn/' },
+  { id: 2, desc: '', title: 'GoEasy文档', url: 'https://www.goeasy.io/' },
+  { id: 3, desc: '', title: '蓝兔支付', url: 'https://www.ltzf.cn/' },
+  { id: 4, desc: '', title: '聚合数据-API', url: 'https://www.juhe.cn/' },
+  { id: 5, desc: '', title: '黑马头条api', url: 'http://toutiao.itheima.net/' },
+  { id: 6, desc: '', title: '叩丁严选项目接口文档', url: 'http://xiaoyaoji.cn/project/1Ve70KqViGf/1VeKV1hnXJQ' },
+  { id: 7, desc: '', title: '小兔鲜儿api', url: 'http://zhoushugang.gitee.io/erabbit-client-pc-document/' },
+  { id: 8, desc: '', title: '小兔h5首页', url: 'https://megasu.gitee.io/uniapp-shop-vue3-ts/#/' },
+])
+setTimeout(() => {
+  const alist = [
+    {
+      id: 47,
+      title: '开放平台应用',
+      icon: '',
+      children: openSApply.value
+    },
+    {
+      id: 48,
+      title: '地图',
+      icon: '',
+      children: openMap.value
+    },
+    {
+      id: 49,
+      title: '手机系统',
+      icon: '',
+      children: openSystem.value
+    },
+    {
+      id: 50,
+      title: '开放平台其他',
+      icon: '',
+      children: openOther.value
+    }
+  ]
+  alist.forEach(item => {
+    list.value.push(item)
+    sidebarList.value.push(removeChildren(item))
+  })
+}, 0);
 
 function removeChildren(data) {
   // Create a new object without modifying the original
