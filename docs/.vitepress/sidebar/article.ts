@@ -122,6 +122,7 @@ export const articleSideBar = [{
       items: [
         { text: '列表', link: '/article/other' },
         { text: 'PD18 M系列 商业版激活教程', link: '/article/other/PD18 M系列 商业版激活教程' },
+        { text: 'mac包管理软件Homebrew中安装nvm', link: '/article/other/mac包管理软件Homebrew中安装nvm' },
         // { text: '接入极验滑动验证码', link: '/article/other/接入极验滑动验证码' },
       ]
     },
@@ -136,6 +137,7 @@ export const articleSideBar = [{
         { text: '使用node.js生成不限制的微信小程序码', link: '/article/node/使用node.js生成不限制的微信小程序码' },
         { text: 'Node.js接入geetest极验行为验证4.0滑动码', link: '/article/node/Node.js接入geetest极验行为验证4.0滑动码' },
         { text: 'uni-app和Node.js实现app更新功能', link: '/article/node/uni-app和Node.js实现app更新功能' },
+        { text: 'Node版本管理工具 nvm', link: '/article/node/Node版本管理工具 nvm' },
       ]
     },
   ]
