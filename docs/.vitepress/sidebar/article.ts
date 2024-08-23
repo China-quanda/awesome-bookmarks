@@ -123,7 +123,7 @@ export const articleSideBar = [{
         { text: '列表', link: '/article/other' },
         { text: 'PD18 M系列 商业版激活教程', link: '/article/other/PD18 M系列 商业版激活教程' },
         { text: 'mac包管理软件Homebrew中安装nvm', link: '/article/other/mac包管理软件Homebrew中安装nvm' },
-        // { text: '接入极验滑动验证码', link: '/article/other/接入极验滑动验证码' },
+        { text: '接入极验滑动验证码', link: '/article/other/接入极验滑动验证码' },
       ]
     },
     {
