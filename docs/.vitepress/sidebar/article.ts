@@ -38,6 +38,7 @@ export const articleSideBar = [{
         { text: 'uniapp开发的微信小程序接入百度移动统计', link: '/article/uniapp/uniapp开发的微信小程序接入百度移动统计/index' },
         { text: 'uni-app开发的小程序版本更新提示', link: '/article/uniapp/uni-app开发的小程序版本更新提示/index' },
         { text: 'uniapp开发的微信小程序提示errMsg:getLocation:fail:require permission desc', link: '/article/uniapp/uniapp开发的微信小程序提示errMsg:getLocation:fail:require permission desc' },
+        { text: '微信小程序接入客服功能', link: '/article/wxminiapp/微信小程序接入客服功能' },
       ]
     },
     {
