@@ -10,14 +10,22 @@
     <div class="tab-box">
       <div class="tabs-header">
         <div class="tabs-header-item" :class="{ 'active': tabsHeaderActive === tab.id }" v-for="tab in data.children"
-          :key="tab.id" @click="clickTabsHeaderItem(tab)" @mouseover="clickTabsHeaderItem(tab)">
+          :key="tab.id" @click="clickTabsHeaderItem(tab)" @mouseenter="clickTabsHeaderItem(tab)">
           <img v-if="tab.icon" class="icon" :src="tab.icon">
           <span class="text">{{ tab.title }}</span>
         </div>
       </div>
       <div class="tab-container">
         <div class="list" v-if="list3.length">
-          <div class="item" v-for="site in list3" :key=site.id @click="clickItem(site)">
+          <div class="item" v-for="site in list3" :key=site.id>
+            <div class="button">
+              <div @click="clickItem(site, 'nei')">
+               内
+              </div>
+              <div @click="clickItem(site, 'wai')">
+                外
+              </div>
+            </div>
             <div class="top">
               <img v-if="site.icon" class="icon" :src="site.icon">
               <p class="title"><b>{{ site.title }}</b></p>
@@ -53,11 +61,11 @@ const props = defineProps({
   }
 })
 const emit = defineEmits<{
-  (e: 'onClick', item: any): void
+  (e: 'onClick', item: any, type: string): void
 }>()
 
-function clickItem(site) {
-  emit('onClick', site)
+function clickItem(site: any, type: 'nei' | 'wai') {
+  emit('onClick', site, type)
 }
 
 const list3 = ref([])
@@ -76,7 +84,7 @@ function clickTabsHeaderItem(tab) {
   // 过期时间
   const expiredTime = new Date().getTime() + 3600 * 24 * 1 * 1000
   // 缓存数据
-  const storageObj:StorageObj = storage.get(storageCategoryName) || {}
+  const storageObj: StorageObj = storage.get(storageCategoryName) || {}
 
   if (storageObj?.id) {
     console.log('有缓存')
@@ -183,11 +191,12 @@ onMounted(() => {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       // grid-template-rows: repeat(3, minmax(0, 1fr));
       gap: 15px;
+
       .item {
+        position: relative;
         cursor: pointer;
         padding: 9px;
         // background-color: #f5f7fd;
-        background-color: var(--vp-c-bg);
         background-color: var(--vp-sidebar-bg-color);
         overflow: hidden;
         height: 71px;
@@ -202,7 +211,45 @@ onMounted(() => {
           color: var(--vp-c-text-1);
           box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
           transform: translateY(-2px);
+          .button{
+            display: flex !important;
+          }
         }
+
+        .button {
+          position: absolute;
+          content: '';
+          top: 3px;
+          bottom: 3px;
+          right: 3px;
+          // background-color: aliceblue;
+          background-color: var(--vp-button-alt-bg);
+          padding: 0px 5px;
+          display: flex;
+          display: none;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 10px;
+          border-radius: 4px;
+
+          div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 25px;
+            height: 25px;
+            font-size: 12px;
+            font-weight: 600;
+            border-radius: 99px;
+            background-color: rgb(64, 139, 206);
+            background-color: var(--vp-c-bg);
+            &:hover{
+              border: 1px solid var(--vp-button-alt-bg);
+            }
+          }
+        }
+
 
         .top {
           display: flex;
@@ -262,6 +309,7 @@ onMounted(() => {
 
 .main {
   padding: 10px 0px;
+
   @media (min-width: 600px) {
     .tab-container {
       .list {

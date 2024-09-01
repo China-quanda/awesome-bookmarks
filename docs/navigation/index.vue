@@ -38,10 +38,14 @@ const iframeData = ref({})
 //     console.log('res', res)
 //   })
 //   .catch((err) => { console.log(err) })
-function clickItem(site){
-  iframeData.value = site
-  if(!showIframe.value){
-    showIframe.value = true
+function clickItem(site: any,type: 'nei'|'wai'){
+  if(type === 'nei'){
+    iframeData.value = site
+    if(!showIframe.value){
+      showIframe.value = true
+    }
+  }else{
+    window.open(site.url)
   }
 }
 // 搜索关键词
