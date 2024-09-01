@@ -1,0 +1,394 @@
+[
+  {
+    "id": 1,
+    "title": "办工",
+    "icon": null,
+    "description": "办公专区",
+    "parentId": 0
+  },
+  {
+    "id": 2,
+    "title": "邮箱",
+    "icon": null,
+    "description": "",
+    "parentId": 1
+  },
+  {
+    "id": 3,
+    "title": "文档",
+    "icon": null,
+    "description": "",
+    "parentId": 1
+  },
+  {
+    "id": 4,
+    "title": "云盘",
+    "icon": null,
+    "description": "",
+    "parentId": 1
+  },
+  {
+    "id": 5,
+    "title": "休闲",
+    "icon": null,
+    "description": "",
+    "parentId": 0
+  },
+  {
+    "id": 6,
+    "title": "音乐 music",
+    "icon": null,
+    "description": "",
+    "parentId": 5
+  },
+  {
+    "id": 7,
+    "title": "视频 video",
+    "icon": null,
+    "description": "",
+    "parentId": 5
+  },
+  {
+    "id": 8,
+    "title": "前端",
+    "icon": null,
+    "description": "frontend",
+    "parentId": 0
+  },
+  {
+    "id": 9,
+    "title": "pc组件库",
+    "icon": null,
+    "description": "pcComponentList",
+    "parentId": 8
+  },
+  {
+    "id": 10,
+    "title": "m组件库",
+    "icon": null,
+    "description": "mComponentList",
+    "parentId": 8
+  },
+  {
+    "id": 11,
+    "title": "css",
+    "icon": null,
+    "description": "css",
+    "parentId": 8
+  },
+  {
+    "id": 12,
+    "title": "动画",
+    "icon": null,
+    "description": "animistaList",
+    "parentId": 8
+  },
+  {
+    "id": 13,
+    "title": "插件",
+    "icon": null,
+    "description": "pluginsList",
+    "parentId": 8
+  },
+  {
+    "id": 14,
+    "title": "图标",
+    "icon": null,
+    "description": "icon",
+    "parentId": 8
+  },
+  {
+    "id": 15,
+    "title": "框架",
+    "icon": null,
+    "description": "frame",
+    "parentId": 8
+  },
+  {
+    "id": 16,
+    "title": "编译",
+    "icon": null,
+    "description": "compileList",
+    "parentId": 8
+  },
+  {
+    "id": 17,
+    "title": "模版引擎",
+    "icon": null,
+    "description": "templateList",
+    "parentId": 8
+  },
+  {
+    "id": 18,
+    "title": "包管理工具",
+    "icon": null,
+    "description": "packageList",
+    "parentId": 8
+  },
+  {
+    "id": 19,
+    "title": "git",
+    "icon": null,
+    "description": "gitList",
+    "parentId": 8
+  },
+  {
+    "id": 20,
+    "title": "js运行工具",
+    "icon": null,
+    "description": "runToolList",
+    "parentId": 8
+  },
+  {
+    "id": 21,
+    "title": "设计",
+    "icon": null,
+    "description": "design",
+    "parentId": 0
+  },
+  {
+    "id": 22,
+    "title": "UI参考",
+    "icon": null,
+    "description": "ckDesignList",
+    "parentId": 21
+  },
+  {
+    "id": 23,
+    "title": "课程",
+    "icon": null,
+    "description": "hukeList",
+    "parentId": 21
+  },
+  {
+    "id": 24,
+    "title": "字体",
+    "icon": null,
+    "description": "fontList",
+    "parentId": 21
+  },
+  {
+    "id": 25,
+    "title": "素材",
+    "icon": null,
+    "description": "picList",
+    "parentId": 21
+  },
+  {
+    "id": 26,
+    "title": "其他",
+    "icon": null,
+    "description": "otherList",
+    "parentId": 21
+  },
+  {
+    "id": 27,
+    "title": "在线设计",
+    "icon": null,
+    "description": "zaixianDesignList",
+    "parentId": 21
+  },
+  {
+    "id": 28,
+    "title": "运营",
+    "icon": null,
+    "description": "operate",
+    "parentId": 0
+  },
+  {
+    "id": 29,
+    "title": "站长工具",
+    "icon": null,
+    "description": "operateWebmasterPlatform",
+    "parentId": 28
+  },
+  {
+    "id": 30,
+    "title": "服务器厂商",
+    "icon": null,
+    "description": "operateCloud",
+    "parentId": 28
+  },
+  {
+    "id": 31,
+    "title": "应用分发",
+    "icon": null,
+    "description": "operateDistributePlatform",
+    "parentId": 28
+  },
+  {
+    "id": 32,
+    "title": "运营其他",
+    "icon": null,
+    "description": "operateOtherPlatform",
+    "parentId": 28
+  },
+  {
+    "id": 33,
+    "title": "开放平台",
+    "icon": null,
+    "description": "open",
+    "parentId": 0
+  },
+  {
+    "id": 34,
+    "title": "开放平台应用",
+    "icon": null,
+    "description": "openSApply",
+    "parentId": 33
+  },
+  {
+    "id": 35,
+    "title": "地图",
+    "icon": null,
+    "description": "openMap",
+    "parentId": 33
+  },
+  {
+    "id": 36,
+    "title": "手机厂商",
+    "icon": null,
+    "description": "openMobile",
+    "parentId": 33
+  },
+  {
+    "id": 37,
+    "title": "手机系统",
+    "icon": null,
+    "description": "openSystem",
+    "parentId": 33
+  },
+  {
+    "id": 38,
+    "title": "开放平台其他",
+    "icon": null,
+    "description": "openOther",
+    "parentId": 33
+  },
+  {
+    "id": 39,
+    "title": "图表",
+    "icon": null,
+    "description": "echartsList",
+    "parentId": 8
+  },
+  {
+    "id": 40,
+    "title": "程序员",
+    "icon": null,
+    "description": "程序员",
+    "parentId": 0
+  },
+  {
+    "id": 41,
+    "title": "技术接单",
+    "icon": null,
+    "description": "接单",
+    "parentId": 40
+  },
+  {
+    "id": 42,
+    "title": "技术社区",
+    "icon": null,
+    "description": "技术社区",
+    "parentId": 40
+  },
+  {
+    "id": 43,
+    "title": "常用学习手册",
+    "icon": null,
+    "description": "常用学习手册",
+    "parentId": 40
+  },
+  {
+    "id": 44,
+    "title": "学习平台",
+    "icon": null,
+    "description": "学习平台",
+    "parentId": 40
+  },
+  {
+    "id": 45,
+    "title": "头部社区",
+    "icon": null,
+    "description": "头部社区",
+    "parentId": 40
+  },
+  {
+    "id": 46,
+    "title": "技术团队",
+    "icon": null,
+    "description": "技术团队",
+    "parentId": 40
+  },
+  {
+    "id": 47,
+    "title": "资源下载",
+    "icon": null,
+    "description": "资源下载",
+    "parentId": 0
+  },
+  {
+    "id": 48,
+    "title": "Chrome插件",
+    "icon": null,
+    "description": "Chrome插件",
+    "parentId": 47
+  },
+  {
+    "id": 49,
+    "title": "mac软件",
+    "icon": null,
+    "description": "mac软件",
+    "parentId": 47
+  },
+  {
+    "id": 50,
+    "title": "win软件",
+    "icon": null,
+    "description": "win软件",
+    "parentId": 47
+  },
+  {
+    "id": 51,
+    "title": "未分类",
+    "icon": null,
+    "description": "未分类",
+    "parentId": 0
+  },
+  {
+    "id": 52,
+    "title": "招聘求职",
+    "icon": null,
+    "description": "招聘求职",
+    "parentId": 51
+  },
+  {
+    "id": 53,
+    "title": "创业&科技资讯",
+    "icon": null,
+    "description": "创业&科技资讯",
+    "parentId": 51
+  },
+  {
+    "id": 54,
+    "title": "资源推荐",
+    "icon": null,
+    "description": "资源推荐",
+    "parentId": 51
+  },
+  {
+    "id": 55,
+    "title": "协同办公",
+    "icon": null,
+    "description": "协同办公",
+    "parentId": 51
+  },
+  {
+    "id": 56,
+    "title": "ai",
+    "icon": null,
+    "description": "ai",
+    "parentId": 51
+  }
+]
