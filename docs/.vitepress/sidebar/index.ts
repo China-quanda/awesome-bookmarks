@@ -8,7 +8,6 @@ import { navigationSideBar } from './navigation'
 export const sidebar = {
   '/backend/': backendSideBar,
   '/frontend/': frontendSideBar,
-  '/study/': studySideBar,
   '/tool/': toolSideBar,
   '/article/': articleSideBar,
   '/navigation/': navigationSideBar,

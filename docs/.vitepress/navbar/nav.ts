@@ -8,10 +8,6 @@ export const nav = [
     text: '后端',
     link: '/backend/index'
   },
-  {
-    text: '学习',
-    link: '/study/index'
-  },
 	{
     text: '工具',
     link: '/tool/index'
