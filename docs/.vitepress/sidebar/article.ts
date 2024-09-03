@@ -20,6 +20,7 @@ export const articleSideBar = [{
         { text: 'uni-app开发的小程序版本更新提示', link: '/article/uniapp/uni-app开发的小程序版本更新提示/index' },
         { text: 'uniapp开发的微信小程序提示errMsg:getLocation:fail:require permission desc', link: '/article/uniapp/uniapp开发的微信小程序提示errMsg:getLocation:fail:require permission desc' },
         { text: 'uni-app和Node.js实现app更新功能', link: '/article/node/uni-app和Node.js实现app更新功能' },
+        { text: 'Nodejs和uni-app实现微信小程序订阅消息功能', link: '/article/node/Nodejs和uni-app实现微信小程序订阅消息功能' },
       ]
     },
     {
@@ -39,6 +40,7 @@ export const articleSideBar = [{
         { text: 'uni-app开发的小程序版本更新提示', link: '/article/uniapp/uni-app开发的小程序版本更新提示/index' },
         { text: 'uniapp开发的微信小程序提示errMsg:getLocation:fail:require permission desc', link: '/article/uniapp/uniapp开发的微信小程序提示errMsg:getLocation:fail:require permission desc' },
         { text: '微信小程序接入客服功能', link: '/article/wxminiapp/微信小程序接入客服功能' },
+        { text: 'Nodejs和uni-app实现微信小程序订阅消息功能', link: '/article/node/Nodejs和uni-app实现微信小程序订阅消息功能' },
       ]
     },
     {
@@ -139,6 +141,7 @@ export const articleSideBar = [{
         { text: 'Node.js接入geetest极验行为验证4.0滑动码', link: '/article/node/Node.js接入geetest极验行为验证4.0滑动码' },
         { text: 'uni-app和Node.js实现app更新功能', link: '/article/node/uni-app和Node.js实现app更新功能' },
         { text: 'Node版本管理工具 nvm', link: '/article/node/Node版本管理工具 nvm' },
+        { text: 'Nodejs和uni-app实现微信小程序订阅消息功能', link: '/article/node/Nodejs和uni-app实现微信小程序订阅消息功能' },
       ]
     },
   ]
