@@ -279,13 +279,6 @@ app.post('/api/weChatMp/createOrder', async (req, res) => {
   }
   productPrice = Math.round(productPrice * 100); // 将元转换为分
 
-  const wechatPay = new WxPay({
-    appid: wxConfig.appid,
-    mchid: wxConfig.mchid,
-    publicKey: wxConfig.publicKey, // 公钥
-    privateKey: wxConfig.privateKey, // 秘钥
-  });
-
   const params = {
     description: `购买商品：${productName} x${productNum}`, // 商品描述
     out_trade_no: Date.now().toString(), // 商户订单号
