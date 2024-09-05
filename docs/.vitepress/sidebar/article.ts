@@ -22,6 +22,7 @@ export const articleSideBar = [{
         { text: 'uni-app和Node.js实现app更新功能', link: '/article/node/uni-app和Node.js实现app更新功能' },
         { text: 'Nodejs和uni-app实现微信小程序订阅消息功能', link: '/article/node/Nodejs和uni-app实现微信小程序订阅消息功能' },
         { text: 'Node.js和uni-app实现微信小程序支付', link: '/article/node/Node.js和uni-app实现微信小程序支付' },
+        { text: 'Node.js和uni-app实现微信公众号网页授权登录', link: '/article/node/Node.js和uni-app实现微信公众号网页授权登录' },
       ]
     },
     {
@@ -43,6 +44,7 @@ export const articleSideBar = [{
         { text: '微信小程序接入客服功能', link: '/article/wxminiapp/微信小程序接入客服功能' },
         { text: 'Nodejs和uni-app实现微信小程序订阅消息功能', link: '/article/node/Nodejs和uni-app实现微信小程序订阅消息功能' },
         { text: 'Node.js和uni-app实现微信小程序支付', link: '/article/node/Node.js和uni-app实现微信小程序支付' },
+        { text: 'Node.js和uni-app实现微信公众号网页授权登录', link: '/article/node/Node.js和uni-app实现微信公众号网页授权登录' },
       ]
     },
     {
@@ -145,6 +147,7 @@ export const articleSideBar = [{
         { text: 'Node版本管理工具 nvm', link: '/article/node/Node版本管理工具 nvm' },
         { text: 'Nodejs和uni-app实现微信小程序订阅消息功能', link: '/article/node/Nodejs和uni-app实现微信小程序订阅消息功能' },
         { text: 'Node.js和uni-app实现微信小程序支付', link: '/article/node/Node.js和uni-app实现微信小程序支付' },
+        { text: 'Node.js和uni-app实现微信公众号网页授权登录', link: '/article/node/Node.js和uni-app实现微信公众号网页授权登录' },
       ]
     },
   ]
