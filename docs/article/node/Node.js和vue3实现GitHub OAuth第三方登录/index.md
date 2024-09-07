@@ -211,7 +211,7 @@ const githubConfig = {
 }
 ```
 
-### 2.代码示例
+### 3.代码示例
 
 ```js
 // Node.js和vue3实现GitHub OAuth第三方登录
