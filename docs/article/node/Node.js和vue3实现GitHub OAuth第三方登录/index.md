@@ -349,7 +349,7 @@ app.listen(PORT, () => {
 ## 总结
 
 1. 首先，在github上注册一个应用，并配置好回调地址，获取`client_id`和`client_secret`。
-2. 在前端页面上，通过点击`发起GitHub授权`按钮，发起一个post请求，请求地址为 `https://github.com/login/oauth/authorize`，携带上我们前面获取的`client_id`和回调地址。
+2. 在前端页面上，通过点击`发起GitHub授权`按钮，替换当前地址为 `https://github.com/login/oauth/authorize`，携带上我们前面获取的`client_id`和回调地址。
 3. github会返回一个`code`，这个`code`是临时的，我们通过这个`code`向github请求`access_token`，再通过`access_token`向github请求用户信息。
 4. 最后，将用户信息返回给前端，前端拿到用户信息后，可以保存到数据库或者本地，或者直接跳转到个人中心页面。
 5. 注意，这个项目只是演示如何实现github登录，实际应用中，需要做更多的处理，比如用户注册，用户信息保存等。
