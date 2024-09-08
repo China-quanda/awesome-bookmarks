@@ -9,6 +9,7 @@ export const articleSideBar = [{
         { text: '列表', link: '/article/vue' },
         { text: 'Vite启动后提示Network use --host to expose', link: '/article/vue/Vite启动后提示Network use --host to expose' },
         { text: 'Node.js和vue3实现GitHub OAuth第三方登录', link: '/article/node/Node.js和vue3实现GitHub OAuth第三方登录' },
+        { text: 'Node.js和vue3实现Gitee码云OAuth2第三方登录', link: '/article/node/Node.js和vue3实现Gitee码云OAuth2第三方登录' },
       ]
     },
     {
@@ -150,6 +151,7 @@ export const articleSideBar = [{
         { text: 'Node.js和uni-app实现微信小程序支付', link: '/article/node/Node.js和uni-app实现微信小程序支付' },
         { text: 'Node.js和uni-app实现微信公众号网页授权登录', link: '/article/node/Node.js和uni-app实现微信公众号网页授权登录' },
         { text: 'Node.js和vue3实现GitHub OAuth第三方登录', link: '/article/node/Node.js和vue3实现GitHub OAuth第三方登录' },
+        { text: 'Node.js和vue3实现Gitee码云OAuth2第三方登录', link: '/article/node/Node.js和vue3实现Gitee码云OAuth2第三方登录' },
       ]
     },
   ]
