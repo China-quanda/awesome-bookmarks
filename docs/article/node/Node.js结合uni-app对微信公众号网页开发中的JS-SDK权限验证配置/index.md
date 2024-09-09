@@ -21,7 +21,7 @@
 
 ### 1、先申请一个测试号
 
-对与开发初期还不能上线正式环境的项目来说，可以申请一个测试号，来进行一些功能的测试。
+对于开发初期还不能上线正式环境的项目来说，可以申请一个测试号，来进行一些功能的测试。
 
 [申请测试号地址](https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index)
 
