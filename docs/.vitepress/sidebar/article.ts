@@ -156,6 +156,7 @@ export const articleSideBar = [{
         { text: 'Node.js和vue3实现Gitee码云OAuth2第三方登录', link: '/article/node/Node.js和vue3实现Gitee码云OAuth2第三方登录' },
         { text: 'Node.js结合uni-app对微信公众号网页开发中的JS-SDK权限验证配置', link: '/article/node/Node.js结合uni-app对微信公众号网页开发中的JS-SDK权限验证配置' },
         { text: 'uni-app和Node.js使用uni-push2.0实现通知栏消息推送功能', link: '/article/uniapp/uni-app和Node.js使用uni-push2.0实现通知栏消息推送功能' },
+        { text: 'Node.js和uni-app实现微信公众号推送模板消息', link: '/article/node/Node.js和uni-app实现微信公众号推送模板消息' },
       ]
     },
   ]
