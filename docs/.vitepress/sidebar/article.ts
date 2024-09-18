@@ -157,6 +157,7 @@ export const articleSideBar = [{
         { text: 'Node.js结合uni-app对微信公众号网页开发中的JS-SDK权限验证配置', link: '/article/node/Node.js结合uni-app对微信公众号网页开发中的JS-SDK权限验证配置' },
         { text: 'uni-app和Node.js使用uni-push2.0实现通知栏消息推送功能', link: '/article/uniapp/uni-app和Node.js使用uni-push2.0实现通知栏消息推送功能' },
         { text: 'Node.js和uni-app实现微信公众号推送模板消息', link: '/article/node/Node.js和uni-app实现微信公众号推送模板消息' },
+        { text: 'Node.js对接微信公众号并配置服务器验证', link: '/article/node/Node.js对接微信公众号并配置服务器验证' },
       ]
     },
   ]
