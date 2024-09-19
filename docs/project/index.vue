@@ -11,7 +11,7 @@
         <input id="password" v-model="form.password" type="password" placeholder="请输入密码" />
       </div>
       <div class="form-item">
-        <button type="submit" @click="login">登录</button>
+        <button type="submit" :disabled="loginBtnD" @click="login">登录</button>
       </div>
     </form>
 
@@ -60,7 +60,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, onUnmounted, ref } from 'vue'
+import { onMounted, computed, ref } from 'vue'
 
 const isLogin = ref(false)
 
@@ -68,6 +68,8 @@ const form = ref({
   username: '',
   password: ''
 })
+
+const loginBtnD = computed(()=> !form.value.username || !form.value.password)
 
 function login(event) {
   event.preventDefault()
@@ -78,6 +80,7 @@ function login(event) {
     return alert('用户名或密码错误！')
   }
   isLogin.value = true
+  window.localStorage.setItem('isLogin',true)
 }
 
 const projectList = ref([
@@ -218,6 +221,12 @@ const projectList = ref([
   },
 ])
 
+
+onMounted(()=>{
+  const loginFlag = window.localStorage.getItem('isLogin') || false
+  if(loginFlag) isLogin.value = true
+})
+
 </script>
 
 <style scoped lang="scss">
@@ -239,12 +248,12 @@ const projectList = ref([
         padding: 10px;
         background-color: white;
         border: 1px solid var(--vp-c-gutter);
-        
-        img {
-          width: 20px;
-          height: 20px;
-        }
       }
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
     }
   }
 }
