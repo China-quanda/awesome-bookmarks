@@ -80,7 +80,7 @@ function login(event) {
     return alert('用户名或密码错误！')
   }
   isLogin.value = true
-  window.localStorage.setItem('isLogin',true)
+  window.localStorage.setItem('isLogin', isLogin.value)
 }
 
 const projectList = ref([
@@ -173,9 +173,14 @@ const projectList = ref([
         url: 'https://www.vitolenergy.com.cn'
       },
       {
-        img: '',
+        img: 'http://www.cztgj.com/favicon.ico',
         name: '郴州碳管家-pc',
         url: 'http://www.cztgj.com/'
+      },
+      {
+        img: 'http://www.cztgj.com/favicon.ico',
+        name: '郴州碳管家-admin',
+        url: 'http://admin.cztgj.com/'
       }
     ]
   },
