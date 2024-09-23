@@ -158,6 +158,7 @@ export const articleSideBar = [{
         { text: 'uni-app和Node.js使用uni-push2.0实现通知栏消息推送功能', link: '/article/uniapp/uni-app和Node.js使用uni-push2.0实现通知栏消息推送功能' },
         { text: 'Node.js和uni-app实现微信公众号推送模板消息', link: '/article/node/Node.js和uni-app实现微信公众号推送模板消息' },
         { text: 'Node.js对接微信公众号并配置服务器验证', link: '/article/node/Node.js对接微信公众号并配置服务器验证' },
+        { text: '使用 Vite 打包工具库并使用 GitHub Actions 自动化发布npm流程', link: '/article/node/使用 Vite 打包一个 TypeScript 编写的 utils 工具库，并在发布到 npm 之前使用 Vitest 进行测试，同时利用 GitHub Actions 自动化发布流程' },
       ]
     },
   ]
