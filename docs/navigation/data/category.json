@@ -432,5 +432,54 @@
     "icon": null,
     "description": "政府文件",
     "parentId": 40
+  },
+  {
+    "id": 63,
+    "title": "admin后台管理模版",
+    "icon": null,
+    "description": "后台管理模版",
+    "parentId": 8
+  },
+  {
+    "id": 64,
+    "title": "后端",
+    "icon": null,
+    "description": "后端",
+    "parentId": 0
+  },
+  {
+    "id": 65,
+    "title": "框架",
+    "icon": null,
+    "description": "框架",
+    "parentId": 64
+  },
+  {
+    "id": 66,
+    "title": "orm",
+    "icon": null,
+    "description": "orm",
+    "parentId": 64
+  },
+  {
+    "id": 67,
+    "title": "插件",
+    "icon": null,
+    "description": "插件",
+    "parentId": 64
+  },
+  {
+    "id": 68,
+    "title": "其他",
+    "icon": null,
+    "description": "其他",
+    "parentId": 64
+  },
+  {
+    "id": 69,
+    "title": "数据库设计",
+    "icon": null,
+    "description": "数据库设计",
+    "parentId": 64
   }
 ]

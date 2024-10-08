@@ -105,7 +105,7 @@ const projectList = ref([
       {
         img: 'http://edu.hnsilian.cn/favicon.ico',
         name: '少儿课堂-测试后台-pc',
-        url: 'edu.hnsilian.cn/index'
+        url: 'http://edu.hnsilian.cn/index'
       },
     ]
   },
@@ -121,6 +121,11 @@ const projectList = ref([
         img: '',
         name: '郴州科技创新服务平台-h5',
         url: 'http://miniapp.czkcfw.com/'
+      },
+      {
+        img: '',
+        name: '郴州科技创新服务平台-admin后台管理',
+        url: 'http://admin.czkcfw.com/login'
       },
       {
         img: '',
