@@ -80,6 +80,7 @@ export const articleSideBar = [{
         { text: '电子签名signature', link: '/article/html/电子签名signature/index' },
         { text: 'html+css实现switch开关效果', link: '/article/html/html+css实现switch开关效果/index' },
         { text: '前端对图片不同区域进行点击事件', link: '/article/html/前端对图片不同区域进行点击事件/' },
+        { text: '运行状态效果', link: '/article/html/运行状态效果/' },
       ]
     },
     {
