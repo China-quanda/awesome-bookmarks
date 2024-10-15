@@ -107,6 +107,11 @@ const projectList = ref([
         name: '少儿课堂-测试后台-pc',
         url: 'http://edu.hnsilian.cn/index'
       },
+      {
+        img: 'http://edu.hnsilian.cn/favicon.ico',
+        name: '少儿课堂-选课程-微信h5',
+        url: 'http://wechat.edu.hnsilian.cn/'
+      },
     ]
   },
   {
