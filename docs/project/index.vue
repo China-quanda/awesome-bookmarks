@@ -100,6 +100,16 @@ const projectList = ref([
     ]
   },
   {
+    title: '仓库地址',
+    list: [
+      {
+        img: '',
+        name: 'silian-svn',
+        url: 'https://svn.hnsilian.cn:8443/!/#silian'
+      },
+    ]
+  },
+  {
     title: '小小龙课堂',
     list: [
       {
