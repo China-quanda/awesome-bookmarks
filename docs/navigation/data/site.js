@@ -274,6 +274,22 @@ export default [
     "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC00lEQVQ4jVWTTWhcdRTFf/f/3ps3mUw6idbg+EHRII0t2toSKYofsYitiBU34iLUCqWKC92JghtFV+KiBYUgBYMrcVEjWEtsUapgC2mb0gS/mmBDoWkrOtrM5M28//+4eFMxd3FX917Ouecck+QBkySvYLFFhsGvfy3pg+nDeInX7nuCDTfeYgB58IrMycwMkEkKQcHMnAyskbX4ZO44E3Pfc6X5DwA3lKs8P7yNFzc+zNpKH4CCgjlzsi4CBzA5f1oHzkxx7uoilTilFEUAdIJnuZNxV3+dl+4d5bn12xSZOSCYpPDLn5fsvZNf6tiFWXPmqMQlAkISGBiGM6OVt+l4z0h9SG/d/7RtGVyHE/DuiS+YnJ+mLyn/txwkMMNhAPgQ6IlK1NIKxy/+xDs/HsJLikPwXOtkrEl6AFjxHYJENUnxCmQ+B8DMaPucnjilLynTDp62z3FmRmwOIVZ8TjVJOTA6xq6hrVxablAr9bB/dIzx7XsYrKyh5TNEtwwcsu51T71a49OdLzP7x0UOzn7HY7dvYGLHPs5eWeSrhRkmduxj/UCdzHcKYlJB0YpGCKKVt4mcsfeeR3n7gWd5/9RhPjp7lLWVPpqdNnkIGCBAGM66UBIXc7n5N7u/Hqde6eeR24bZO3WQQ79Ns2toC8MDdV44Ms584zJpVCqeDMQAQQEzSKOEldDhzR8+J7Li+7dWB/jm91kmz58idhHl7kwePEGB2MyolSo0sha9vSmpiym5CBXA8AoA9CZpQRVoZC1qaYU0Togl8cbIUzgXcWRhBt+VkOte6EpoGMt5BoJnhrby+siTJC5ilZWPLc5p/+kpTi6dJ3Ux5TgBCv2becamm9bx6ubH2XnHpkKE61YOkhnIzCzzOZ/9fIKPz33LQuMqIG7u7WfPxocYu/tBqqVyYXJpVZj+H2cwbKnZ0IczR7nWznhl83burA0aErnCqjj/CxQyZYlhcOJvAAAAAElFTkSuQmCC"
   },
   {
+    "id": 791,
+    "categoryId": 32,
+    "title": "中国政府采购网",
+    "url": "https://www.ccgp.gov.cn/",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC3ElEQVQ4jaWTS4hbZRTHf999TG4ek2QyxJuZ6UyKYw31sRhbbUEXBQcsuqibrgQXuhBEpOpCRRG6caE7FyriRlwUXIyFGUcQUamIWJkqSmVKS2eaSNJMJrlJ7tzc5D6+z4VM8NWVZ3U4nP/vwDn/A/8zxD8LqnGpKP31M1q6dhIjKIOCwLoR+EufT+SX3xaFxd4tAaq2cpL4vXOt3c388DsLq5FBN8Gbc8geH5HLLu1E1munzdkHL/wLoFo/HGX04o/1nxo4r0YktyXWUzmGHYla6ePfa2C/pVM8WCYwXzmcmH1kE0Abj/c+XHdqQzovS2Y0i9J8iubtsDunUSqnsfdMmi8IXC/GHHx0fl+mAXi/vPk4yV+L3Q8kM9WY3hGDIAkz7w5ZPB/gTwsG909QuuTT+ThC5PqV8GvjxBiQCjdO1X9uEV7skSxaTK+OcCs6Ys4gWNQJioKp1SGphTT+V012rjUxUvc9CmAAKH4/IPsFJrw2URJkQkP/to90I5QAMWki7RRxqDBdQdQXyJxeGgP2Rrc5hYUGTtokrnrEaZ38qTthNoXQBPJqj8HaFgzAOpJj6oCi3yo5Y4CvP7Y2lXzjtLa8ACtgLlmYZ200OwEI5JUkYdVBXo/QH7YwVYNu5qXP4NM/z6iUMv0Ly64x6yRUr4zWGSCzHqq+B5pAzGTQumliO4k2cYWwc08t/dAnC+MlCiFCt3zm6dY7WzFBm/CbNt6zLZRXQtan8Z65SXy5i9q9yc777cC76/kn/tOJlxN2VRwazWeO57DusEkcTIAU+Nc8gmqL/pcOZnf6YqW7fWxfY+wnVwuFrBkF827TIIomCXsumXCEDBTRXkjgZtC8EZbpPaBACFB/c+IXui5/S1ivJ+bz3e6i3rhxbtNr1yO2v6+xvbbleHcbLanHuxsj+dxZTui3/Mb1QiFL4diodjg/WVtdn7QrFaaOHmrnNvuRs7EqngTvr/1/AJhcOvsywzOSAAAAAElFTkSuQmCC",
+    "desc": ""
+},
+{
+  "id": 792,
+  "categoryId": 32,
+  "title": "国家采购网",
+  "url": "https://www.okcis.cn/j_gjcgww/",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACr0lEQVQ4jY3Sy2tUZxjH8d/znvfMnMskTj3qKDESlNoqWcSoUby0BCFKWlFqBTUqEo0L3YlBRRHcCCoqgta6qbSQGi8oUobSBk2DRKEFb6HNokS8xKgzI2YSc+acOed9HxduXLjw+x984UNaMwAifErMTMwajOdjrIiIAAIIJDBJaGmI0r0Hg3sOGN54r2Vd+psVIMJwqFf1Kuuytju1dUk5WeV0a9yKTwyVmbm/Zett4G9YvUC+o5OZxa83/Os/FoOBsFTmAMJ/Db/IsyRdy+MFeOpXCyiRMrwJE9escxrmK81y6Hko+ooyF5SdBGqsb1faC6vpZoFv5Y21/bjY2ja/vj5Ipdwvv3h/IQ1WTFG5iGoXZ75zI4raL+hHM5IiQ72DPH2ET9bO3eEiUKovIBBJgzXn/cXN3tUjE+/8V/7+YJFh4m6o51jzlic21sDz440FqrbQF+JlTOLtaFRVY2SPT3mRi1ZvH+ScTyJsno3sCuP8FJ0b0DufiI4cNbt4GlOCWKpQ7W71xrlGYbi0ZrldX5datTSVcvBLV9ByIhoeM7DIOt9qTpDUN8pNaZJCqcAnEC1rqFjWkLrfXzp35fXPXaWRYQHHhCGPfp7YkqGmhxpaCGaZEOrQoUf/D/h+RP/8Gww8U1ACXhLKGJ/E6T3p9Y32saulrt8ibHBjT0hTcJAf++mHx5ASFUmjMqmEQF4t+vqzM/szdTOtzm5/79miwVJ1ELbaUocREDmVVhk6DkI1Gk2eWbGrfWr7tgxAHX8Utx8uCCENF/zE5y6mnp5XjY09WseAPb02vWnTtLbNVVWTk4U30cFTQ2fPFWCbsE1IE6Z5fJ9HzJzNDnXffLlkaaapKeM4EkC5rK/8XvjzrxE3bUIaLARY1NXabSsrSWtNH+COYy0EEYE+Lp7fAXTbOmFlZu7AAAAAAElFTkSuQmCC",
+  "desc": ""
+},
+  {
     "categoryId": 31,
     "id": 40,
     "desc": "",
@@ -5550,7 +5566,7 @@ export default [
   },
   {
     "categoryId": 63,
-    "id": 615,
+    "id": 793,
     "url": "",
     "icon": "",
     "title": "",
