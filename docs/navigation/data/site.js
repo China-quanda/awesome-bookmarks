@@ -5588,6 +5588,158 @@ export default [
   "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACE0lEQVQ4jZWTT0iUYRDGf+/rZ5+b7JKKmZp7XDFvHjQosD8QRCIiJAVRl+jUKdQuC9GxU12iSOoiYSARQXSItm4aZX8gXDOXICJXdxE3XdZt12+mw7qbix22eXkYeHjemXnfmTEA6XT6rOu6gyLiUpllM5nMRF1d3ROTSqWGAoHAI1U1FV4umiYSK6es4zgDImoUEFWmokk+L66jgCol/z0VJZqcRlWLvHFdZ8AR1V1KgfE84c6zBWZtNePnO+lo9IHCUvob9z4Os6emifaGboyxoLAp4lpUt6Iq1hqGhw7giXL5xQ828oKq8vTrbRTldMcoYEp6RLACJUJV6Wzzc/FQK/OrvwlPL6Oq9LT0cSR4hv3+UJlWAQcRVMt/51J3Ey/jWR58+cXRtlpOBntRduoAbIHTMlgDowcbAQjPrKAqGMwOHao4UnzPNvMEbrxJAHCtq76Q4h/pBbAU27UNY++WmYlnuBAK0BesJf86Ru7hhx06FXBUpCx69Oc696fihJr9XO9pQFXJj71F5hKYrlaq2veW1VCoYOtksnluPp7HsXDreDM1VQZFqQ4fAyA38hzZyJX0omBlW1vef1piLZ3jyuFmQvVuiTftjThXe9H4GpuR2N85QDHLyeS4z7f73H/uAQCp1OpduxiPT6iKVzYgFUDEy8/Nzk4agEgkcmJfS8sg2IrWWdTLLsRik4P9/a/+AI8rbZbnbnWPAAAAAElFTkSuQmCC",
   "desc": ""
 },
+{
+  "id": 796,
+  "categoryId": 69,
+  "title": "在 Nest.js 第 1 部分(微服务设置)中创建多租户应用程序_node.js_云O生-云原生",
+  "url": "https://devpress.csdn.net/cloudnative/62f9593ac6770329307fe1ca.html",
+  "icon": "",
+  "desc": ""
+},
+{
+  "id": 797,
+  "categoryId": 69,
+  "title": "NestJS导出。连接，postgres多租户_NestJS Docker Postgres连接_在多租户中调用postgres存储过程 - 腾讯云开发者社区 - 腾讯云",
+  "url": "https://cloud.tencent.com/developer/information/NestJS%E5%AF%BC%E5%87%BA%E3%80%82%E8%BF%9E%E6%8E%A5%EF%BC%8Cpostgres%E5%A4%9A%E7%A7%9F%E6%88%B7-album",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACJ0lEQVQ4jZWST0iTcRzGP7+977t/zilJBUJCxLophFBQHcWD0SFjRcFoTREzRcpTReihIiSkQ6c0QlKLFUhEHbp0aoamQmSHpkUXS6ZsYW5ur3u/HTbZ/EN/nt/p++V5Hh5+3we2g1+0f9r9FUFxEhTnnyhq4ygKlNApJ4HLCIcB0Ihgcpd76ulmA9sWcYf04uYZgheLmwg3yOKllDAdcrvALUbLewMRxUU5wRUROrN3tmS9JH1cF6FdziKiqBUjb1bkdkHe0CaTBWMxaFknAu3SRofUF6fOiSMzB3B6r/KdRty2OdzJXg75BjYkGJYmHPjJsBfFBzLc4pyaVkzMHkF3vmbNNNHMESytmvJdR0nEw9gTrdTUxHki/XhoJs4EFh/RaUTHwKReMRadwu6oIP7zIHXVCwC8+9KFx3WN5ZXjzO5rooLzLNFFQPUB0C+78TDOGkvwaVEYi3YDEI066JHcZZ5PVTIio7wQ4aG0AtAjNnryvRiUbkZFdNIpE0uqAPD50gA8kFKWuY+bY8QIEFJDOQNlAav5X6kijamzmhykrLyZyNxb9iw85mu1h28M46SOBEFCaoiwuPiBBYADDQen8RDiFwOKyMwOjJJHeL0NLCaSzFfacTt0VoA0KcCVuxigEBSKEiDJK1IECh2YnmtgvqyGWEUJmpXBsmlo2JH8KyCLwThn1Mv1xaZa/g/WiwQQDmvs9Ofmz5MKarfX7EeIIZxSWYDfa9nVNFgL8gwAAAAASUVORK5CYII=",
+  "desc": ""
+},
+{
+  "id": 798,
+  "categoryId": 69,
+  "title": "NestJS CLS：为NestJS应用提供强大的异步上下文管理-CSDN博客",
+  "url": "https://blog.csdn.net/gitblog_00087/article/details/142474711",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB/klEQVQ4jU2SPWtUYRCFz5n3bvbubhISoyJiJxEsEkglghZJZUTUJkhAUoja2WihgohFQPAXaGVhk8rGRkQrURDEFOL3B2idkDXJ7t3Nve8ci7ubZOozZ2aeMyzmptAvSSBpBgkxgkQIkOQOkgCAZLeaJEi1NkBDWgeEzXUkFVZTuIPcaSjVkqPb5bEZTp/H4aPMc//0Hs+X9Psb0hrlILm9kuRw5+XbNjsPuX//yNEx239Inbbfu6IvH5jWISU9fzNlmV26FWbn/d0rf7SI5oosaPosF25gZC9iLH1ZzE0JRLeN8YnwYEl/fsSb8+xkTOvyiK0O9h3ERhMSAZAGgKTy3E6eppmePcHmOhtDgmjG2iDXVtjnAcAAyCNrDYxPSNLXZVZTxYIlZTmSBKSkciUrb0BSwfAe5DnW11DmUE7u6bhN3/opRHTbSALSGgSaARDAEOCuYmu72QAwJGq39OszLXDqhP6tKjrc6VEbTdUaHDugIufODRAt6OVTxcIWrtuZi6imCokGUkwet7sPbfExBqpy72Etc0C7xVMX7OodVCroZGquojHIoRECvvzG71+DnLRdSQPIWhiftJlzODLJ4VF1Mvz9qeXXevsCRcEQ+hN2Ps/UaaPIUWswJJKjm6EoWB8syZLsPV8PgiLTGlhHjIoFSaR10OQRpSPwH79sFlWOAVADAAAAAElFTkSuQmCC",
+  "desc": ""
+},
+{
+  "id": 799,
+  "categoryId": 69,
+  "title": "多租户的后台管理系统框架涉及到在不同租户之间隔离数据（字段隔离）------------升鲜宝供应链管理系统NestJs版本（一）-CSDN博客",
+  "url": "https://blog.csdn.net/moonstar2024/article/details/141826729",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB/klEQVQ4jU2SPWtUYRCFz5n3bvbubhISoyJiJxEsEkglghZJZUTUJkhAUoja2WihgohFQPAXaGVhk8rGRkQrURDEFOL3B2idkDXJ7t3Nve8ci7ubZOozZ2aeMyzmptAvSSBpBgkxgkQIkOQOkgCAZLeaJEi1NkBDWgeEzXUkFVZTuIPcaSjVkqPb5bEZTp/H4aPMc//0Hs+X9Psb0hrlILm9kuRw5+XbNjsPuX//yNEx239Inbbfu6IvH5jWISU9fzNlmV26FWbn/d0rf7SI5oosaPosF25gZC9iLH1ZzE0JRLeN8YnwYEl/fsSb8+xkTOvyiK0O9h3ERhMSAZAGgKTy3E6eppmePcHmOhtDgmjG2iDXVtjnAcAAyCNrDYxPSNLXZVZTxYIlZTmSBKSkciUrb0BSwfAe5DnW11DmUE7u6bhN3/opRHTbSALSGgSaARDAEOCuYmu72QAwJGq39OszLXDqhP6tKjrc6VEbTdUaHDugIufODRAt6OVTxcIWrtuZi6imCokGUkwet7sPbfExBqpy72Etc0C7xVMX7OodVCroZGquojHIoRECvvzG71+DnLRdSQPIWhiftJlzODLJ4VF1Mvz9qeXXevsCRcEQ+hN2Ps/UaaPIUWswJJKjm6EoWB8syZLsPV8PgiLTGlhHjIoFSaR10OQRpSPwH79sFlWOAVADAAAAAElFTkSuQmCC",
+  "desc": ""
+},
+{
+  "id": 800,
+  "categoryId": 69,
+  "title": "在 Nest.js 第 3 部分(多数据库设置)中创建多租户应用程序_node.js_云O生-云原生",
+  "url": "https://devpress.csdn.net/cloudnative/62f9592f7e6682346618cb8b.html",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADB0lEQVQ4jW2TT2gdVRTGv3PuvTNzZ9577Xt9KFqoiBJsLW4iMbhSwY0Jgtqim+JKXAgK0k1B2xeKxn9oglAXxYW4EGppRVCLigsLUrFZFA3lRQrVFltNm3Ten8y8uTP3uAhJK/jtzuF8H4dz+AE3RTgmaqPYsyLTz94YdZ9PB92X8uETG/29ckzhPyYAEGEQeQCY+nO0O9A4xAbPKJQUqQq1wHvL7rhSrvNOeOd5AOiIcIfI00bSxM+9bbffkbzKWl42VtX8sO9Zi0RcIuGStjZjDv1aGnM5L3x97gA9sLq5weNdecpY/5aJeKwaZFDKO9ZCSkNbdojZuZgrxMqZVj2G9fmSkezAC3rsBI2fXdmyrdG4EjaVrVayTAUImD2FWxJGmQ0tO9+oB3U1WKkS5bzlUlpJFBg/vGZ59R5eGG/2xOO5KvPnTNNaCBSHxpdZ/nUuMuY9P1Rlo5MmjpWOrAEAV+aVl6rMe14zCPjuPv3lxAV+sMj9axRF/+g40Nrqe0OlH/m0XT9/pLH1aRGZZlK/2KQRMCtFQFU0asL4Ee1kQd7uGNz2zQ71RonRhBu6TzhQ18Qj3zjye1HrK9HtyTwr9jP0MoFbQArCaWkmkfxlBKkZ0uzyozR/65/v/1Ce1MB+s4al/G/M/PY+XZqTxR3xSL8iYX92PSCUX42n7doBQYYz7DBzeYpOAcDOedlnBDOhw92qj6vG4YPTs3gXIIEIEX6SVqKxqAu09cBLIGx0Dug1fI4cr9MysoRxNHB4TA2gIwFUjrNmhIPffoRThDPSqBlc0B5tdV0Kk4N0DhUoYpWirzPooILlFN7kEJWjqDGspBiuXsR2xiT1KuBF8fI71ygAwRBQyVCceNQhsH4kJREqAMpEsGWBJU/Yt/A9pQwA2TidSP/oT0qBwwioRwkZARREKkAqgFiFMKzRrzzevJLi4R+O0sn/han1hexKPA7pHHv0GlhngCkgZoTjZYaZc4dpEes0MTrrnpu6Bee7PpOpsY99d+cR6e6ek+nNmb2iANmE8F/6U2G4FZcKawAAAABJRU5ErkJggg==",
+  "desc": ""
+},
+{
+  "id": 801,
+  "categoryId": 69,
+  "title": "在 Nest.js 第 2 部分中创建多租户应用程序(使用 Sequelize 和 mongoose 设置数据库)_mysql_weixin_0010034-MySQL数据库",
+  "url": "https://devpress.csdn.net/mysqldb/62ee5ef0c6770329307f38df.html",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB4ElEQVQ4jXWSv2tTURTHzznv3aeGREkT22DQR4UqIlYEFZ11cVBn/wYH/wAnZycXB8HFycm6KGIcjINoUbS1iljok/wQta281trXkHvP1+GmSQRzh8OF8+P7he+HnXMAADAzjX5+gJnDEW0iAvkTwPCOjDgGZoZCVYmImfsW/qPgG4AaY4gIqtZpf0eIyEui9wEA51QkeP8leTo7v7aZGRPAuwRCAEwEIh64J2YSERFutZudrj0xFe8rF51zIiJeSxUAVJWZvY5aG1fKh6oT508erb9bAFREAAiAMJAoCoXZGKOqUHAYSRgW8vnafJK0fxyejF99XPQmhJmX1/98W0m3rGv8/GWMiSJj06XvS282lpPLR0K31jgejz+bnUuazSAQBnDv+dv7T+rnTk/feVibuXEVgWk8uj5eObC5slg5drH14tb+CzeLB8+4LN1bKoUAlXNmopif+/Dp1FT17uN663f3SjytG5+3upq1X693JP36UrPVaGySSiV2znU6HecsgZTo9oPaappeu3Q22pnP7R5L2wsU5nfsymVZtqdULRQKbK31SfWiATgIfIKqKiLDBKgqW2v/hY8VyuQ54u1cCKABfAMFIgKEeUAu92aJehdlmxwQEQ+B2a80PMD8F+9PHCKucWc/AAAAAElFTkSuQmCC",
+  "desc": ""
+},
+{
+  "id": 802,
+  "categoryId": 69,
+  "title": "如何在NESTJS中设置多租户-腾讯云开发者社区-腾讯云",
+  "url": "https://cloud.tencent.com/developer/ask/sof/105982957",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACJ0lEQVQ4jZWST0iTcRzGP7+977t/zilJBUJCxLophFBQHcWD0SFjRcFoTREzRcpTReihIiSkQ6c0QlKLFUhEHbp0aoamQmSHpkUXS6ZsYW5ur3u/HTbZ/EN/nt/p++V5Hh5+3we2g1+0f9r9FUFxEhTnnyhq4ygKlNApJ4HLCIcB0Ihgcpd76ulmA9sWcYf04uYZgheLmwg3yOKllDAdcrvALUbLewMRxUU5wRUROrN3tmS9JH1cF6FdziKiqBUjb1bkdkHe0CaTBWMxaFknAu3SRofUF6fOiSMzB3B6r/KdRty2OdzJXg75BjYkGJYmHPjJsBfFBzLc4pyaVkzMHkF3vmbNNNHMESytmvJdR0nEw9gTrdTUxHki/XhoJs4EFh/RaUTHwKReMRadwu6oIP7zIHXVCwC8+9KFx3WN5ZXjzO5rooLzLNFFQPUB0C+78TDOGkvwaVEYi3YDEI066JHcZZ5PVTIio7wQ4aG0AtAjNnryvRiUbkZFdNIpE0uqAPD50gA8kFKWuY+bY8QIEFJDOQNlAav5X6kijamzmhykrLyZyNxb9iw85mu1h28M46SOBEFCaoiwuPiBBYADDQen8RDiFwOKyMwOjJJHeL0NLCaSzFfacTt0VoA0KcCVuxigEBSKEiDJK1IECh2YnmtgvqyGWEUJmpXBsmlo2JH8KyCLwThn1Mv1xaZa/g/WiwQQDmvs9Ofmz5MKarfX7EeIIZxSWYDfa9nVNFgL8gwAAAAASUVORK5CYII=",
+  "desc": ""
+},
+{
+  "id": 803,
+  "categoryId": 69,
+  "title": "在 Nest.js 第 4 部分(身份验证和授权设置)中创建多租户应用程序_typescript_云O生-云原生",
+  "url": "https://devpress.csdn.net/cloudnative/62f9582d7e6682346618cb53.html",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADB0lEQVQ4jW2TT2gdVRTGv3PuvTNzZ9577Xt9KFqoiBJsLW4iMbhSwY0Jgtqim+JKXAgK0k1B2xeKxn9oglAXxYW4EGppRVCLigsLUrFZFA3lRQrVFltNm3Ten8y8uTP3uAhJK/jtzuF8H4dz+AE3RTgmaqPYsyLTz94YdZ9PB92X8uETG/29ckzhPyYAEGEQeQCY+nO0O9A4xAbPKJQUqQq1wHvL7rhSrvNOeOd5AOiIcIfI00bSxM+9bbffkbzKWl42VtX8sO9Zi0RcIuGStjZjDv1aGnM5L3x97gA9sLq5weNdecpY/5aJeKwaZFDKO9ZCSkNbdojZuZgrxMqZVj2G9fmSkezAC3rsBI2fXdmyrdG4EjaVrVayTAUImD2FWxJGmQ0tO9+oB3U1WKkS5bzlUlpJFBg/vGZ59R5eGG/2xOO5KvPnTNNaCBSHxpdZ/nUuMuY9P1Rlo5MmjpWOrAEAV+aVl6rMe14zCPjuPv3lxAV+sMj9axRF/+g40Nrqe0OlH/m0XT9/pLH1aRGZZlK/2KQRMCtFQFU0asL4Ee1kQd7uGNz2zQ71RonRhBu6TzhQ18Qj3zjye1HrK9HtyTwr9jP0MoFbQArCaWkmkfxlBKkZ0uzyozR/65/v/1Ce1MB+s4al/G/M/PY+XZqTxR3xSL8iYX92PSCUX42n7doBQYYz7DBzeYpOAcDOedlnBDOhw92qj6vG4YPTs3gXIIEIEX6SVqKxqAu09cBLIGx0Dug1fI4cr9MysoRxNHB4TA2gIwFUjrNmhIPffoRThDPSqBlc0B5tdV0Kk4N0DhUoYpWirzPooILlFN7kEJWjqDGspBiuXsR2xiT1KuBF8fI71ygAwRBQyVCceNQhsH4kJREqAMpEsGWBJU/Yt/A9pQwA2TidSP/oT0qBwwioRwkZARREKkAqgFiFMKzRrzzevJLi4R+O0sn/han1hexKPA7pHHv0GlhngCkgZoTjZYaZc4dpEes0MTrrnpu6Bee7PpOpsY99d+cR6e6ek+nNmb2iANmE8F/6U2G4FZcKawAAAABJRU5ErkJggg==",
+  "desc": ""
+},
+{
+  "id": 804,
+  "categoryId": 69,
+  "title": "每个客户端的NestJs多租户数据库-错误-腾讯云开发者社区-腾讯云",
+  "url": "https://cloud.tencent.com/developer/ask/sof/931798/answer/1326981",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACJ0lEQVQ4jZWST0iTcRzGP7+977t/zilJBUJCxLophFBQHcWD0SFjRcFoTREzRcpTReihIiSkQ6c0QlKLFUhEHbp0aoamQmSHpkUXS6ZsYW5ur3u/HTbZ/EN/nt/p++V5Hh5+3we2g1+0f9r9FUFxEhTnnyhq4ygKlNApJ4HLCIcB0Ihgcpd76ulmA9sWcYf04uYZgheLmwg3yOKllDAdcrvALUbLewMRxUU5wRUROrN3tmS9JH1cF6FdziKiqBUjb1bkdkHe0CaTBWMxaFknAu3SRofUF6fOiSMzB3B6r/KdRty2OdzJXg75BjYkGJYmHPjJsBfFBzLc4pyaVkzMHkF3vmbNNNHMESytmvJdR0nEw9gTrdTUxHki/XhoJs4EFh/RaUTHwKReMRadwu6oIP7zIHXVCwC8+9KFx3WN5ZXjzO5rooLzLNFFQPUB0C+78TDOGkvwaVEYi3YDEI066JHcZZ5PVTIio7wQ4aG0AtAjNnryvRiUbkZFdNIpE0uqAPD50gA8kFKWuY+bY8QIEFJDOQNlAav5X6kijamzmhykrLyZyNxb9iw85mu1h28M46SOBEFCaoiwuPiBBYADDQen8RDiFwOKyMwOjJJHeL0NLCaSzFfacTt0VoA0KcCVuxigEBSKEiDJK1IECh2YnmtgvqyGWEUJmpXBsmlo2JH8KyCLwThn1Mv1xaZa/g/WiwQQDmvs9Ofmz5MKarfX7EeIIZxSWYDfa9nVNFgL8gwAAAAASUVORK5CYII=",
+  "desc": ""
+},
+{
+  "id": 805,
+  "categoryId": 69,
+  "title": "如何用Typeorm在NestJS中建立多租户连接-腾讯云开发者社区-腾讯云",
+  "url": "https://cloud.tencent.com/developer/ask/sof/106840682",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACJ0lEQVQ4jZWST0iTcRzGP7+977t/zilJBUJCxLophFBQHcWD0SFjRcFoTREzRcpTReihIiSkQ6c0QlKLFUhEHbp0aoamQmSHpkUXS6ZsYW5ur3u/HTbZ/EN/nt/p++V5Hh5+3we2g1+0f9r9FUFxEhTnnyhq4ygKlNApJ4HLCIcB0Ihgcpd76ulmA9sWcYf04uYZgheLmwg3yOKllDAdcrvALUbLewMRxUU5wRUROrN3tmS9JH1cF6FdziKiqBUjb1bkdkHe0CaTBWMxaFknAu3SRofUF6fOiSMzB3B6r/KdRty2OdzJXg75BjYkGJYmHPjJsBfFBzLc4pyaVkzMHkF3vmbNNNHMESytmvJdR0nEw9gTrdTUxHki/XhoJs4EFh/RaUTHwKReMRadwu6oIP7zIHXVCwC8+9KFx3WN5ZXjzO5rooLzLNFFQPUB0C+78TDOGkvwaVEYi3YDEI066JHcZZ5PVTIio7wQ4aG0AtAjNnryvRiUbkZFdNIpE0uqAPD50gA8kFKWuY+bY8QIEFJDOQNlAav5X6kijamzmhykrLyZyNxb9iw85mu1h28M46SOBEFCaoiwuPiBBYADDQen8RDiFwOKyMwOjJJHeL0NLCaSzFfacTt0VoA0KcCVuxigEBSKEiDJK1IECh2YnmtgvqyGWEUJmpXBsmlo2JH8KyCLwThn1Mv1xaZa/g/WiwQQDmvs9Ofmz5MKarfX7EeIIZxSWYDfa9nVNFgL8gwAAAAASUVORK5CYII=",
+  "desc": ""
+},
+{
+  "id": 806,
+  "categoryId": 69,
+  "title": "nestjs 多项目共享数据库 nestjs admin_mob6454cc70cb6b的技术博客_51CTO博客",
+  "url": "https://blog.51cto.com/u_16099273/10413483",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACxklEQVQ4jU2Sz2vcZRDGP8+873c3yW5208amWkOkVGpRROsvKFYE8eLFQw8VShH1oOZgD6KICEL/AQ+ihwpSTx6Kokiv/sJ/oKUohlZQYlMbjE1rdpvd/b4zHnZbHHiYOcw8D/PM6MJDTx5RSh/Wpb7LpSDCAAIEgDRGRCglcHdzV075Sl3KCZ07+NTVJBZGkisnhQcCPEIyI+p6zGMW3utjM9NgKapSWwnWs5sWRv3tcs/Jd61z6AliOIScFeFY1eDPDz7i7y++Bklzhw/F0vvvUP+zqUtvvFViOFzIRDi4Ne/eQ3Nxj4IgtodRRkOl6Wms2aC5tMjuY0dj1/Gjyu02g7W/QpJF4BkwzPBSE+70f1mJlZdfl81M4/0ByokHzp6hMb9TQIS7fDiUj/1RhghJWFUhiTDpztdeofPYIwxWV7nyyWf8/t5JZh9/lN0vHpNVGZmFAU6QAwkJm2qCROv+A0zvv5eUM+2HH0TNJivHX6V3/mfmjzxPY8ccuCskQBjuKGfqXp/Rxgb9lYv8+sJL3PxjlSiFqX17aS4tjgXcuX3aSWQkIoJLy2+iZMRohKoG1DWYoaoiAEpB/xu8TRClYK0Wi2+fwJpNyo0brJ06PRESRIwxEQLGeVJnQYhg7pmnqbod1f9usXbqNF7KpHGsFLcIATMLTQiNqtLo2qa2zl9Q1DUxGERjYRfjtw18MBivBeAeUQpe1/IIIckMnOJx/dsfQjlT3TGv+z79OKb37UXJuP79T/hWD8s51G5JKZE6s2FSiPAc7pZn22Xjy28shnXsfO5Zpg7s1/Dib2x+9yPrn58htVrU2wNd++psWLtNvbFBuDso6dzBw1eTtDCK8HqrJ8uJ1O1SbvZVen1Su33LzPBeb+KnYqrdsoLWLXksC102oOp23GZm8H4fS5lqbg6Zbl8kd7tUO+a80ZlFssvJffk/1cpYlw4f2WUAAAAASUVORK5CYII=",
+  "desc": ""
+},
+{
+  "id": 807,
+  "categoryId": 69,
+  "title": "使用nodejs sequelize的多租户(SAAS)_设置有限制的多租户saas解决方案_MS AppSource SaaS网络应用-限制多租户网络应用的访问 - 腾讯云开发者社区 - 腾讯云",
+  "url": "https://cloud.tencent.com/developer/information/%E4%BD%BF%E7%94%A8nodejs%20sequelize%E7%9A%84%E5%A4%9A%E7%A7%9F%E6%88%B7(SAAS)-salon",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACJ0lEQVQ4jZWST0iTcRzGP7+977t/zilJBUJCxLophFBQHcWD0SFjRcFoTREzRcpTReihIiSkQ6c0QlKLFUhEHbp0aoamQmSHpkUXS6ZsYW5ur3u/HTbZ/EN/nt/p++V5Hh5+3we2g1+0f9r9FUFxEhTnnyhq4ygKlNApJ4HLCIcB0Ihgcpd76ulmA9sWcYf04uYZgheLmwg3yOKllDAdcrvALUbLewMRxUU5wRUROrN3tmS9JH1cF6FdziKiqBUjb1bkdkHe0CaTBWMxaFknAu3SRofUF6fOiSMzB3B6r/KdRty2OdzJXg75BjYkGJYmHPjJsBfFBzLc4pyaVkzMHkF3vmbNNNHMESytmvJdR0nEw9gTrdTUxHki/XhoJs4EFh/RaUTHwKReMRadwu6oIP7zIHXVCwC8+9KFx3WN5ZXjzO5rooLzLNFFQPUB0C+78TDOGkvwaVEYi3YDEI066JHcZZ5PVTIio7wQ4aG0AtAjNnryvRiUbkZFdNIpE0uqAPD50gA8kFKWuY+bY8QIEFJDOQNlAav5X6kijamzmhykrLyZyNxb9iw85mu1h28M46SOBEFCaoiwuPiBBYADDQen8RDiFwOKyMwOjJJHeL0NLCaSzFfacTt0VoA0KcCVuxigEBSKEiDJK1IECh2YnmtgvqyGWEUJmpXBsmlo2JH8KyCLwThn1Mv1xaZa/g/WiwQQDmvs9Ofmz5MKarfX7EeIIZxSWYDfa9nVNFgL8gwAAAAASUVORK5CYII=",
+  "desc": ""
+},
+{
+  "id": 808,
+  "categoryId": 69,
+  "title": "我如何在 Node.js 中构建多租户 SaaS 产品_node.js_Postgredaxiang-PostgreSQL",
+  "url": "https://devpress.csdn.net/postgresql/62f974c5c6770329307fe7bb.html",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADB0lEQVQ4jW2TT2gdVRTGv3PuvTNzZ9577Xt9KFqoiBJsLW4iMbhSwY0Jgtqim+JKXAgK0k1B2xeKxn9oglAXxYW4EGppRVCLigsLUrFZFA3lRQrVFltNm3Ten8y8uTP3uAhJK/jtzuF8H4dz+AE3RTgmaqPYsyLTz94YdZ9PB92X8uETG/29ckzhPyYAEGEQeQCY+nO0O9A4xAbPKJQUqQq1wHvL7rhSrvNOeOd5AOiIcIfI00bSxM+9bbffkbzKWl42VtX8sO9Zi0RcIuGStjZjDv1aGnM5L3x97gA9sLq5weNdecpY/5aJeKwaZFDKO9ZCSkNbdojZuZgrxMqZVj2G9fmSkezAC3rsBI2fXdmyrdG4EjaVrVayTAUImD2FWxJGmQ0tO9+oB3U1WKkS5bzlUlpJFBg/vGZ59R5eGG/2xOO5KvPnTNNaCBSHxpdZ/nUuMuY9P1Rlo5MmjpWOrAEAV+aVl6rMe14zCPjuPv3lxAV+sMj9axRF/+g40Nrqe0OlH/m0XT9/pLH1aRGZZlK/2KQRMCtFQFU0asL4Ee1kQd7uGNz2zQ71RonRhBu6TzhQ18Qj3zjye1HrK9HtyTwr9jP0MoFbQArCaWkmkfxlBKkZ0uzyozR/65/v/1Ce1MB+s4al/G/M/PY+XZqTxR3xSL8iYX92PSCUX42n7doBQYYz7DBzeYpOAcDOedlnBDOhw92qj6vG4YPTs3gXIIEIEX6SVqKxqAu09cBLIGx0Dug1fI4cr9MysoRxNHB4TA2gIwFUjrNmhIPffoRThDPSqBlc0B5tdV0Kk4N0DhUoYpWirzPooILlFN7kEJWjqDGspBiuXsR2xiT1KuBF8fI71ygAwRBQyVCceNQhsH4kJREqAMpEsGWBJU/Yt/A9pQwA2TidSP/oT0qBwwioRwkZARREKkAqgFiFMKzRrzzevJLi4R+O0sn/han1hexKPA7pHHv0GlhngCkgZoTjZYaZc4dpEes0MTrrnpu6Bee7PpOpsY99d+cR6e6ek+nNmb2iANmE8F/6U2G4FZcKawAAAABJRU5ErkJggg==",
+  "desc": ""
+},
+{
+  "id": 809,
+  "categoryId": 69,
+  "title": "学习如何使用 Mongo 和 Node 构建多租户应用程序_芒果数据-MongoDB",
+  "url": "https://devpress.csdn.net/mongodb/62fb81827e6682346618ee1a.html",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADB0lEQVQ4jW2TT2gdVRTGv3PuvTNzZ9577Xt9KFqoiBJsLW4iMbhSwY0Jgtqim+JKXAgK0k1B2xeKxn9oglAXxYW4EGppRVCLigsLUrFZFA3lRQrVFltNm3Ten8y8uTP3uAhJK/jtzuF8H4dz+AE3RTgmaqPYsyLTz94YdZ9PB92X8uETG/29ckzhPyYAEGEQeQCY+nO0O9A4xAbPKJQUqQq1wHvL7rhSrvNOeOd5AOiIcIfI00bSxM+9bbffkbzKWl42VtX8sO9Zi0RcIuGStjZjDv1aGnM5L3x97gA9sLq5weNdecpY/5aJeKwaZFDKO9ZCSkNbdojZuZgrxMqZVj2G9fmSkezAC3rsBI2fXdmyrdG4EjaVrVayTAUImD2FWxJGmQ0tO9+oB3U1WKkS5bzlUlpJFBg/vGZ59R5eGG/2xOO5KvPnTNNaCBSHxpdZ/nUuMuY9P1Rlo5MmjpWOrAEAV+aVl6rMe14zCPjuPv3lxAV+sMj9axRF/+g40Nrqe0OlH/m0XT9/pLH1aRGZZlK/2KQRMCtFQFU0asL4Ee1kQd7uGNz2zQ71RonRhBu6TzhQ18Qj3zjye1HrK9HtyTwr9jP0MoFbQArCaWkmkfxlBKkZ0uzyozR/65/v/1Ce1MB+s4al/G/M/PY+XZqTxR3xSL8iYX92PSCUX42n7doBQYYz7DBzeYpOAcDOedlnBDOhw92qj6vG4YPTs3gXIIEIEX6SVqKxqAu09cBLIGx0Dug1fI4cr9MysoRxNHB4TA2gIwFUjrNmhIPffoRThDPSqBlc0B5tdV0Kk4N0DhUoYpWirzPooILlFN7kEJWjqDGspBiuXsR2xiT1KuBF8fI71ygAwRBQyVCceNQhsH4kJREqAMpEsGWBJU/Yt/A9pQwA2TidSP/oT0qBwwioRwkZARREKkAqgFiFMKzRrzzevJLi4R+O0sn/han1hexKPA7pHHv0GlhngCkgZoTjZYaZc4dpEes0MTrrnpu6Bee7PpOpsY99d+cR6e6ek+nNmb2iANmE8F/6U2G4FZcKawAAAABJRU5ErkJggg==",
+  "desc": ""
+},
+{
+  "id": 810,
+  "categoryId": 69,
+  "title": "使用 Nodejs 和 mongoDb 进行多租户_node.js_芒果数据-MongoDB",
+  "url": "https://devpress.csdn.net/mongodb/62f9840b7e6682346618d4a9.html",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADB0lEQVQ4jW2TT2gdVRTGv3PuvTNzZ9577Xt9KFqoiBJsLW4iMbhSwY0Jgtqim+JKXAgK0k1B2xeKxn9oglAXxYW4EGppRVCLigsLUrFZFA3lRQrVFltNm3Ten8y8uTP3uAhJK/jtzuF8H4dz+AE3RTgmaqPYsyLTz94YdZ9PB92X8uETG/29ckzhPyYAEGEQeQCY+nO0O9A4xAbPKJQUqQq1wHvL7rhSrvNOeOd5AOiIcIfI00bSxM+9bbffkbzKWl42VtX8sO9Zi0RcIuGStjZjDv1aGnM5L3x97gA9sLq5weNdecpY/5aJeKwaZFDKO9ZCSkNbdojZuZgrxMqZVj2G9fmSkezAC3rsBI2fXdmyrdG4EjaVrVayTAUImD2FWxJGmQ0tO9+oB3U1WKkS5bzlUlpJFBg/vGZ59R5eGG/2xOO5KvPnTNNaCBSHxpdZ/nUuMuY9P1Rlo5MmjpWOrAEAV+aVl6rMe14zCPjuPv3lxAV+sMj9axRF/+g40Nrqe0OlH/m0XT9/pLH1aRGZZlK/2KQRMCtFQFU0asL4Ee1kQd7uGNz2zQ71RonRhBu6TzhQ18Qj3zjye1HrK9HtyTwr9jP0MoFbQArCaWkmkfxlBKkZ0uzyozR/65/v/1Ce1MB+s4al/G/M/PY+XZqTxR3xSL8iYX92PSCUX42n7doBQYYz7DBzeYpOAcDOedlnBDOhw92qj6vG4YPTs3gXIIEIEX6SVqKxqAu09cBLIGx0Dug1fI4cr9MysoRxNHB4TA2gIwFUjrNmhIPffoRThDPSqBlc0B5tdV0Kk4N0DhUoYpWirzPooILlFN7kEJWjqDGspBiuXsR2xiT1KuBF8fI71ygAwRBQyVCceNQhsH4kJREqAMpEsGWBJU/Yt/A9pQwA2TidSP/oT0qBwwioRwkZARREKkAqgFiFMKzRrzzevJLi4R+O0sn/han1hexKPA7pHHv0GlhngCkgZoTjZYaZc4dpEes0MTrrnpu6Bee7PpOpsY99d+cR6e6ek+nNmb2iANmE8F/6U2G4FZcKawAAAABJRU5ErkJggg==",
+  "desc": ""
+},
+{
+  "id": 811,
+  "categoryId": 69,
+  "title": "微前端架构下的多租户支持：实现与最佳实践_前端多租户实现-CSDN博客",
+  "url": "https://blog.csdn.net/2401_85763803/article/details/141271242",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB/klEQVQ4jU2SPWtUYRCFz5n3bvbubhISoyJiJxEsEkglghZJZUTUJkhAUoja2WihgohFQPAXaGVhk8rGRkQrURDEFOL3B2idkDXJ7t3Nve8ci7ubZOozZ2aeMyzmptAvSSBpBgkxgkQIkOQOkgCAZLeaJEi1NkBDWgeEzXUkFVZTuIPcaSjVkqPb5bEZTp/H4aPMc//0Hs+X9Psb0hrlILm9kuRw5+XbNjsPuX//yNEx239Inbbfu6IvH5jWISU9fzNlmV26FWbn/d0rf7SI5oosaPosF25gZC9iLH1ZzE0JRLeN8YnwYEl/fsSb8+xkTOvyiK0O9h3ERhMSAZAGgKTy3E6eppmePcHmOhtDgmjG2iDXVtjnAcAAyCNrDYxPSNLXZVZTxYIlZTmSBKSkciUrb0BSwfAe5DnW11DmUE7u6bhN3/opRHTbSALSGgSaARDAEOCuYmu72QAwJGq39OszLXDqhP6tKjrc6VEbTdUaHDugIufODRAt6OVTxcIWrtuZi6imCokGUkwet7sPbfExBqpy72Etc0C7xVMX7OodVCroZGquojHIoRECvvzG71+DnLRdSQPIWhiftJlzODLJ4VF1Mvz9qeXXevsCRcEQ+hN2Ps/UaaPIUWswJJKjm6EoWB8syZLsPV8PgiLTGlhHjIoFSaR10OQRpSPwH79sFlWOAVADAAAAAElFTkSuQmCC",
+  "desc": ""
+},
+{
+  "id": 812,
+  "categoryId": 69,
+  "title": "若依系统单租户扩展为多租户的大体方案 - 漫游云巅 - 博客园",
+  "url": "https://www.cnblogs.com/vishun/p/17861285.html",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACT0lEQVQ4jZVTMWsUQRT+3u54p7nbu40cCcFGEERDEBstBNHCWhCUgGARLAQbJYiFhVhZWFkEtFTR5hr/gHggNqZUtIuFkRweszOzO7N3l7vsPJvbcEkR9INpHh/fe9/33gAHIM/zR9baNMsy45x7dhB3F8wcAIDW+r5zbpxl2Yq1dnkwGPxSSr2c5kyD9okIrfVmkiS3y1q3213UWqfW2rlpbqnE+wQrzCy895/LjgsLCz+YedN7f8dae7psHDBzmKbp+Xa7HU7IRER9AF+EEG96vV6diLy19jERNYuiuFEUxVUA6HQ6IQAgSZInUsorAIiZQwCw1s5lWfbVOdczxmz0+32VZdnTwWDglVJr5WSlBReG4b2JFQ8AURT1Go3GGQAPmfndcDg8Ox6PT1arVRDRpXa7HRKRBwAYY05orXMp5anSBjPvCTZJkuuj0YjTNPVKqdw5N78bYhzHGwAKAHenwt21s7W1dbFWq73y3sN7P5qZmTmyvb19GQCCqZ2+r1Qqt5hZEFFBRJ6ICmPMcqvV+hQEQS3P81VmXq1WqxQEwbFy5+HkcFaYmaWU1wAgTdNz1to1Y8zP4XD4otvtLk7szvb7fdZaP99zQM65ee99F0BeFIWM4/i4McYBeM3M34UQ36IoWieikZTyoxDicBzHF0QpUK/X/yilbkZRtGStDZMkyYMgKIjoEDPXmLkhpawCGFUqlbfe+wf7g/5npGl61Bizzsz1PZ+CmUNmFtOv0+mIST0oV9xsNpX3/oNSava/R5icOltrl3Z2dn7/BVRSi4a7N5ILAAAAAElFTkSuQmCC",
+  "desc": ""
+},
+{
+  "id": 692,
+  "categoryId": 69,
+  "title": "SaaS架构：多租户系统架构设计_多租户saas架构-CSDN博客",
+  "url": "https://blog.csdn.net/jam_yin/article/details/139154850",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB/klEQVQ4jU2SPWtUYRCFz5n3bvbubhISoyJiJxEsEkglghZJZUTUJkhAUoja2WihgohFQPAXaGVhk8rGRkQrURDEFOL3B2idkDXJ7t3Nve8ci7ubZOozZ2aeMyzmptAvSSBpBgkxgkQIkOQOkgCAZLeaJEi1NkBDWgeEzXUkFVZTuIPcaSjVkqPb5bEZTp/H4aPMc//0Hs+X9Psb0hrlILm9kuRw5+XbNjsPuX//yNEx239Inbbfu6IvH5jWISU9fzNlmV26FWbn/d0rf7SI5oosaPosF25gZC9iLH1ZzE0JRLeN8YnwYEl/fsSb8+xkTOvyiK0O9h3ERhMSAZAGgKTy3E6eppmePcHmOhtDgmjG2iDXVtjnAcAAyCNrDYxPSNLXZVZTxYIlZTmSBKSkciUrb0BSwfAe5DnW11DmUE7u6bhN3/opRHTbSALSGgSaARDAEOCuYmu72QAwJGq39OszLXDqhP6tKjrc6VEbTdUaHDugIufODRAt6OVTxcIWrtuZi6imCokGUkwet7sPbfExBqpy72Etc0C7xVMX7OodVCroZGquojHIoRECvvzG71+DnLRdSQPIWhiftJlzODLJ4VF1Mvz9qeXXevsCRcEQ+hN2Ps/UaaPIUWswJJKjm6EoWB8syZLsPV8PgiLTGlhHjIoFSaR10OQRpSPwH79sFlWOAVADAAAAAElFTkSuQmCC",
+  "desc": ""
+},
+{
+  "id": 813,
+  "categoryId": 69,
+  "title": "SAAS多租户系统的详细设计方案，后台数据库及各类框架详细设计方案-程序员必被的技术_多租户saas架构-CSDN博客",
+  "url": "https://blog.csdn.net/zhang9880000/article/details/140084054",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB/klEQVQ4jU2SPWtUYRCFz5n3bvbubhISoyJiJxEsEkglghZJZUTUJkhAUoja2WihgohFQPAXaGVhk8rGRkQrURDEFOL3B2idkDXJ7t3Nve8ci7ubZOozZ2aeMyzmptAvSSBpBgkxgkQIkOQOkgCAZLeaJEi1NkBDWgeEzXUkFVZTuIPcaSjVkqPb5bEZTp/H4aPMc//0Hs+X9Psb0hrlILm9kuRw5+XbNjsPuX//yNEx239Inbbfu6IvH5jWISU9fzNlmV26FWbn/d0rf7SI5oosaPosF25gZC9iLH1ZzE0JRLeN8YnwYEl/fsSb8+xkTOvyiK0O9h3ERhMSAZAGgKTy3E6eppmePcHmOhtDgmjG2iDXVtjnAcAAyCNrDYxPSNLXZVZTxYIlZTmSBKSkciUrb0BSwfAe5DnW11DmUE7u6bhN3/opRHTbSALSGgSaARDAEOCuYmu72QAwJGq39OszLXDqhP6tKjrc6VEbTdUaHDugIufODRAt6OVTxcIWrtuZi6imCokGUkwet7sPbfExBqpy72Etc0C7xVMX7OodVCroZGquojHIoRECvvzG71+DnLRdSQPIWhiftJlzODLJ4VF1Mvz9qeXXevsCRcEQ+hN2Ps/UaaPIUWswJJKjm6EoWB8syZLsPV8PgiLTGlhHjIoFSaR10OQRpSPwH79sFlWOAVADAAAAAElFTkSuQmCC",
+  "desc": ""
+},
   {
     "categoryId": 63,
     "id": 615,
