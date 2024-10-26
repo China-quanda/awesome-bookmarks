@@ -495,5 +495,19 @@
     "icon": null,
     "description": "国家平台",
     "parentId": 28
+  },
+  {
+    "id": 72,
+    "title": "工具",
+    "icon": null,
+    "description": "工具",
+    "parentId": 40
+  },
+  {
+    "id": 73,
+    "title": "提升打字",
+    "icon": null,
+    "description": "提升打字",
+    "parentId": 51
   }
 ]
