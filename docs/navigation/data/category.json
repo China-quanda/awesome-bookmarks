@@ -509,5 +509,19 @@
     "icon": null,
     "description": "提升打字",
     "parentId": 51
+  },
+  {
+    "id": 74,
+    "title": "配送平台",
+    "icon": null,
+    "description": "配送平台",
+    "parentId": 33
+  },
+  {
+    "id": 75,
+    "title": "打印机平台",
+    "icon": null,
+    "description": "打印机平台",
+    "parentId": 33
   }
 ]
