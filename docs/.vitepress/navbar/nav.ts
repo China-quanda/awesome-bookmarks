@@ -17,6 +17,19 @@ export const nav = [
     link: '/project/index'
   },
   {
+    text: '组件',
+    items: [
+      {
+        text: 'maya-ui',
+        link: '/components/maya-ui/index',
+      },
+      {
+        text: 'm vue3组件',
+        link: '/project/index'
+      }
+    ]
+  },
+  {
     text: '看看',
     items: [
       {

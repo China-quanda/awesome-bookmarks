@@ -16,5 +16,9 @@
   "devDependencies": {
     "sass": "^1.77.8",
     "vitepress": "^1.2.3"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "element-plus": "^2.8.7"
   }
 }
