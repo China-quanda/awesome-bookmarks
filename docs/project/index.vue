@@ -107,6 +107,11 @@ const projectList = ref([
         name: 'silian-svn',
         url: 'https://svn.hnsilian.cn:8443/!/#silian'
       },
+      {
+        img: '',
+        name: 'aofeng-svn',
+        url: 'https://120.77.149.138:8443/!/#aofeng'
+      },
     ]
   },
   {
