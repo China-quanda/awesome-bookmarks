@@ -69,7 +69,7 @@ const form = ref({
   password: ''
 })
 
-const loginBtnD = computed(()=> !form.value.username || !form.value.password)
+const loginBtnD = computed(() => !form.value.username || !form.value.password)
 
 function login(event) {
   event.preventDefault()
@@ -157,6 +157,31 @@ const projectList = ref([
         name: '潇湘科技要素大市场郴州分市场',
         url: 'http://www.czkjcx.cn/'
       },
+      {
+        "name": "蒙科聚创新驱动平台",
+        "url": "https://www.mengkeju.com/#/technologyDevelop",
+        "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC8UlEQVQ4jWWSS2hUVxjH/985587MnWcmr9ZsbMFF3bkVbBhdlOrG5witjbPwQUisLlJMUoycLqpgCSIaNVhFI9LaWbT1uWihQQTpJkXa4qMigojaoOR15965c+75upikJvG/+hbn//s4//9HAAANAQ1bnwsKS6FyLcvbJl95k/iXg2Rra3ulNHgTxaLEnIpFYOvWiDBPjTe6etjYDlibBTvPApK9quK2w1Lz9KPEfmhtsUgKABqud60QShwjN96OKR9sATZCxoV7g6VMmyrWQmuLvs73Eo1t7TKRXcLxhoz1IyIUoPJ9e0YIaGSveheEz0CxNogkuCb/MgGVLdyb9LKyBsLtsSFNUCJnOJajWiXcUf/CSEcK2y96AJD/qesZnKSwvrhqq3KShJtmj1cz4k2Q6WZbUyOV3Z0lFIsxlMuhAoA5c8O17hJk7JWZ4asU8QsW/Kd9HUzw1MzdSqrxWjqTf8o1MwGAUC6HAKgOYC0yPz7Ow2KVDXE9QnRbZVryYir0p6Lxe4mmtuYUUoe4Zr/379/fP5sfAWCF3woKpI25XPqAGHGuhleUyuwWFqWa4/Rg7/HfA+BXDA0+QPfep4tbEFg9anJXdr6fyOR6jYqOTn86dAeG3q09H+/wtvQfhdYicXZoVVIJM7t1QfUi//OubTLm3rKhuVRZf/qPzHf9O8jNfCSz7+xLfXv4Y2htKbCf2KocAMDQWi4AMEnHwn45ueHkZQAIQh6zjE4Oo5dCOOehC4qUu8wK55f6pb59THMiXOhvyo4MnAJAyXNHDqbPDI4nT54YTgwPl2bNYrFJQmuBAiRGn9jspg+3MOSB+MZ1K22EhxTKnIUzZiqxv+3KNRZf9U28HaLWFnrUAEBEchwqJRi441/0jzHFvID5uJIYcJcs/QdHflgxr8JZwHyadHcC4sHM9t6vU9taD0GqMXR3zwSB2cg13JaMZfWX+n/A/EoI33yRTDW3bCIT28yR89qb9j+H5/lvgtMCWBjif8g2P7u5NRiMAAAAAElFTkSuQmCC"
+      },
+      {
+        "name": "广东高校科技成果转化中心",
+        "url": "https://www.gurfcc.com/?form=_login",
+        "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC20lEQVQ4jYWTa0hTYRjH/++795zpnM41daHrppWlqKsoI7tMCIMgupBm2MW8VUqRVEJfapWBQUREQR+6qVSmgYFC0oeSiqiUbkRWzjLRLpbNObbOOfOctw/NMrB6Pj43Hp7//wf8J0qONUX9q07HTjspAMRurstq6ODPJhddmM8BAnDytwW/C9n1OgBwOBxM5mQdV5Rj/R7rLAIuYM5WFlxO/pgBAA5QPuoi68aa9PiCmm0A8OpR1k7p5czSsfoYACQW1U8xKTitqRqNpvzetBix1iNzm19V7gNAIrs9+PjjoumG3MrCKL20UKUGc7jiO+u9tKGZAQA1UCb7laUKp4LE6bK2Xrk81sh2dKftf20vb8wiB3kWKFnCQmWbJHEgzAAme9sBNFPASTtOru00CbRIpIAa8EuUkXHJCWY97rqG7RPNFlu0YtcJHpsWkDnRCTDK324usE04BYBQwKkBnPRX59bIXnM+hx4hYUaMN+ltpAFqdbnjyuG89IUJ1ogDelHvihRwZqU9sKb1ROYgAB58BuFe1+oYXpWbUWB/s12WSOfz7q99I4/Kz5ziXZUacn5GtFiVYQ2pqN27yTeiwogkKL6ck3inL/PDuYCzWWoPm80DvhvcCVp6unVuxr6Wax1fdMbXn+SWpwPf98SX1Jt+ChIcTiuvj3vbrzV6u+dtRNRzf1KcNskSKZr6hwKLP3ukzZIGa6w1PvHt8fQ3U7fXzXf71fUD1Xm7fhnJYggFY3QgJuFBZZzZny2KhPW6fWld7uGKIVm2Sn59182c4iL3i7RDrq8pTNFoWfKOplQAnAHArSMr+jiwPHgS7wNgKbwaCR4AIVQVRdUXZ9A3P3HbIiKEHlskU8qMFt27X0Ya5WU+wkGK6m99COH9dyF8koFIrtDUtjtAG4BGDAHoGQMmHgRJA4DWi1sGw0TxZAiDxyRqRzkHcTgdP1kI8vLfcDicLH339aR/9fwAzggbFrNwHMkAAAAASUVORK5CYII="
+      },
+      {
+        "name": "政采云有限公司官网-构建政企采购云服务生态",
+        "url": "https://www.zhengcaiyun.cn/",
+        "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIklEQVQ4jXXSz4uVZRQH8M/zzjv3XtMxEdyKYrtAyXCvSDLlQjeuXCQig3ZnBkZqk0rXqEURglCzEBf+AW7zki7GFhWRaBFCtIwI2szIdC/Nnfve97R470y+/jir53zPc77P93uek7wszkTLlE8lyaoP3UprL7qWbZ7mY1o7Dm7mrxSHtVzUtGCbI5t4Ow6aj+k6wWyc1NCVxZKZ2AfW80cG7ljT1es/AjOxTxZLGrpm4yTkYKgvV2JFw7/gZvobx2t6q9qKwjZD/bqZ87HHQuyskkjPux1jC7HTfOyuW5iJVzWcM3CgglM4G1Nmy6/NlXecju2kAGvF63i3wjYIcnu1XJLraseFMfkU6R2R3jZhCszFWZP5N1o+tmP4GqRKWgrtmDfhugbW/KAsfyLNjKVfN5G9qemoAuvl+xaza6RnvLaHR+X5ZZnDmlgdVXa2Z8kQRfxolK76MnU3Wp4i6GR0SiK5aL9BOU36BJRxVZ7d9auH7qdiU3VtkTofbXCGnhWRLYsgIknZstxy1Vx/uG7hvTgkd0k4YQt65XicGQOUcU+ROhbT909943gO54szJuNbLSdE/KZf3sJAMtBzw8gDzfSWSUvacW5jN6rmC7HfVr9Yx8gVj31hr122+qOagd2+8qe58gNZ9pkm+t6wmH6uVnnkLyM3FO5ZTLfBnvgH34nIPFntSTsCn5uN3607ZjAmfy468b+tU48bTkWjXqvHf6td0gjKG0TtAAAAAElFTkSuQmCC"
+      },
+      {
+        "name": "政采云 一站式政府采购云服务平台",
+        "url": "https://www.zcygov.cn/",
+        "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACiElEQVQ4jU2TTWidZRCFnzPvd3Pvtc1NkVKDqVJ0I/5doytFUBddKApCURQXQUQaxEJdVSzarboUQQRF6qa6ciHahVQ3Cm60rVjQCEVQKhYChSS3uT/vHBdfAs5uYM7AnPOM9rzpYUk+oeZ92AYEgJB2mgQwpi0jiRIXavBixMynEctOJyC1cmQzSzOtRm61EgjkdCKWY+bTITP0pFaJMLA9NWDNEvqN2ds10zTCGs+gGiTCk1plhmFnSoQNgTl0I5Lk0dh8+Gzw4/FCEUwrPrhg9RqT2S6BzMBWCbSxnXriTvTbG4UHb7U8g3Nr5szPZnsK+/dav58sPnlY2ryeagJhq/QePnUKICRGM/HvhvX9ZRgjflgz5y6ZPTe0xqxvoW//wFc2oCnCiAYsABuccOkfWLtqqPDqY2JxAG+dNRtb8MsVM5q0Ke2GErYJRLVZ6MNnK8FXq4W7boLn7xerDwWL8/D208HZ1eC2/TCrJiSw0eDE1O0JsLlthgfF+0fEPUvaAQAmFa5dN699Yb781Qz6Ineo0MKJqXcJKYLRxIy34Y4D4vOXxNI+8czHyXeXTQQs9EVNwEBAY+RdSCbVTBM9fq94YRmW9oluB449Kg4dgDM/mdEE9zpqHTAtPGBlWp2CPnqu+OujQX9OrI8gE9ZH8M5TwTevNF6ct2bVkiwMATgkb03wA7fIj9yODn9gH3kvufB3cnUTXv40WX43PVesJ+8u3hq3Ggtr8HrazoqJEm04m2Or3xE3D6DXMX+ut0aacK+BbHFOFKWxuKimDJnWWlNhYL4rG+uva5AWvQa6Hdn+n7hTiqsvRjZawZy3FBIuaods0W1Ef05Ywm5fW8KWAnM+G638B1+xWS2IuQsiAAAAAElFTkSuQmCC"
+      },
+      {
+        "name": "爱企查首页 - 专业企业查询平台 - 查企业 - 查老板 - 查风险 - 工商信息查询系统",
+        "url": "https://aiqicha.baidu.com/",
+        "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACEUlEQVQ4jW2SS0iVcRDFz/y/z0IrisykBxaSUSj0MCHaCkG2CFqFULQPbFGCtOoBBZJUC1fRIiMKKiSyVkGbIijlLoobeilKkuj2UMl7r/p9c06Le5UIZzEMzJkZOPMzSQAkmEGCAAoSABgQAgyVlhkAGCkAgAA4EUf4L1JHFMqlAYgX1FZWT5XwNIuxvEzYUWeHWrC6Gu4IoSKLYYDMqTjC4/c49QgTk75xZRRo+cm0YU104xg6dpXvGACQSpwSB98RXd7e76/GVZxTcY6vv+hwn1ef9CcjlJikJAV3kfxd4ObzbO/3hFKuj8/2cWiPRq8k0pFebz7tk39I0l1IUkl+d5jWlbyZkD5eL92vS3K30rGbswPVGrucGVdtZ/LgJSVPUsYCJMt+06ZVUcs654t7VW191ngcQCwpe3VnR3fD2ig3Lh2AZHHFMCEQi/4uhFm0LE2tVAC9/AbFBpipud6+//JsPm7d1jn79mzM1Jgq060V9S7bWmetTZRZMJi7zDRVxP6L2L5eg2dC/OkaP9wJQeC8/8iG3T3zLZeWB6MFg0AqSSlxKMOaE36014c/ay5hoeQzpVlmzqUDgdOjTtKd9AoapKIIQyPouY38T99SG5cKatxgDy+gqjjKmkaL4gARVh74B40ZPM8o9xVMsbdJB9tgUYBkiz4sBZ8tAiYJEoJBVqF1CbwrKyp4lwst5L9nnWD+CBRjuwAAAABJRU5ErkJggg=="
+      },
     ]
   },
   {
@@ -238,6 +263,11 @@ const projectList = ref([
         url: 'http://139.9.87.56:8188/login'
       },
       {
+        name: "智慧营收平台",
+        url: "http://demo.hnsilian.cn:8189/login?redirect=%2Findex",
+        img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC/klEQVQ4jV2TT2icVRTFz7nve2++bzJDGtC6aMJ0IdKE1oREEAu66KarLgTHhYiCqMU2sS4UF1qJQYUurNSkGtGNWly0xYJupFAqglIEUxpR7CpBoSBqM3HSzHx/3r0uUiX4W124lwPnHg6xBQEYACRHlx4i+BSBB6nVMGA08b8ZeRmRH5Xvj1/BNvjfdOjLut/dOkHTw6DziDloagBgFDKpwdT6oJsvLp17FT/PFrcFZgWHptLQGvkcPj3I3noJUgFLAMpteTMgEnCWDQmK3oXi91/aONdWAWbVjwy/hdA4iLwL1BoeYaBmFAeYgjCQIJgYAGz+2aevPex33nMKoCV45vv9kjaPWb6ewyU/qOoKrWoaZT+Z3AGLMBiAqDCSSZYCAtJ1MPWBZzJ97byjrOW9mydRGxSH0ALNaFoJqlNETEHXMPBOkD1jck3L4gREUmiVJFVVvAkfGqG5621Ut+6mr62YsIdeJ6X4IYNbKaK+ErS8SyV0TGzApVmbUdfy0+PTSfDpIyDb0GqumB8/sz0iPLu8x2cyE1QXWUujaMzgsz+szBeK+bFPkueWXmaYWb5QfLfwKO4/VgtOX6PzDxglIMZftco/rN6buIj22UZoTe4uNsoNLI6uhsNLY5bVF2nxBgHAH736NH36gql+a2XvOp3r0+IgXPY4KD0jrqDfiXChyTCwj2rDUYuTVffmp84dWXqCib+v3Fg/7pwU9NmkmE2ZJBGxHyhuF8riPE0zwgojvy56nTlxYY+4cCCJ3d5XaLrN0Nhxhs6PQSuYCMR5AAqL/Qp0j8HVvlEt15za3hAGXoLzrSIv9m5ZmF5+V+o7Zqx74xbAQEBAGAw0g9BnhE+3Hlv2gXQQcfOv49XpyTccMCta33nRDcko0sEJVn0BEAE6AEIRg5bRqn7OKgdC3Vne/az86YsXsXp5W5lw1oWZ0TlAnyelYbEANG6txIEuwAx/q+GdamHf6/+2l/g/R65OeOJJihxALEdI0JismuqlUpKPsXDvj9vP/wFkxlfhvNGP8QAAAABJRU5ErkJggg=="
+      },
+      {
         img: '',
         name: '',
         url: ''
@@ -247,9 +277,9 @@ const projectList = ref([
 ])
 
 
-onMounted(()=>{
+onMounted(() => {
   const loginFlag = window.localStorage.getItem('isLogin') || false
-  if(loginFlag) isLogin.value = true
+  if (loginFlag) isLogin.value = true
 })
 
 </script>
@@ -308,7 +338,8 @@ onMounted(()=>{
       padding: 5px 10px;
       border-radius: 3px;
       border: 1px solid var(--vp-c-gutter);
-      &:focus{
+
+      &:focus {
         border: 1px solid var(--vp-c-brand-lighter);
       }
     }
