@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>提取本地数据</title>
+  </head>
+  <body>
+    <table id="myTable">
+      
+    </table>
+  </body>
+  <script>
+    // 假设 tableElement 是已经存在于 DOM 中的 <table> 元素
+    const tableElement = document.getElementById("myTable");
+
+    // 获取所有的表格行
+    const rows = tableElement.getElementsByTagName("tr");
+    
+    const list = [];
+
+    // 遍历每一行
+    for (let i = 0; i < rows.length; i++) {
+      const row = rows[i];
+      // 获取行内的所有单元格
+      const cells = row.getElementsByTagName("td");
+
+      let data = {
+        id: i,
+        url: "",
+        icon: "",
+        title: "",
+        desc: "",
+      };
+
+      // 遍历每一个单元格
+      for (let j = 0; j < cells.length; j++) {
+        const cell = cells[j];
+
+        // 提取 img 的 src
+        const img = cell.querySelector("img");
+        const imgSrc = img ? img.getAttribute("src") : null;
+        if (imgSrc) {
+          data.icon = imgSrc;
+        }
+
+        // 提取 a 的 href 和文本
+        const link = cell.querySelector("a");
+        const linkHref = link ? link.getAttribute("href") : null;
+        if (linkHref) {
+          data.url = linkHref;
+        }
+
+        const linkText = link ? link.textContent : null;
+        if (linkText) {
+          data.title = linkText;
+        }
+
+        // 提取 td 的文本内容
+        const cellText = cell.textContent.trim();
+        if (cellText) {
+          data.desc = cellText;
+        }
+      }
+
+      if (data.url && data.title && data.desc != "") {
+        list.push(data);
+      }
+
+    }
+    
+    console.log("rows", rows.length);
+    console.log(list);
+
+  </script>
+</html>
