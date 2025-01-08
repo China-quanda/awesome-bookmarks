@@ -1,13 +1,5 @@
 export const nav = [
   { text: '首页', link: '/' },
-  {
-    text: '前端',
-    link: '/frontend/index'
-  },
-  {
-    text: '后端',
-    link: '/backend/index'
-  },
 	{
     text: '工具',
     link: '/tool/index'
