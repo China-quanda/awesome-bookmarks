@@ -138,6 +138,7 @@ export const articleSideBar = [{
         { text: 'mac包管理软件Homebrew中安装nvm', link: '/article/other/mac包管理软件Homebrew中安装nvm' },
         { text: '接入极验滑动验证码', link: '/article/other/接入极验滑动验证码' },
         { text: 'Mac使用NATAPP内网穿透', link: '/article/other/Mac使用NATAPP内网穿透' },
+        { text: '解决uniapp开发的小程序代码包大小超过限制', link: '/article/other/解决uniapp开发的小程序代码包大小超过限制' },
       ]
     },
     {
