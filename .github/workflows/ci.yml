@@ -1,0 +1,57 @@
+# 构建 VitePress 站点并将其部署到 Alibaba Cloud 的示例工作流程
+name: Deploy the VitePress site to Alibaba Cloud
+
+on:
+  #  触发条件：在针对 `main` 分支的推送上运行。如果你
+  # 使用 `master` 分支作为默认分支，请将其更改为 `master`
+  push:
+    branches: 
+      - master
+jobs:
+  # 构建工作
+  build-and-deploy:
+    runs-on: ubuntu-latest # 服务器运行环境，告诉它运行在什么环境 最新版 Ubuntu
+    steps: # 步骤
+
+      # 第一步：下载源码（CI/CD拉取代码到自己的本地）
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: pnpm/action-setup@v3 # 如果使用 pnpm，请取消注释
+        with:
+          version: 9
+
+      # 使用node
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm # 或 pnpm / yarn
+
+      # 安装依赖 和 构建
+      - name: Install and Build
+        run: |
+            pnpm install
+            pnpm run docs:build
+
+      # 部署到服务器
+      - name: Upload to Deploy Server
+        uses: appleboy/scp-action@master
+        with:
+        # 服务器域名
+        host: ${{ secrets.SERVER_HOST }}
+        # 服务器用户名
+        username: ${{ secrets.SERVER_USERNAME }}
+        # 服务器密码
+        password: ${{ secrets.SERVER_PASSWORD }}
+        # 服务器端口
+        port: ${{ secrets.SERVER_PORT }}
+        # 指定上传的文件目录(项目配置的打包目录名称)
+        source: docs/.vitepress/dist
+        # 指定上传服务器目录
+        target: /www/wwwroot/vue/bookmarks
+        # 解压时覆盖现有文件
+        overwrite: true
+        # 删除指定数量的前导路径元素
+        strip_components: 1
