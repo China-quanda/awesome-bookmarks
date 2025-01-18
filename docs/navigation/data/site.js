@@ -6478,6 +6478,14 @@ export default [
     "desc": "简单好用的Linux/Windows服务器运维管理面板"
   },
   {
+    "categoryId": 79,
+    "id": 830,
+    "url": "https://ekwq20220819082922999.pingcode.com/",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB/ElEQVQ4jWWTMWsUURSFv3vfTHY3ISDaqWCTJlFSaQRRNNjYpbCx0koU/4+RgHZaCIKdGASLBCKCaCy0CSIIFhGCisludnfmHYv3ZlxwpnnD3HPuPee8a3cf6n6M3KHGZBj5MTAziBHMQKD2nxABubNmt9ckmjcTmEGssVEFnbJlbAnaWsOcSMwFLbiqMDdYOAl1zcRQ7SmdI9HbD6WRlTrrxkW4dw1muq2M1DfLa4gcYQgzR7HGDit08zK2fAb6Y4iCUQWKGJlEIEuizAHhSBEbxwS+ugiDETzbgt8HMHeC5GJMjVoSRw5YEHYwhJVzCbx/CI9ew+ZnODoLlxZhaQGG42SuWZKsmCZA2aHBEBThyx78GkCvhDrCcATzp+D6BajqVNNY6soE0x14+QGevoF+BefnYXYG9gew9QmmC1g5CytL0B+BZzfdAOWEO1Pw4h1s70BRQDA4HMPxIzB37L8wQVCYI6UxzA11p7D3O7D7E/b+wJXTcGsZOgWsb8Pzt2i6g8V8sVwRs3Q1pBxncPi2C7O9NHKvTODHm2gq5CRiE6OhNtecszkqiyQtOLz6CE82UK/EPKTIExwVzb1ul8VSgWX9D9bh+x50y0QsTeyFkOPJUDSxLLmgCPD1R2IORQZP1jruIbBqTpw0t1kqgG4J7v+SaoIwJ4bA6l+sS+islLt4+AAAAABJRU5ErkJggg==",
+    "title": "PingCode",
+    "desc": ""
+  },
+  {
     "categoryId": 63,
     "id": 615,
     "url": "",
