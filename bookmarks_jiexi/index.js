@@ -2,7 +2,7 @@
 const cheerio = require('cheerio'),
   fs = require('fs');
 
-const fileName = 'bookmarks_2025_1_2.html';
+const fileName = 'bookmarks_2025_2_14.html';
 const outputName = 'output.json'
 
 // 读取书签html文件
@@ -43,7 +43,7 @@ function parse(html) {
       var $a = $dt.children("a");
 
       // 返回该书签的名称和网址组成的对象
-      // return $a.length > 0 ? { "id": 814,"categoryId": 39,"title": $a.text(), "url": $a.attr('href'), "icon": $a.attr('icon')||"","desc": "" } : null;
+      return $a.length > 0 ? { "id": 831,"categoryId": 56,"title": $a.text(), "url": $a.attr('href'), "icon": $a.attr('icon')||"","desc": "" } : null;
       return $a.length > 0 ? {
         name: $a.text(),
         url: $a.attr('href'),

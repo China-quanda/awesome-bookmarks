@@ -6486,13 +6486,29 @@ export default [
     "desc": ""
   },
   {
-    "categoryId": 63,
-    "id": 615,
-    "url": "",
-    "icon": "",
-    "title": "",
+    "id": 831,
+    "categoryId": 56,
+    "title": "通义tongyi.ai_你的全能AI助手-通义千问",
+    "url": "https://tongyi.aliyun.com/",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC8ElEQVQ4jW3Tz4tVZQDG8e/znvfee2bunTvDzDgOpoMEMlY7m01ZILhyMS2NDDcVSAhCEAgSQS0C/4GgZT8MadHCFhIIbUQiTKRVZs6ITTaaTuOMM/ece855nxZDu579s3qejwCOHbvd2Tszew6y401d7DV0pJRJARtsA2oEZRZHVqD+ZuXh6ieXLx8otbh4f3T3RP9ibI0uDodPsJPZiZsaZREknBKShCS1232aevvS6j+bb4SZie7Z2OouFsXa0G4SmKYxCtb4hNU0STtlQAm7SUWxNsxi77WZfvdsBE5U1UaSiAqSEwSZ02dG1RvLfOnbbW78PFSeZx6WJsukLFOsqo1E4ER0qmeNBFANzZP1xOtvdnRoocO1q6WOHO1w5GjuyWlp7e/kzz7dpqoQNAjPRptcwRSFef6FlvvjDgcOtA1o31xGbyxjYiJIgtndSfvmynTr10Z5bmx1ogKhafBYn/DumS69XuZrV7d15fuC6V2BB6uJ4dC027C01PjO77U6eQAwOEQbSWYwwH/db5ifl146nPPB2XWW7jQImNuf8d77feb2R928Xvnucq2R0QCIYEMIUJXW119uc+9eA8A7p3qMjIh8RJw63WVsHPKOOPlWl9iSnUCCKGEQ+Ujgz5WGlT+SHz9q9OJCm0MLLerGzB9s89OPQ/r9YNt0u2gwUMqQI9AAsSzh4HMt73kmhLrGydLhVztMTgWePjWjo/IvN0v9diulzQ3o5MjJKQhKW7Q7cHe51t2lylNTQctLtdfXE7umI72ufON6qQtfFL59q1a7I5yERBEV4irwLClR1+irzwsuXig8GCTNz0e//ErO8nKtH64MPTWdEQKkZIcsA1jV2yeffNRq9T8sisdDiZ3nswPITpreFdjalLcGJkbA2KbO86l2WW58HB6ub52v6qeX8nyyLcWdgQ0hyCFkfrCKixK3MoGFFEOeT7aravO7Rxtb5/Uf5z0zs+cC8XhTD/YaOsiZEBIY4/T/nP8F9T+DCepx4O8AAAAASUVORK5CYII=",
     "desc": ""
-  },
+},
+{
+    "id": 832,
+    "categoryId": 56,
+    "title": "DeepSeek - 探索未至之境",
+    "url": "https://chat.deepseek.com/",
+    "icon": "",
+    "desc": ""
+},
+{
+    "id": 833,
+    "categoryId": 56,
+    "title": "豆包 - 字节跳动旗下 AI 智能助手",
+    "url": "https://www.doubao.com/chat/?channel=baidu_pz&source=db_baidu_pz_01&keywordid=weizhi1",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADbklEQVQ4jU3TXWxTdRzG8ef3P6ft+t5uMCDrpjAUzWI72ZZMRsZiDDdKILoEIQQ0OJ3TmeiNGL3ojVES40U3syG+zES9xIuFKIJLpzAqsA1ncCQTHFs3267t+rL17Zzz/3khS3juP3fPlwAAzAQiBoBry1qnYlJ7BGG/oRleEooAIyOAn8rrpeH2RuvlBw3h/kZvsK2+QZ4mRfSV1gri/NeDuD15hS1WO/YePEL+PU/D6bHDMGRoYV68d6CVCgBAwSCLp3phrSWcc3iwP76Yk5+fekXOTU0Ib3UNZbI5ZNYLXFfXIA/1vSuePdEtUgn+WQU9/8MwigQAUwkO2e3oz2UhL33zCX4cGRS+h7ZzfCUJ0jS43G7EEwmUdcmnvhzV2rr8lmTcGGzZpvaLyRi3Q/Lr2SxkYTWGybHzZHd5OZlMof3RHTT06Wka+WIIxw93o7ieo7t/XjPlcpAM9E7HeY8gRq9QSFUU0D8zEcokV7BeKmO7207vvPEa7wwEYDeb6eRLx+nowef45kSYdA2kqooqgR7BhH1aGUwAzd+aRrGiwaxr1NL0ON9ZjFIpnkA5n+PJiSvc8aSfPBaBYqHChg4mxj6ha6gzmMEG80o8BtZ1bKrdwp/9EqHIX3/DYjUjlV6lby+E6fZSAl2dXWAhyNABXYdPEAACgRlgaUDTdbTWb8WJjjY0NzUBVVaQEEgux9hXV4+OBg/s5TUYBIABVTUhakg8DBBV2R0MoUAQ0du9LwNON/LRKLw2G3//4QcUS69yocoLqZrZpIAE8ZJgwrjZBBIKWBoGuLiGsdk5vnprlovlMpfm78LIpmhmcYG/+m0ayUc6URY2tphBYBpXBXDWkHyMmcTuZw5Bq2hUZIXH7uWFS0xjc+0Wvh7L4ePQEHz+dhywKFSoSGg66Uw0vHGkAYcDb66mAdUEOKuB/EKKxYUzMIpFSrZ1s2dXgKwCKJVQ8dbAvJbDwO6t9JYSDLKobsG4WUOry41GqQOXL4b1zfd+p+bmAHm3+SAy//K5i2E9EY/RY/5daqWESwlGz05H0NhoCWdGl23Xl/KhY6/2V2w2B/e9+AKnZiKycucPGfnuLG9yu9jhcFbe/yg0cCPN7g13v0Ym4P+cAext2NF4kll0+Wo8Pn/gCZ66ORNdTKTDTodlZG529tcHLP8HmYOtlz2pLo4AAAAASUVORK5CYII=",
+    "desc": ""
+},
   {
     "categoryId": 63,
     "id": 615,
