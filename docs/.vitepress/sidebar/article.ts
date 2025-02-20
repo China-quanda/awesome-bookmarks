@@ -72,6 +72,7 @@ export const articleSideBar = [{
         { text: 'html+css实现switch开关效果', link: '/article/html/html+css实现switch开关效果/index' },
         { text: '仿饿了么导航栏好看的效果', link: '/article/css/仿饿了么导航栏好看的效果/index' },
         { text: 'css生成头像', link: '/article/css/css生成头像/index' },
+        { text: '纯css实现无限循环滚动logo墙', link: '/article/css/纯css实现无限循环滚动logo墙/index' },
       ]
     },
     {
