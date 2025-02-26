@@ -120,7 +120,7 @@ const projectList = ref([
       {
         img: 'http://edu.hnsilian.cn/favicon.ico',
         name: '少儿课堂-测试后台-pc',
-        url: 'http://edu.hnsilian.cn/index'
+        url: 'http://edu.hnsilian.cn/?name=admin&password=silian123'
       },
       {
         img: 'http://edu.hnsilian.cn/favicon.ico',
