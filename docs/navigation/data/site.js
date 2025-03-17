@@ -2837,35 +2837,11 @@ export default [
   },
   {
     "categoryId": 29,
-    "id": 369,
-    "url": "https://www.aliyun.com/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/ali.png",
-    "title": "阿里云ECS",
-    "desc": "弹性可伸缩的云服务器"
-  },
-  {
-    "categoryId": 29,
-    "id": 370,
-    "url": "https://curl.qcloud.com/JtswGRWT",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/tengxun.ico",
-    "title": "腾讯云",
-    "desc": "提供云计算，云主机、云服务器"
-  },
-  {
-    "categoryId": 29,
     "id": 371,
     "url": "http://hao.199it.com/",
     "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/199.png",
     "title": "大数据导航",
     "desc": "快速找到大数据相关的工具平台"
-  },
-  {
-    "categoryId": 29,
-    "id": 372,
-    "url": "https://wanwang.aliyun.com/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/wanwang.ico",
-    "title": "域名注册",
-    "desc": "域名注册"
   },
   {
     "categoryId": 29,
@@ -3303,75 +3279,11 @@ export default [
   },
   {
     "categoryId": 56,
-    "id": 425,
-    "url": "https://studio.d-id.com/",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_72ccf40e6d0f428dac4e109e92499f0a.png",
-    "title": "D-ID",
-    "desc": "静态人像图开口说话"
-  },
-  {
-    "categoryId": 56,
-    "id": 426,
-    "url": "https://weeklyreport.avemaria.fun/zh",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_d766b2af44984a3696e8260395077c54.png",
-    "title": "weeklyreport",
-    "desc": "基于GPT-3的日/周报生成器"
-  },
-  {
-    "categoryId": 56,
-    "id": 427,
-    "url": "https://www.uyanai.com/",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_76e36c5968124b1dbb86842f9e969f77.png",
-    "title": "免费ChatGPT",
-    "desc": "免费GPT4.0、多模态、MJ绘画"
-  },
-  {
-    "categoryId": 56,
-    "id": 428,
-    "url": "https://aicodeconvert.com/",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_db0e257c1b994e498b5dbfd20879af33.png",
-    "title": "aicodeconvert",
-    "desc": "智能代码转换器"
-  },
-  {
-    "categoryId": 56,
-    "id": 429,
-    "url": "http://beta.dreamstudio.ai/",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_3a305bf1f31d449fb55ad2f1647d4980.png",
-    "title": "Stable Diffusion",
-    "desc": "文本到图像生成AI模型"
-  },
-  {
-    "categoryId": 56,
-    "id": 430,
-    "url": "https://agentgpt.reworkd.ai/",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_542dd5fd6eb247d1bf6215513ec66b02.png",
-    "title": "agentgpt",
-    "desc": "自主人工智能的开源项"
-  },
-  {
-    "categoryId": 56,
-    "id": 431,
-    "url": "https://17yongai.com/",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_14a1d272a09f4781911c7e6aef8cf196.png",
-    "title": "一起用AI导航",
-    "desc": "一起用AI | AI工具导航"
-  },
-  {
-    "categoryId": 56,
     "id": 432,
     "url": "https://ai-bot.cn/",
     "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_1a1c7d72c6af4156a9a594397093e8f0.png",
     "title": "AI工具集导航",
     "desc": "500+ AI工具导航大全"
-  },
-  {
-    "categoryId": 56,
-    "id": 433,
-    "url": "https://web3.yunyingbiji.cn/",
-    "icon": "https://web3.yunyingbiji.cn/wp-content/uploads/2022/10/ac1v2-lsg7h-001.ico",
-    "title": "Web3导航",
-    "desc": "全网web3热门工具集"
   },
   {
     "categoryId": 55,
@@ -3383,59 +3295,11 @@ export default [
   },
   {
     "categoryId": 55,
-    "id": 435,
-    "url": "http://www.mikecrm.com/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/mk.png",
-    "title": "麦客",
-    "desc": "一款在线表单制作工"
-  },
-  {
-    "categoryId": 55,
     "id": 436,
     "url": "https://www.wjx.cn/",
     "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/wjx.png",
     "title": "问卷星",
     "desc": "问卷调查"
-  },
-  {
-    "categoryId": 55,
-    "id": 437,
-    "url": "https://h5.bce.baidu.com/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/h5.png",
-    "title": "百度H5",
-    "desc": "一个在线H5制作平台"
-  },
-  {
-    "categoryId": 55,
-    "id": 438,
-    "url": "https://www.tubiaoxiu.com/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/tbx.png",
-    "title": "图表秀",
-    "desc": "免费的在线图表制作工具"
-  },
-  {
-    "categoryId": 55,
-    "id": 439,
-    "url": "https://web.baimiaoapp.com/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/baimiao.ico",
-    "title": "白描",
-    "desc": "高效的中文ocr文字识别软件"
-  },
-  {
-    "categoryId": 55,
-    "id": 440,
-    "url": "https://modao.cc/brand",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_6722f6def1f140c0af6892af5d2ab851.png",
-    "title": "墨刀",
-    "desc": "在线产品设计协同一体化"
-  },
-  {
-    "categoryId": 54,
-    "id": 441,
-    "url": "https://www.extfans.com/",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_140fd7a0a4c14f92bdd3382ee41101ad.png",
-    "title": "Extfans",
-    "desc": "Chrome插件扩展下载网"
   },
   {
     "categoryId": 54,
@@ -3460,14 +3324,6 @@ export default [
     "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_3dd6648268c7482e955c074f558d57c7.png",
     "title": "书籍知识库",
     "desc": "优质的电子书分享站"
-  },
-  {
-    "categoryId": 54,
-    "id": 445,
-    "url": "https://www.jiumodiary.com/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/mo.png",
-    "title": "鸠摩搜索",
-    "desc": "文档搜索引擎"
   },
   {
     "categoryId": 54,
@@ -3503,75 +3359,11 @@ export default [
   },
   {
     "categoryId": 54,
-    "id": 450,
-    "url": "https://www.flvcd.com/index.htm",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/flvcd.png",
-    "title": "硕鼠",
-    "desc": "最稳定的视频下载平台"
-  },
-  {
-    "categoryId": 54,
-    "id": 451,
-    "url": "http://www.shipinyu.cn/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/stackoverflow.svg",
-    "title": "视频鱼",
-    "desc": "一个视频自助解析的服务平台"
-  },
-  {
-    "categoryId": 54,
-    "id": 452,
-    "url": "http://czjx8.com/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/vip.jpg",
-    "title": "船长解析",
-    "desc": "vip视频在线解析"
-  },
-  {
-    "categoryId": 54,
     "id": 453,
     "url": "https://lv.ulikecam.com/",
     "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/jy.jpg",
     "title": "剪映",
     "desc": "最好用的视频剪辑工具"
-  },
-  {
-    "categoryId": 54,
-    "id": 454,
-    "url": "https://www.savetweetvid.com/zh",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/savetd.ico",
-    "title": "Twitter视频下载器",
-    "desc": "将Twitter视频下载到Mp4和Mp3"
-  },
-  {
-    "categoryId": 54,
-    "id": 455,
-    "url": "http://wherebt.com/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/bt.ico",
-    "title": "BT导航网",
-    "desc": "提供各种BT资源导航"
-  },
-  {
-    "categoryId": 53,
-    "id": 456,
-    "url": "https://www.qbitai.com/",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_ae9093a777ef4738912b80d122f0388c.png",
-    "title": "量子位",
-    "desc": "追踪人工智能新趋势，报道科技行业新突破"
-  },
-  {
-    "categoryId": 53,
-    "id": 457,
-    "url": "https://www.huxiu.com/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/huxiuwang.png",
-    "title": "虎嗅网",
-    "desc": "虎嗅网,聚合优质的创新信息与人群"
-  },
-  {
-    "categoryId": 53,
-    "id": 458,
-    "url": "https://www.tmtpost.com",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/taimeiti.png",
-    "title": "钛媒体",
-    "desc": "钛媒体_专业无止境-网罗天下创新事"
   },
   {
     "categoryId": 53,
@@ -3588,22 +3380,6 @@ export default [
     "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/chuangyebang.png",
     "title": "创业邦",
     "desc": "创业邦 - 关注创新经济及其推动者"
-  },
-  {
-    "categoryId": 53,
-    "id": 461,
-    "url": "https://chaping.cn",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_2c9220f0211844088c3c0acdab1300e7.png",
-    "title": "差评",
-    "desc": "DEBUG THE WORLD，科技类产品评测资讯网"
-  },
-  {
-    "categoryId": 53,
-    "id": 462,
-    "url": "http://www.geekpark.net/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/jikegongyuan.png",
-    "title": "极客公园",
-    "desc": "最新的科技动态，关注极具创新精神的科技产品"
   },
   {
     "categoryId": 53,
@@ -4700,14 +4476,6 @@ export default [
     "title": "中文文档 | NestJS - 一个渐进式的Node.js框架",
     "url": "http://nestjs.inode.club/",
     "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACDklEQVQ4jYWSy0uUURjGf8/5Zmw0NKIb2WUmNZVsoUXUclwkhGgiGC0TIYhoUX9BFF2gVgUtgla1rUCqTYW2sJXQbRGDls4ISkFQaqnTfOdtkSPfiJezOue9PO95nucV65yxVDqhoLJVIjcXKNeY6Z+J5t1KTQYyegID/anY5kGt5vUoUeD6ZHVHRbQ2Fn2MJ7t3Eg+7c2ZHjIUq1PGzIp//ZGaNkpqB+r8b1A+8LPaoeMnWdTSZ6S6QjsYBD4RAHPCSnSl4e1Ozd3ZSg4OF2HhdZ4sZp804CTSswMhFqI7i3VQgu5ebqLoBDMXw9EmcX0dLQ2TAHpqsF1O7yX6N1J0YDi5uqc+CDgE7gGkMj4gvo7FIRcdAR//ntF0+PiCAbG3XYY8/iHMfDF/lPMeBXmDXGr8KhS4tTTGQwJYcqe1sxXiA2Lc6hm4v7UGxeSyVTlg6HUt96R+Q7OaiA6tJM1eySLmGzmoFm+5P5CpbJnb3lIObB34A48uAPDAt6WPJIhXybHXO2rzTLGULZcAp4JvglcHZ6CyM14rZ2xKAxIKN5ss1hHEOEQIZg6vCukAOyANzwOMQfyeZeTa13Cqy+9trLAyanaOQN70LsCahW2AHEC+A71J4LTny/CsreF0qET1Btna+DXRBxnvBEx8Ev1MjTz8Xa2JrAUzVz2+Wdxs9/kpyz8wwg2kPly1a8w/W88YEsx9BLwAAAABJRU5ErkJggg==",
-    "desc": ""
-  },
-  {
-    "id": 706,
-    "categoryId": 68,
-    "title": "nginx",
-    "url": "https://www.cnginx.com/docs/",
-    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWklEQVQ4ja1TQQ4AIAjS1l97U6+tW1ulRFOPDpSBigRLr06XARlt55RcBa/thorKgNBwNQEnGWB8BYyqpcDbTiTip0Aaij1AQygPiCR8ACJTd/DtAUvM/oVwTScFHbbXhF2aAAAAAElFTkSuQmCC",
     "desc": ""
   },
   {
@@ -6478,14 +6246,6 @@ export default [
     "desc": ""
   },
   {
-    "categoryId": 29,
-    "id": 829,
-    "url": "https://www.bt.cn/new/index.html",
-    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACW0lEQVQ4jW2TTWiUVxSGn/ec75svMTPp+IcGB420oNJBCoVC6aJScGGhq6IbXdSNFMS1LroIlC5cBcF9Vy6kRV24KaVUCoWK0JVIIy4SOqWFJiMm1Uycufd0MZlgft67O+e9z+Hccy5s1QzGDAVAc3a62Zx9r7keL5jBttq1DTDSWfzgBye/KvZW0ak/+oZzpJ1sGpn3HT22i73gqfyYHB+BjmGUVauOTP2AP+T69eUr/QKLLDbmXnGO5IB4QjQ+nbrkya+Yq56z/lWKn1T4fmuULzB9J4txwYmaxxdlOb77xVznEQ/AAfZcP9karPWfuSyTmUC8HeJDxJw3ayvmdoagEVnPMX5fex0/vLX/0MTKnb+WDcBfp/ZYUdzGox2wlIx75eGJS1g0FKp3ny5+ST/dxVmSaNdK3S4jtzc94p4r70zWpsY/t0b1NC2v3lTN/yTis7HDDQa9fN89WqvdtcvVZHX8Zcn33QsPlzdP4RTFgdPtRRVWj0GSCrNIkapWHZ8oPfcGOVAo8n8Lz8b2MfNgALwx11PTBZG7RHgQ5H5OEAZhuZdS5MBKOag7fWS4J5sBS/MBWBABCgkTQhIQhhQREYDNL8yzHVC0bNiREIhY35MYtrkRE7Qmp7QN0AIIVYgcjKwEEEIaxpQVVJ3df8dWgDqznVUZt6xmrmGxQTA6DCThu9yDuMXF+d5oACNAAPzTf3wt99INudwqK7QuG/dChTyv9G8s1H67+uadHT/Tga/f/USuy4jT1aE6qvmPkQY3F84//Hkn/1ZtQKeut09Mf/v+8Y1MbC/4PyUD4+pzwjbVAAAAAElFTkSuQmCC",
-    "title": "宝塔面板",
-    "desc": "简单好用的Linux/Windows服务器运维管理面板"
-  },
-  {
     "categoryId": 79,
     "id": 830,
     "url": "https://ekwq20220819082922999.pingcode.com/",
@@ -6516,6 +6276,22 @@ export default [
     "url": "https://www.doubao.com/chat/?channel=baidu_pz&source=db_baidu_pz_01&keywordid=weizhi1",
     "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADbklEQVQ4jU3TXWxTdRzG8ef3P6ft+t5uMCDrpjAUzWI72ZZMRsZiDDdKILoEIQQ0OJ3TmeiNGL3ojVES40U3syG+zES9xIuFKIJLpzAqsA1ncCQTHFs3267t+rL17Zzz/3khS3juP3fPlwAAzAQiBoBry1qnYlJ7BGG/oRleEooAIyOAn8rrpeH2RuvlBw3h/kZvsK2+QZ4mRfSV1gri/NeDuD15hS1WO/YePEL+PU/D6bHDMGRoYV68d6CVCgBAwSCLp3phrSWcc3iwP76Yk5+fekXOTU0Ib3UNZbI5ZNYLXFfXIA/1vSuePdEtUgn+WQU9/8MwigQAUwkO2e3oz2UhL33zCX4cGRS+h7ZzfCUJ0jS43G7EEwmUdcmnvhzV2rr8lmTcGGzZpvaLyRi3Q/Lr2SxkYTWGybHzZHd5OZlMof3RHTT06Wka+WIIxw93o7ieo7t/XjPlcpAM9E7HeY8gRq9QSFUU0D8zEcokV7BeKmO7207vvPEa7wwEYDeb6eRLx+nowef45kSYdA2kqooqgR7BhH1aGUwAzd+aRrGiwaxr1NL0ON9ZjFIpnkA5n+PJiSvc8aSfPBaBYqHChg4mxj6ha6gzmMEG80o8BtZ1bKrdwp/9EqHIX3/DYjUjlV6lby+E6fZSAl2dXWAhyNABXYdPEAACgRlgaUDTdbTWb8WJjjY0NzUBVVaQEEgux9hXV4+OBg/s5TUYBIABVTUhakg8DBBV2R0MoUAQ0du9LwNON/LRKLw2G3//4QcUS69yocoLqZrZpIAE8ZJgwrjZBBIKWBoGuLiGsdk5vnprlovlMpfm78LIpmhmcYG/+m0ayUc6URY2tphBYBpXBXDWkHyMmcTuZw5Bq2hUZIXH7uWFS0xjc+0Wvh7L4ePQEHz+dhywKFSoSGg66Uw0vHGkAYcDb66mAdUEOKuB/EKKxYUzMIpFSrZ1s2dXgKwCKJVQ8dbAvJbDwO6t9JYSDLKobsG4WUOry41GqQOXL4b1zfd+p+bmAHm3+SAy//K5i2E9EY/RY/5daqWESwlGz05H0NhoCWdGl23Xl/KhY6/2V2w2B/e9+AKnZiKycucPGfnuLG9yu9jhcFbe/yg0cCPN7g13v0Ym4P+cAext2NF4kll0+Wo8Pn/gCZ66ORNdTKTDTodlZG529tcHLP8HmYOtlz2pLo4AAAAASUVORK5CYII=",
     "desc": ""
+},
+{
+  "id": 706,
+  "categoryId": 81,
+  "title": "nginx",
+  "url": "https://nginx.org/",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWklEQVQ4ja1TQQ4AIAjS1l97U6+tW1ulRFOPDpSBigRLr06XARlt55RcBa/thorKgNBwNQEnGWB8BYyqpcDbTiTip0Aaij1AQygPiCR8ACJTd/DtAUvM/oVwTScFHbbXhF2aAAAAAElFTkSuQmCC",
+  "desc": ""
+},
+{
+  "categoryId": 81,
+  "id": 829,
+  "url": "https://www.bt.cn/new/index.html",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACW0lEQVQ4jW2TTWiUVxSGn/ec75svMTPp+IcGB420oNJBCoVC6aJScGGhq6IbXdSNFMS1LroIlC5cBcF9Vy6kRV24KaVUCoWK0JVIIy4SOqWFJiMm1Uycufd0MZlgft67O+e9z+Hccy5s1QzGDAVAc3a62Zx9r7keL5jBttq1DTDSWfzgBye/KvZW0ak/+oZzpJ1sGpn3HT22i73gqfyYHB+BjmGUVauOTP2AP+T69eUr/QKLLDbmXnGO5IB4QjQ+nbrkya+Yq56z/lWKn1T4fmuULzB9J4txwYmaxxdlOb77xVznEQ/AAfZcP9karPWfuSyTmUC8HeJDxJw3ayvmdoagEVnPMX5fex0/vLX/0MTKnb+WDcBfp/ZYUdzGox2wlIx75eGJS1g0FKp3ny5+ST/dxVmSaNdK3S4jtzc94p4r70zWpsY/t0b1NC2v3lTN/yTis7HDDQa9fN89WqvdtcvVZHX8Zcn33QsPlzdP4RTFgdPtRRVWj0GSCrNIkapWHZ8oPfcGOVAo8n8Lz8b2MfNgALwx11PTBZG7RHgQ5H5OEAZhuZdS5MBKOag7fWS4J5sBS/MBWBABCgkTQhIQhhQREYDNL8yzHVC0bNiREIhY35MYtrkRE7Qmp7QN0AIIVYgcjKwEEEIaxpQVVJ3df8dWgDqznVUZt6xmrmGxQTA6DCThu9yDuMXF+d5oACNAAPzTf3wt99INudwqK7QuG/dChTyv9G8s1H67+uadHT/Tga/f/USuy4jT1aE6qvmPkQY3F84//Hkn/1ZtQKeut09Mf/v+8Y1MbC/4PyUD4+pzwjbVAAAAAElFTkSuQmCC",
+  "title": "宝塔面板",
+  "desc": "简单好用的Linux/Windows服务器运维管理面板"
 },
   {
     "categoryId": 63,

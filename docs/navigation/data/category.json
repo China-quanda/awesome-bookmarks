@@ -551,5 +551,26 @@
     "icon": null,
     "description": "",
     "parentId": 1
+  },
+  {
+    "id": 80,
+    "title": "软件开发公司",
+    "icon": null,
+    "description": "",
+    "parentId": 0
+  },
+  {
+    "id": 81,
+    "title": "运维",
+    "icon": null,
+    "description": "运维",
+    "parentId": 40
+  },
+  {
+    "id": 82,
+    "title": "cms内容管理系统",
+    "icon": null,
+    "description": "cms内容管理系统",
+    "parentId": 0
   }
 ]
