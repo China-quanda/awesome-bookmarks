@@ -86,6 +86,7 @@ export const articleSideBar = [{
         { text: '运行状态效果', link: '/article/html/运行状态效果/' },
         { text: '好看的下拉效果', link: '/article/html/好看的下拉效果/' },
         { text: '登录模版', link: '/article/html/登录模版/' },
+        { text: '主题切换动画让换肤更丝滑', link: '/article/html/主题切换动画让换肤更丝滑/' },
       ]
     },
     {
