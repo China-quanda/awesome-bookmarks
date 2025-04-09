@@ -2150,7 +2150,7 @@ export default [
   {
     "categoryId": 41,
     "id": 283,
-    "url": "https://www.freetalen.com/",
+    "url": "http://www.feiyuan.com/",
     "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_963f831d30b344d7ad6a8212949912d0.png",
     "title": "飞援",
     "desc": "程序员兼职平台-飞援"
@@ -2186,30 +2186,6 @@ export default [
     "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_b17890caefed42d78dc47ffcd75ef16a.png",
     "title": "杭州 | 小火堆科技",
     "desc": "小火堆科技是一个为客户提供定制化数字解决方案的品牌，致力为企业提供可持续的业务数字化支撑团队。"
-  },
-  {
-    "categoryId": 41,
-    "id": 288,
-    "url": "https://eleduck.com/",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_48ee223fc873489c8ab0639c586e8c12.png",
-    "title": "电鸭社区",
-    "desc": "远程工作招聘社区，也是远程办公互联网工作者们的聚集地, 分享外包、零活、兼职等非主流工作机会。"
-  },
-  {
-    "categoryId": 41,
-    "id": 289,
-    "url": "https://codemart.com/",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_66510141af164b75bdb6c9444ee6b1ae.png",
-    "title": "码市",
-    "desc": "码市是互联网软件外包服务平台，意在连接需求方与广大开发者。让项目的需求方快速的找到合适的开发者。"
-  },
-  {
-    "categoryId": 41,
-    "id": 290,
-    "url": "https://www.zbj.com/",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_8b77a728fae040da93d85cd8c60f3d68.png",
-    "title": "码市",
-    "desc": "汇集海量程序员、设计师等人才招聘求职信息，国内领先的企业服务平台。"
   },
   {
     "categoryId": 42,
@@ -2573,14 +2549,6 @@ export default [
   },
   {
     "categoryId": 44,
-    "id": 336,
-    "url": "https://www.yiibai.com/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/yibai.png",
-    "title": "易百教程",
-    "desc": "专注于IT教程和实例"
-  },
-  {
-    "categoryId": 44,
     "id": 337,
     "url": "https://www.w3school.com.cn/",
     "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/w3.png",
@@ -2634,30 +2602,6 @@ export default [
     "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACcklEQVQ4jT3TTahVdRQF8N8+59yr5numZlmgQVQUUaOkkUKDoonRQIIgCMLyQYOa5CxMigZBDjIsIiyKjIqmFk0alDxq0CTpSUEiWYZUfqX3Xt85578bnFeDDXuyF2utvVbYn2PFS8aeFtbXI/oKFWqhQb0ylTQSav8Ib/vZC42pV8x5XidV9DNcI2MkhMxOBJCIaGVJ8+btdbsS9uZljTUqqVbvukd+cZLJFGNpLMT/jGikBqtQudzora1CKRPVw9vkwYfY+TFlAxrxyyW2rmf1eJDQhzhzlb+uSo35RqcgdPLRu0RTc/Qxevx6niMn2L+ds1OudOLODeL14/LFYzTrqKITZcrNm8WOW9j1AUtnefUbHjzEyXP8ORXbj7DjXb48JTeOhVZET5UdCssz7jvAsUVKEWcuMPmDi5PBwOmM9gpXe5kpdWQnGzkATGbs3sEN93PbJrmwTdy7SV7AtGWULKesioiCjuhFE5XMZbFlHXdfT92wcQ2/XVDmGtEWSiF6tEKuPLRFJ6tMjFg6ze435MKHXJzx/nfiucPy6BJrR3TLw0FfBsY6sheVHFBHYzTsfYDzE3loF089IrqW1Q2lZUSsbVYYdERHI2SEaK9w041i306eeE+c+pvPFsSTH8lrV/H9s6Ivcut6XlscjM2WJggtW67j02f4/DiffEu28uBXnPidO17m8OPywNf8cIZZhTFdq4rYkxezmNu8gVs3icWfpEpEkP2wq1doVysRbhRjhFmVvbesVp09JxZ/lOoh+2nwRAymRUU16E9FpVbrvNm4ZJ9KrbGnasyV8l/vkEMjFZFl0KwWKudNvOO0ff8CDNsVBiQlEB0AAAAASUVORK5CYII=",
     "title": "知乎",
     "desc": "中国最大的问答社区"
-  },
-  {
-    "categoryId": 44,
-    "id": 344,
-    "url": "https://study.163.com/category/480000003131009",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/163.png",
-    "title": "网易云课堂",
-    "desc": "网易云课堂编程语言频道"
-  },
-  {
-    "categoryId": 44,
-    "id": 345,
-    "url": "http://www.manongjc.com",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/ma.ico",
-    "title": "码农教程",
-    "desc": "IT编程入门网"
-  },
-  {
-    "categoryId": 44,
-    "id": 346,
-    "url": "http://techblog.pub/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/blog.jpg",
-    "title": "技术博客",
-    "desc": "原创技术博客大联盟"
   },
   {
     "categoryId": 44,
@@ -2746,14 +2690,6 @@ export default [
     "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/baidu.ico",
     "title": "百度贴吧",
     "desc": "全球最大的中文社区"
-  },
-  {
-    "categoryId": 45,
-    "id": 358,
-    "url": "https://www.hupu.com/",
-    "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/hu.ico",
-    "title": "虎扑",
-    "desc": "体育赛事为主的社区网站"
   },
   {
     "categoryId": 29,
@@ -2917,14 +2853,6 @@ export default [
   },
   {
     "categoryId": 46,
-    "id": 382,
-    "url": "https://75.team/cate/article/",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_2d73e2a0bfb74ce1a0b3e06035f372c5.png",
-    "title": "360前端奇舞团",
-    "desc": "奇舞团"
-  },
-  {
-    "categoryId": 46,
     "id": 383,
     "url": "https://fed.taobao.org/blogs/1",
     "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_c12c999504a543d58e6d7107cbbac423.png",
@@ -2970,14 +2898,6 @@ export default [
     "icon": "https://jelly.jd.com/3.0/fonts/2657ceafd877a9cbe0e7604b36c21906.svg",
     "title": "京东设计中心",
     "desc": "jelly"
-  },
-  {
-    "categoryId": 46,
-    "id": 389,
-    "url": "https://efe.baidu.com/",
-    "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_e855394b0fd94e7f924e85fcd94b9b17.png",
-    "title": "百度EFE技术体系",
-    "desc": "百度EFE"
   },
   {
     "categoryId": 46,
@@ -3528,14 +3448,6 @@ export default [
   {
     "categoryId": 58,
     "desc": "",
-    "id": 275,
-    "url": "https://i.mooc.chaoxing.com/space/index?t=1713511695628",
-    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADAklEQVQ4jW2TT2jcdRDF38z3z2a3aaNCvaibBq0giNWoJ4NuvFTqwUoIhDRZN02blCp4F5Ug6sWThwpNDAmmSYRCIkpRPK16Eg0temkRrZJoUbfUZJtkf39mxoMWY3VOj+G9wwzvQ/hnGIACwGBtfH/w3GNqnYAa2H0v21l9fv7dtZu9tHPRPzxcbi/umTC1Z5npFiKGmYKdg+R5YqDJ9cbG68vLc7/9nTW6IYZGxroLhcISEXWmSQIzSwEgxBhV8m+J3C+FtsLBLE1/2ErSpxdnJy8CIAZgR44cuzOE8KGKdqZJkgDQGGKMhbaoqueSzfUnZ6ZOPdVcbx4i5o5SjB/194/eBsAYAHwxvOHY3ZHnWQogMDuI6GlTO/jr2uW+xcXFBgA3/97Ux5vXrx/2Md5T6oivAABVq8fv5ei/VrNdBDMzMECtvJXdt7Aw/dOOJ6NSqfh6vZ5XR8fnmF3feqO5zyO4XmbeLVkmIIIBQrBCKIbPR46fPG/Ap07p3PT0qdVms0kAoLl+UGwvDXV0SI9XkS44b0SkzrnAzBBRizGUmbhcKBaf2djYeBzAwMrKitbGnz+kIifV1ISt7IlYDQYiYgO+UZG3zPjKdqu1zznXI6bQLD9/dPyFR0TkRU88lEMheW4EYg+iyzADM5tl2bGZ2amvdpw9DQDDo2P9HvQFAW1pmqqZCUCeyVbd/QcebjJRjYgKRry/u/vR8OCB7q0LF1auVioVX6vVcPXa1m5mnAAMBohjdgY0mom9xAuzp78jpiXnPAPW62OY4hg/GRw82lXfu9cmJiYsODxBjJ+J6EszQ4iRyXBm6czkFQYATfRlFVljZrRarS1RKXPRP4CzZwWAueAH0zR7rZWmb+8qtfssyy5qtvnmDRYIgFWrJx4KbX6ZmDuzLAUzN3LVXmfWQ869I6K/xxhvN7NLYsnh2cm/qvwvmAYGRu4q7im9aqp9zvlbVQXeB4jkULU/mGju2v/A9B+cnxsbu9upfyzXvMuMxDv+cVtan70/M7N6s/dPhX6Gq7/lOzwAAAAASUVORK5CYII=",
-    "title": "湘潭大学继教院考试系统",
-  },
-  {
-    "categoryId": 58,
-    "desc": "",
     "id": 276,
     "url": "https://i.chaoxing.com/base",
     "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADAklEQVQ4jW2TT2jcdRDF38z3z2a3aaNCvaibBq0giNWoJ4NuvFTqwUoIhDRZN02blCp4F5Ug6sWThwpNDAmmSYRCIkpRPK16Eg0temkRrZJoUbfUZJtkf39mxoMWY3VOj+G9wwzvQ/hnGIACwGBtfH/w3GNqnYAa2H0v21l9fv7dtZu9tHPRPzxcbi/umTC1Z5npFiKGmYKdg+R5YqDJ9cbG68vLc7/9nTW6IYZGxroLhcISEXWmSQIzSwEgxBhV8m+J3C+FtsLBLE1/2ErSpxdnJy8CIAZgR44cuzOE8KGKdqZJkgDQGGKMhbaoqueSzfUnZ6ZOPdVcbx4i5o5SjB/194/eBsAYAHwxvOHY3ZHnWQogMDuI6GlTO/jr2uW+xcXFBgA3/97Ux5vXrx/2Md5T6oivAABVq8fv5ei/VrNdBDMzMECtvJXdt7Aw/dOOJ6NSqfh6vZ5XR8fnmF3feqO5zyO4XmbeLVkmIIIBQrBCKIbPR46fPG/Ap07p3PT0qdVms0kAoLl+UGwvDXV0SI9XkS44b0SkzrnAzBBRizGUmbhcKBaf2djYeBzAwMrKitbGnz+kIifV1ISt7IlYDQYiYgO+UZG3zPjKdqu1zznXI6bQLD9/dPyFR0TkRU88lEMheW4EYg+iyzADM5tl2bGZ2amvdpw9DQDDo2P9HvQFAW1pmqqZCUCeyVbd/QcebjJRjYgKRry/u/vR8OCB7q0LF1auVioVX6vVcPXa1m5mnAAMBohjdgY0mom9xAuzp78jpiXnPAPW62OY4hg/GRw82lXfu9cmJiYsODxBjJ+J6EszQ4iRyXBm6czkFQYATfRlFVljZrRarS1RKXPRP4CzZwWAueAH0zR7rZWmb+8qtfssyy5qtvnmDRYIgFWrJx4KbX6ZmDuzLAUzN3LVXmfWQ869I6K/xxhvN7NLYsnh2cm/qvwvmAYGRu4q7im9aqp9zvlbVQXeB4jkULU/mGju2v/A9B+cnxsbu9upfyzXvMuMxDv+cVtan70/M7N6s/dPhX6Gq7/lOzwAAAAASUVORK5CYII=",
@@ -3583,51 +3495,9 @@ export default [
   },
   {
     "categoryId": 59,
-    "id": 512,
-    "icon": "",
-    title: 'Vue3+NestJS 全栈开发企业级管理后台-超清完结-自学it666', url: 'https://www.zxit666.com/7046/',
-    "desc": ""
-  },
-  {
-    "categoryId": 59,
-    "id": 513,
-    "icon": "",
-    title: 'NestJS入门到实战 前端必学服务端新趋势-完结无密-自学it666', url: 'https://www.zxit666.com/5597/',
-    "desc": ""
-  },
-  {
-    "categoryId": 59,
-    "id": 514,
-    "icon": "",
-    title: 'Vue3实战商城后台管理系统开发', url: 'https://ke.qq.com/course/5408416/13546004734445216?quickurl=1#term_id=105590840',
-    "desc": ""
-  },
-  {
-    "categoryId": 59,
-    "id": 515,
-    "icon": "",
-    title: '网易云课堂-Vue3实战商城后台管理系统开发完结无密-思索IT', url: 'https://www.sisuoit.com/3192.html',
-    "desc": ""
-  },
-  {
-    "categoryId": 59,
-    "id": 516,
-    "icon": "",
-    title: 'GO语言 从入门到精通991集 视频教程 下载-Java1234下载', url: 'http://download.java1234.com/article/2355',
-    "desc": ""
-  },
-  {
-    "categoryId": 59,
     "id": 517,
     "icon": "",
     title: 'Vue实战视频教程_Vue快速入门视频教程 - 优库IT资源网', url: 'https://www.ukoou.com/category/51/vue-js',
-    "desc": ""
-  },
-  {
-    "categoryId": 59,
-    "id": 518,
-    "icon": "",
-    title: '网易云课堂-Vue3实战商城后台管理系统开发完结无密-自学it666', url: 'https://www.zxit666.com/5214/',
     "desc": ""
   },
   {
@@ -3652,13 +3522,6 @@ export default [
     "desc": ""
   },
   {
-    "categoryId": 61,
-    "id": 602,
-    title: 'vue，nodejs项目部署到阿里云服务器，一台服务器部署多套代码', url: 'https://ke.qq.com/course/2962957/10264074192238093#term_id=103076589',
-    "icon": "",
-    "desc": ""
-  },
-  {
     "categoryId": 60,
     "id": 603,
     title: 'Go语言学习路线2023版！', url: 'https://zhuanlan.zhihu.com/p/613227155',
@@ -3676,13 +3539,6 @@ export default [
     "categoryId": 60,
     "id": 605,
     title: '一份收获多大厂SP offer的golang学习路线', url: 'https://zhuanlan.zhihu.com/p/615923752?utm_id=0',
-    "icon": "",
-    "desc": ""
-  },
-  {
-    "categoryId": 60,
-    "id": 606,
-    title: 'GoLang导航', url: 'https://hao.golangstack.com/',
     "icon": "",
     "desc": ""
   },
@@ -3726,20 +3582,6 @@ export default [
     "id": 612,
     "icon": "",
     title: '湖南一件事一次办_湖南省人民政府', url: 'https://zwfw-new.hunan.gov.cn/onething/service/index.jsp?type=xndtbm&orgId=cd8a022793584cd7b33c4c87944e7312&main=1&areacode=431001000000',
-    "desc": ""
-  },
-  {
-    "categoryId": 62,
-    "id": 613,
-    title: '郴州市社保计算器(郴州市社保缴费基数查询2024)五险一金最低缴费标准 - 在线计算网', url: 'https://www.zaixianjisuan.com/shebao/chenzhou.html',
-    "icon": "",
-    "desc": ""
-  },
-  {
-    "categoryId": 62,
-    "id": 614,
-    title: '2023年郴州市社会保险缴纳基数及比例|社保缴费基数|人事帮邦', url: 'https://www.bao12333.com/article/detail/n_id/42637.html',
-    "icon": "",
     "desc": ""
   },
   {
