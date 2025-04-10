@@ -80,9 +80,16 @@ interface StorageObj {
 function clickTabsHeaderItem(tab) {
   tabsHeaderActive.value = tab.id
 
-  console.log('import.meta.env.DEV',import.meta.env.DEV);
-  
+  // 开发环境不做缓存处理
+  if (import.meta.env.DEV) {
+    storage.clear()
+    loadSites(tab.id)
+    console.log('开发模式');
+    
+    return 
+  }
 
+  console.log('生产模式');
 
   // 缓存名称
   const storageCategoryName = `category-${props.data.id}-${tab.id}`
