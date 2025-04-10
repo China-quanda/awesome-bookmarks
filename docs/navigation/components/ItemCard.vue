@@ -79,6 +79,11 @@ interface StorageObj {
 }
 function clickTabsHeaderItem(tab) {
   tabsHeaderActive.value = tab.id
+
+  console.log('import.meta.env.DEV',import.meta.env.DEV);
+  
+
+
   // 缓存名称
   const storageCategoryName = `category-${props.data.id}-${tab.id}`
   // 过期时间
