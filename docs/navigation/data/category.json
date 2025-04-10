@@ -586,5 +586,26 @@
     "icon": null,
     "description": "陵园系统",
     "parentId": 82
+  },
+  {
+    "id": 86,
+    "title": "智慧校园",
+    "icon": null,
+    "description": "智慧校园",
+    "parentId": 82
+  },
+  {
+    "id": 87,
+    "title": "搭建四联官网",
+    "icon": null,
+    "description": "搭建四联官网",
+    "parentId": 82
+  },
+  {
+    "id": 88,
+    "title": "导航",
+    "icon": null,
+    "description": "导航",
+    "parentId": 82
   }
 ]
