@@ -106,6 +106,9 @@ function clickTabsHeaderItem(tab, operationType?: 'atuo' | 'click') {
     } else {
       console.log('有缓存-未过期')
       list3.value = storageObj.list
+      if(list3.value.length === 0) {
+        loadSites(tab,operationType)
+      }
     }
   } else {
     console.log('无缓存')
