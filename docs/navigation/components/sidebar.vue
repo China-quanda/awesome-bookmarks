@@ -1,22 +1,18 @@
 <template>
   <div class="sidebar">
     <div class="list">
-      <div class="item" v-for="item in list" :key="item">
-        <a :href="`#${item.title}`"><button>{{ item.title }}</button></a>
-      </div>
+      <template v-for="item in list" :key="item">
+        <div class="item" v-if="!item.privately">
+          <a :href="`#${item.title}`"><button>{{ item.title }}</button></a>
+        </div>
+      </template>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-defineProps({
-  list: {
-    required: true,
-    type: Object,
-    default: ()=>[]
-  }
-})
-
+import { BookmarkCategory } from '../types';
+defineProps<{ list: BookmarkCategory[]}>()
 </script>
 
 <style scoped lang="scss">
