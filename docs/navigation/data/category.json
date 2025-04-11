@@ -827,17 +827,19 @@
   },
   {
     "id": 120,
-    "title": "prv",
+    "title": "private",
     "icon": null,
     "description": "",
     "parentId": 0,
-    "privately": true
+    "private": true
   },
   {
     "id": 121,
-    "title": "prv",
+    "title": "颜色观察中心",
     "icon": null,
     "description": "",
-    "parentId": 120
+    "parentId": 120,
+    "private": true,
+    "pawssword": "admin"
   }
 ]

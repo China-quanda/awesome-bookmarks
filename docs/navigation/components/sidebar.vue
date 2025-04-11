@@ -2,8 +2,8 @@
   <div class="sidebar">
     <div class="list">
       <template v-for="item in list" :key="item">
-        <div class="item" v-if="!item.privately">
-          <a :href="`#${item.title}`"><button>{{ item.title }}</button></a>
+        <div class="item">
+          <a :href="`#${item.title}`"><button>{{ item.private ? `🔒 ${item.title[0]}***${item.title[item.title.length -1]}` : item.title }}</button></a>
         </div>
       </template>
     </div>

@@ -4,7 +4,8 @@ export interface BookmarkCategory {
   icon?:string;
   description?:string;
   parentId:number;
-  privately?:boolean; // 是否私有
+  privately?:boolean; // 是否私有,如果是 则 隐藏名称
+  pawssword:string; // 密码
   children?:BookmarkState[];
 }
 
