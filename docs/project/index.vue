@@ -150,8 +150,8 @@ const projectList = ref([
       {
         img: '',
         name: '郴州市科技创新数据大屏',
-        url: 'http://116.205.179.231:8034/'
-      },
+        url: 'http://www.czkcfw.com:8034/'
+      },  
       {
         img: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADF0lEQVQ4jXWTb2jUdRzH35/P7/v73c3b5e3uwikXy7EtY8uksaGZUTNl2J4kCgZS7IEJhg8kkKan/igdediDiGoYE60HRUREZAhzKiUujQ0SadWSmtOdrmvzdrvdfv++nx7Mk4j5efx5vz5/34QFQgAmQE9swbpQAt8HCWiKQocJqvQPXLeA5uoeXBOAeCEAARoAfAfDcwUeikyDrRyUlcNYVQmd1T24ZsNmAoQWAswzIAAgz6BqNBXePK5i8U/za0c+ynVch3vnBgbfzJcTHyDeaix7fmVdXkLLixKrBdxUGMFIwigsXsR4sYJw4mpf+jNaqGqy7chTSowmzdIE0HpmXQcRx6T8qrG+zHhLu705Zsh75BVXqP+L6zd073R98aYC/sFi/y02VI0mE9p3z94+mxkHgCcjxRYB/3G9WOmUAfLY2r3RqmjkyKzWgyPn06eS67s7mM0a0b5DbIYs0t+c2NX5yF8z0R2BdlcGPnX2XjjqKwCUWrMnXBcLnXQoOPPjt4dOzbdEL4EMEfFN1u5Ue3LqZtHn1ZWmf2lv74cHBaAXujY1KACyYan1rsDzTn71zscACK3dcQg2QrtgtjgI3NO9nx/7mu6NeWnPmoqhWMW2kHb71YHtu9eZana7Ycw+Xd5FchG1k6FSov0A4pMF95Oy+KrdUmsY/i5Q6YvmQwM3uD6Rf70hPjldPz3wu23Pn5VYXgGRMBsGizc03n/wHACMvl23JaKKGYucLxvTA1cEILU8lquxlH5oJl77sJ3+5Vai7XArMT+LwIVDYe/uTNUxydATN53qfQRHByi+UZ/OjgpABAjH1N3hmsqZ6BKd7XGOLn3cZOwkwwy7ovSjoQn6beP+HZNe5QcGSn2pA2PbatPZUdsGl0dSVpDLFAu6tTFW6rh8e3EbE5QfeAhgGs8lR35qCE+cuZyNH1/9/uT0PaMR2fNeuf/Kw13RxIpoYdPLP796+Lu/G5eEyc8Sge/M0Spc7JoCALHB/xXeB9gA24BG8tdlkabT/RFj7k+taRJEF3Pnunpea242jw8Oeg8wHf4FXBxN1K2KqVkAAAAASUVORK5CYII=',
         name: '中国浙江网上技术市场',
