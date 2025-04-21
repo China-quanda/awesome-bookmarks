@@ -4,20 +4,23 @@
     <div class="module-title">
       <div class="title-left" style="display: flex; align-items: center;">
         <img v-if="data.icon" class="icon" :src="data.icon" style="margin-right: 5px;">
-        <span class="text">{{ data.private ? `🔒 ${data.title[0]}***${data.title[data.title.length -1]}` : data.title }} </span>
+        <span class="text">{{ data.private ? `🔒 ${data.title[0]}***${data.title[data.title.length - 1]}` : data.title }}
+        </span>
       </div>
     </div>
     <div class="tab-box">
       <div class="tabs-header">
+        <!-- @mouseenter="clickTabsHeaderItem(tab)" -->
         <div class="tabs-header-item" :class="{ 'active': tabsHeaderActive === tab.id }" v-for="tab in data.children"
-          :key="tab.id" @click="clickTabsHeaderItem(tab, 'click')" @mouseenter="clickTabsHeaderItem(tab)">
+          :key="tab.id" @click="clickTabsHeaderItem(tab, 'click')">
           <img v-if="tab.icon" class="icon" :src="tab.icon">
-          <span class="text">{{ tab.private ? `🔒 ${tab.title[0]}***${tab.title[tab.title.length -1] }` : tab.title }}</span>
+          <span class="text">{{ tab.private ? `🔒 ${tab.title[0]}***${tab.title[tab.title.length - 1]}` : tab.title
+            }}</span>
         </div>
       </div>
       <div class="tab-container">
         <div class="list" v-if="list3.length">
-          <div class="item" v-for="site in list3" :key=site.id>
+          <div class="item" :class="{'siteActive':siteActive === site.id}" v-for="site in list3" :key=site.id>
             <div class="button">
               <div @click="clickItem(site, 'nei')">
                 内
@@ -28,7 +31,7 @@
             </div>
             <div class="top">
               <img v-if="site.icon" class="icon" :src="site.icon">
-              <p class="title ellipsis1"><b>{{ site.title }}</b></p>
+              <p class="title ellipsis1"><b :title="site.title">{{ site.title }}</b></p>
             </div>
             <p class="desc">{{ site.desc || '描述' }}</p>
           </div>
@@ -67,7 +70,10 @@ const emit = defineEmits<{
   (e: 'onClick', item: any, type: string): void
 }>()
 
+const siteActive = ref(null)
+
 function clickItem(site: any, type: 'nei' | 'wai') {
+  siteActive.value = site.id
   emit('onClick', site, type)
 }
 
@@ -96,7 +102,7 @@ function clickTabsHeaderItem(tab, operationType?: 'atuo' | 'click') {
     console.log('有缓存')
     if (new Date().getTime() > storageObj.expiredTime) {
       console.log('有缓存-已过期')
-      loadSites(tab,operationType)
+      loadSites(tab, operationType)
       storage.set(storageCategoryName, {
         id: tab.id,
         title: tab.title,
@@ -106,13 +112,13 @@ function clickTabsHeaderItem(tab, operationType?: 'atuo' | 'click') {
     } else {
       console.log('有缓存-未过期')
       list3.value = storageObj.list
-      if(list3.value.length === 0) {
-        loadSites(tab,operationType)
+      if (list3.value.length === 0) {
+        loadSites(tab, operationType)
       }
     }
   } else {
     console.log('无缓存')
-    loadSites(tab,operationType)
+    loadSites(tab, operationType)
     storage.set(storageCategoryName, {
       id: tab.id,
       title: tab.title,
@@ -124,7 +130,7 @@ function clickTabsHeaderItem(tab, operationType?: 'atuo' | 'click') {
 
 /**根据分类id加载数据 */
 function loadSites(tab, operationType?: 'atuo' | 'click') {
-  const categoryId: number = tab.id ;
+  const categoryId: number = tab.id;
   list3.value = []
 
   if (!tab?.private) {
@@ -139,9 +145,9 @@ function loadSites(tab, operationType?: 'atuo' | 'click') {
   } else {
     // 需要权限的数据
     if (operationType && operationType === 'click') {
-      let ipt = prompt(`请输入 🔒 ${tab.title[0]}***${tab.title[tab.title.length -1]} 密码进行访问`)
-      if(ipt === null) return alert('密码不能为空!')
-      if (ipt && ipt !== tab.pawssword ) return alert('密码错误!')
+      let ipt = prompt(`请输入 🔒 ${tab.title[0]}***${tab.title[tab.title.length - 1]} 密码进行访问`)
+      if (ipt === null) return alert('密码不能为空!')
+      if (ipt && ipt !== tab.pawssword) return alert('密码错误!')
       tab.private = false
       sites.forEach((s) => {
         if (s.categoryId === categoryId) list3.value.push({ ...s })
@@ -151,7 +157,7 @@ function loadSites(tab, operationType?: 'atuo' | 'click') {
 }
 
 onMounted(() => {
-  loadSites({id:1})
+  loadSites({ id: 1 })
   // loadSites(props.data.children[0].id)
   clickTabsHeaderItem(
     props.data.children.length ? props.data.children[0] : []
@@ -219,10 +225,11 @@ onMounted(() => {
         // background-color: #f5f7fd;
         background-color: var(--vp-sidebar-bg-color);
         overflow: hidden;
-        height: 71px;
+        // height: 71px;
         color: #333;
         color: var(--vp-c-text-2);
         border-radius: 5px;
+        border: 1px solid transparent;
         background-image: var(--maya-home-linear-gradient);
         // border: var(--maya-home-border-solid);
         // box-shadow: 8px 8px 20px 0 rgba(55, 99, 170, .1);
@@ -275,15 +282,18 @@ onMounted(() => {
 
         .top {
           display: flex;
-        }
+          align-items: center;
+          // background-color: #7c7a7a;
 
-        .icon {
-          width: 20px;
-          height: 20px;
-          border-radius: 999px;
-        }
-        .title{
+          .icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 999px;
+          }
 
+          .title {
+            // height: 20px;
+          }
         }
 
         .title,
@@ -306,6 +316,9 @@ onMounted(() => {
           margin-top: 5px;
         }
 
+      }
+      .siteActive{
+        border-color: var(--vp-button-alt-bg);
       }
     }
 
@@ -368,5 +381,13 @@ onMounted(() => {
       }
     }
   }
+}
+
+.ellipsis1 {
+  overflow: hidden; //溢出内容隐藏
+  text-overflow: ellipsis; //文本溢出部分用省略号表示
+  display: -webkit-box; //特别显示模式
+  -webkit-line-clamp: 1; //行数
+  -webkit-box-orient: vertical; //盒子中内容竖直排列
 }
 </style>
