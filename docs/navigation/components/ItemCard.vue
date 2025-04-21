@@ -132,7 +132,7 @@ function loadSites(tab, operationType?: 'atuo' | 'click') {
     sites.forEach((s) => {
       if (s.categoryId === categoryId) list3.value.push({ ...s })
     })
-    if (operationType && operationType === 'click') {
+    if ((operationType && operationType === 'click') && tab?.private !== undefined) {
       list3.value = []
       tab.private = !tab.private
     }
