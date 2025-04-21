@@ -234,16 +234,6 @@ onMounted(() => {
         // border: var(--maya-home-border-solid);
         // box-shadow: 8px 8px 20px 0 rgba(55, 99, 170, .1);
 
-        &:hover {
-          color: var(--vp-c-text-1);
-          box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
-          transform: translateY(-2px);
-
-          .button {
-            display: flex !important;
-          }
-        }
-
         .button {
           position: absolute;
           content: '';
@@ -254,12 +244,13 @@ onMounted(() => {
           background-color: var(--vp-button-alt-bg);
           padding: 0px 5px;
           display: flex;
-          display: none;
+          // display: none;
           align-items: center;
           justify-content: center;
           flex-direction: column;
           gap: 10px;
           border-radius: 4px;
+          transform: translateX(40px);
 
           div {
             display: flex;
@@ -316,6 +307,17 @@ onMounted(() => {
           margin-top: 5px;
         }
 
+        &:hover {
+          color: var(--vp-c-text-1);
+          box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+          transform: translateY(-2px);
+
+          .button {
+            display: flex;
+            transform: translateX(-2px);
+            transition: all .2s linear;
+          }
+        }
       }
       .siteActive{
         border-color: var(--vp-button-alt-bg);
