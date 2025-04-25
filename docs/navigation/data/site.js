@@ -3542,7 +3542,7 @@ export default [
         "desc": ""
     },
     {
-        "categoryId": 62,
+        "categoryId": 71,
         "id": 446,
         "icon": "",
         "title": "中国教育考试网",
@@ -3550,7 +3550,7 @@ export default [
         "desc": ""
     },
     {
-        "categoryId": 62,
+        "categoryId": 71,
         "id": 447,
         "title": "中国人事考试网",
         "url": "http://www.cpta.com.cn/index.html",
@@ -3558,7 +3558,7 @@ export default [
         "desc": ""
     },
     {
-        "categoryId": 62,
+        "categoryId": 71,
         "id": 448,
         "icon": "",
         "title": "郴州市政府门户网站欢迎您",
@@ -3566,7 +3566,7 @@ export default [
         "desc": ""
     },
     {
-        "categoryId": 62,
+        "categoryId": 71,
         "id": 449,
         "title": "社会保障_郴州市人民政府",
         "url": "https://czs.gov.cn/html/zwgk/ztbd/13199/61955/61962/index_3.htm",
@@ -3574,7 +3574,7 @@ export default [
         "desc": ""
     },
     {
-        "categoryId": 62,
+        "categoryId": 71,
         "id": 450,
         "title": "湖南省人力资源和社会保障个人服务网厅",
         "url": "https://ggfw.rst.hunan.gov.cn/hrss-pw-ui-hunan/#/login?redirect=%2Fpsn%2Fwelcome",
@@ -3582,7 +3582,7 @@ export default [
         "desc": ""
     },
     {
-        "categoryId": 62,
+        "categoryId": 71,
         "id": 451,
         "icon": "",
         "title": "湖南一件事一次办_湖南省人民政府",
@@ -15884,7 +15884,7 @@ export default [
                 },
                 {
                     "id": 831,
-                    "categoryId": 62,
+                    "categoryId": 71,
                     "title": "工业和信息化部人才交流中心",
                     "url": "https://www.miitec.org.cn/home/index/detail?id=3003",
                     "icon": "",
@@ -15892,7 +15892,7 @@ export default [
                 },
                 {
                     "id": 831,
-                    "categoryId": 62,
+                    "categoryId": 71,
                     "title": "国家知识产权局商标局 中国商标网",
                     "url": "https://sbj.cnipa.gov.cn/sbj/index.html",
                     "icon": "",
