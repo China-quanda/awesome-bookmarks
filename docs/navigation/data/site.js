@@ -15898,6 +15898,22 @@ export default [
                     "icon": "",
                     "desc": ""
                 },
+                {
+                    "id": 831,
+                    "categoryId": 81,
+                    "title": "1Panel - 现代化、开源的 Linux 服务器运维管理面板 - 官网",
+                    "url": "https://1panel.cn/",
+                    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACx0lEQVQ4jW2TTWicVRSGn3vv931zv8xfpkWDSscMSKipigu1iAiCFCKWQBejOJG2C6VuhILQhavsRMWFW0VIVazJLEREBRXtVkUErVarIa21JBDtJJ3J5Pu797gYTH/ouzmHw/mB9z2v4mZ4QkrULt2Jd1WIHbZIuZiucLqV3NiqRkEUKAFRdDaayKCOhDFx9QhQZuBfxaJxRZ8PGn8B8v+M2ll1aO1WgnwCHWlsfAATvIy2DYrByWB47iyS+SJvfkl53JHJGt3qOoCGec0zq/uI7R5sbR9j4+9gq6/j8+8Y9Jos1I4a3KPG7n4tKl1622S/TxO6JnP/TsO81nSO15FhjE6ex9ZOgSsz3JphoT6DjR5hbvmFdGn/wSLZOAiqGoTmwzA98xxFVqZzvK7pOUfut6Nk+bDqn/2In369j/c++4ojm18QV04Zl84AuO7+T7PFH++VfOtjhRwmGSb06k5T2aWIKmhcEmar5/jhgZz2w3XEXyB3HuU3ATi6YuFYji/+QElCFEEFpQHwSnlRyqvIAtDdcxmn30Ibrb0YAM5PFiPZjAUUAQp66Gv1vCoJgGkgCFpfV/Uj5ncwyrWIKES8Hz1Ke8lg8ID3iANg8nwwOpQmHjxFKNBAM7gsZBmA1UE4xfRSRPcph5eCEAO6BsBCK6H9S+Si26eEIKbIhAGiaRhDGMYKdVKFY4eieyZ/Nu1vn+T96mmGWydERd8A8OyVWSqtM648NZvb1gJBMUZj0yiY18y9uBcxscmX7zKqeEmVxh8k2/wkXXxolqf/uZvYvoktHyBNvscN36Awf+KKIYu7f7vKW3v1FuyuCZL1IJC/H0cZXcRT9xNVO/hsHZe+QtL/mkA8WbBG97b1m5gJRafXxEkVHQqROoFSfbLtd5HthKK8Qbdxccd415npWjy2YpkotTC+RO4M2vS5cscFPlfpja3/AUs0KZBDnAHuAAAAAElFTkSuQmCC",
+                    "desc": ""
+                },
+                {
+                    "id": 831,
+                    "categoryId": 81,
+                    "title": "DPanel 可视化 Docker 管理面板",
+                    "url": "https://dpanel.cc/#/",
+                    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACd0lEQVQ4jY2STUhUYRSG3/Pde+emM4YS2s+4sDETYsJKDLRFE0TbpB+FVkXRKgpsU4FyAzeuI0zph6I2FhjpLqwsYcqpjEARRGQIzbRFdGfm6tz7fafFHX9mLOgsz+F9vvO+5wP+WkwAcBrQNvYtsb5DawPiyMPF3SgOWkV3L3ZoBt2U26O7xLL9G/bivD47PlYyOvL0LfAtp+M1QB9raCEZeTB/RwXLSqtbzBtzHf3TSweaQY4NUhKavQjj6+CC+fJ2++ep6d4ViL/OhE9T7MW1gDg01/nilnJStnLSip2Ux9L1siUV2fSRSxVOa1dPfaTmTG4DUeCHo+y5H43ZqR4AJogIRIKZNXIdg1I/XWffcbXceKp9DxCAxcgDKBaTID0c6r46DiVdAsh/iBgkwErp7C6TG45WB4EaWKR8gEUKAJLnw/ckGVeWKncGoTwFAMxMABODAfKzYz0g2EAQAPSC+1HyBMV3AOE0K/JtCZ9BIAIxhEaavWBrLpIAkygEIPZaFwBDsQQIIEVETMQKrBme5jpkTMeHPgA/wMjLQMBi4E1MGaVVGWKpIIjBxFASIOEiVGqY8ScZc/hxJ8AEIlpvQR2zKJgyUCN/IQvPccEKIJJq02bS2AsUD/emiwa6zibS+JILROkrH6L+YFPbbEPrZbc8sk2fm8jIyrogawHSDNMIzLyHmeh7ZQ72XEu4SMDfXOWFyB4rDhRv8bbWGtnaw2WQUha9u2+byU9D5tjAo9Hk9/5VqznxhmoEwnVHT45UPXO5tnuS6yPh66tDiwXyMyuoWEwHmOoams5F23oze5svPN8fCpXnhNq/hYVnBNAERP9X8AekiBL9EsDYTgAAAABJRU5ErkJggg==",
+                    "desc": ""
+                },
     {
         "categoryId": 63,
         "id": 945,
