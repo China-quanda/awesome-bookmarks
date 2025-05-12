@@ -2060,14 +2060,6 @@ export default [
         "desc": ""
     },
     {
-        "categoryId": 7,
-        "id": 263,
-        "icon": "",
-        "title": "爱酷看看 ",
-        "url": "http://www.ikukk.com/",
-        "desc": ""
-    },
-    {
         "categoryId": 3,
         "desc": "优雅高效在线文档编辑与协同工具",
         "id": 264,
@@ -5721,7 +5713,7 @@ export default [
         "title": "Ant Design Mobile - Ant Design Mobile",
         "url": "https://mobile.ant.design/zh",
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACQElEQVQ4jbWTT0gUcRTHv+83s7Mzu64VtkoKRQhJFnVQTKIuHbJDEhgelASP0ckORUbWdEmsQyBIJEiHJQq7dROWgg4F5Z9CESosSmrb2FVn3NmZnd35vQ7+K4ICqe/tHT5fHt/3fcB/0SgrGGVlbWSAuL1d+TO0SdGvI1P1Vxjl39AnFXiqOts/u6++uHik7UBke1mnVmncwPCwTQCvEWKdNVkAxLHP6A9V4ZIehamldl4DiEVQPKopxkXX8k0C2PyJo3XYJFnzkA8aO/BS0WDF39h6SIY0q9Jomjgb/5irO/zaqKyoCcpEYzgxMsOAIECuOJkrbsUMBnwHmp1FF6Q01XIjHE1lb1Mmsww336u4fpjd0q2NbAGxurqMXedTUqDFeYex1Ekae1+79W7Oy82p27Yca76fb4tNJkdz1tKzcEmc8Dq6WwlgBoSACUY368LHQGDB92xcAJjSLeQUwsrlQFcgiqWbeMp6mbXQU7JzgMeD3NUVBbASnGHgHDTUFRdwx7lK0wAIpikmzxiPnIL3RK2K1R5KOz00+2Iqn3cGsewWkEi4BDDpnbxLRPGKNLAD1GMICwDxWrD7H/iN0Zh4zoXAdsFN06f1D+MNDaGG1uO7F12ZFqTiPEUQD2xcwRBlNy5DEiaLmQ5tPO+V7ul7tQpN5W4AiFc378HE/NvI1JypsoLHwRIsL4GR1cvKjW6AAaZFiV41BVkCkgCQW/7+yfsy38fsJ/9Fm5nQzn95FCYwCzCvV58BhX97hU3oB7A5+5lHgaLmAAAAAElFTkSuQmCC",
-        "desc": ""
+        "desc": "探索移动端 Web 的极致体验"
     },
     {
         "id": 721,
@@ -5769,7 +5761,7 @@ export default [
         "title": "WeDesign",
         "url": "https://wechat.design/tool/weui-mobile#weui%E7%BB%84%E4%BB%B6%E5%88%97%E8%A1%A8",
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACiElEQVQ4jW2Tv2vkZRDGn2fm/SZr3OixmERkizVwzYG4myL+QAR7QSwPrhIREU+wUNB/QA8s7rCxOIsrrOSwD6iQSsWsS0DQyiKSjQZPELnsbt6Zx2I3soJP9RYz78MznxliLgIQAAwGg2dIvirpBZKPAqCkMYCvIuL24eHhN1gSl97Nzs7ODQBvmNmqJEgSyZTkZobMnAK4NRwO3wOQFx9Yr9db6XQ6n5dSXowISBIAmBnJuUdEgGS4u9da7w6Hw6sAwgFoe3v7ZtM01yLiXNKfAGZm1srMHyV9K+kXAA+TbGfmrJTyxNbW1gPj8XiP/X7/WXffB5Du3tRar0tqt1qtD87Ozq6NRqPPNjY22t1u9yEAe+5+RVKVpIh42ki+ZmYuCZkpSVcBvJyZkHS/3++/1Ov1jiJiXdJHZkZJ4e4r7v5KIflcZmoRlpn5iZk9SHKXZAJg0zSXaq27EXGSmQJQFmbPFwCPSSIAmhkA/AZgnSQWxVoUT8zMAZAk5oD4uP2Lg5QkkGwys0jKJcTC/4sG4NeLZgCKiDSzFTOzRc4Vm/NsZWYAuDASgCMDsG9mBFDNjO7eAXBYa703mUx+qrX+fH5+fi8ifnD3zeVaAPtWa/00MytJz0yZ2TsR8cfx8XG3lHKf5N/j8bhba/0LwLuLgXtEzCTd5mL/P26a5s1a69TMVjPzd5LfA3hqsc7fSdol+YikWSllpdZ6czgcvu0ArN1uf9k0zZOllCuLnOvuflnSGsk1M7ssaQ1AllLKbDb7Yjqdvn56eqr/HNNgMPiQ5HUzazJzefo0M0iaALh1cHDw/gU9X7rKODk52dvc3PyacywdkqsAKoCjzLxba31rNBrdWcb6D8oSfJZXWtA0AAAAAElFTkSuQmCC",
-        "desc": ""
+        "desc": "WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信 Web 开发量身设计，可以令用户的使用感知更加统一。包含 button、cell、dialog、 progress、 toast、article、actionsheet、icon 等各式元素。"
     },
     {
         "id": 727,
@@ -15647,7 +15639,7 @@ export default [
         "title": "Makeit Admin Pro - Powered by makeit.vip",
         "url": "https://admin.makeit.vip/about",
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAkFJREFUOI1tkr1rFGEQxp+Z993d2/vI5WLORO9OjBhJBJMYbC5gKsHGwk6JYG8nfhT+AVY24r9gFSwECxtBxCKFKaIIBvNBgpcPk9Mjd9lc9vbde8diJSDmKQaGYYaZZ340c310pdZ0HBb8JwERHSXG2POVvF7eaM5/2wIxjukgwCIpkIJ0haBdzUTseRogAogggmSuMbYn4z29V/24sDX77ruQcjVrAUREBJGJxQpgAU6iUkxMA4W072kBWREBVGWwp7YTKEWP70z25rzJkQGt+epE2U/pzd390NhmEH1d/d1ohWJRHsxpiACiFd++NhxOn3s7t/5o5nIu7Zqu3Hj4Zn1r78ndK6/eLy+u/SLWBGgiAsT3dLGQfj77+dnL+YWl+n7bvHgwXSpmN+uBFelE9sgHTowrFTP5rNsMOq7WVtA6iLRiralYSDdaoUAAgogAnLjWm/Pah7ExNpVy7t+aKBczvqdHzhRGzxZM15ZPZgESgACaGi/PfdlM+27Gd4yxB6HRin1PXxzqW9tupVx1c3rox8/g9YfVuGunxk+jOlYCmJUGCGBiBSiQAkCsAE5W144DcHWslBxtB/oyJ3pSYdQloq4Va23K1evbrXzWTacca6XdieuNAyLSBALQn/erlwZ3G4dx1zJToxUGbeN7+kKl0DHdU/3p2k5QbwQEaECIeKm2t7zRTF6umIhgrTDzp8UdJlrZaHaimIgB6Ci2IrYTxcfB91eHYZSAGMVWD5fzJHAc/g/tf6BNWByu5P8AxqABQ1J+fvkAAAAASUVORK5CYII=",
-        "desc": ""
+        "desc": "基于 Vue3.x 实现的 Makeit Admin Pro 框架应运而生"
     },
     {
         "id": 831,
@@ -15800,7 +15792,7 @@ export default [
         "title": "semi-design-vue",
         "url": "https://semi-ui-vue.netlify.app/",
         "icon": "",
-        "desc": ""
+        "desc": "由抖音前端团队，MED 产品设计团队设计、开发并维护的设计系统。它作为全面、易用、优质的现代应用 UI 解决方案，从字节跳动各业务线的复杂场景提炼而来，支撑近千计平台产品，服务内外部 10 万+ 用户。"
     },
     {
         "id": 831,
@@ -15816,7 +15808,7 @@ export default [
                     "title": "Banana UI",
                     "url": "https://banana-ui.com/",
                     "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAr5JREFUOI2VU1lIlGEUPff7vpl/zKUpaV9QQiiNemgqKMzJjSLqySIKSiPRiqCF8KXFgiAiMuxBQZ2ph3ow6C2I0sqiLGixaMYpMSsJylIzl5n5l+/2EFNWEHSfLod77j0HzgX+p6pZAEz/xUH1bZXfECorbgwv/Ik1N8tE+49tTABxXjCUmzJx2t340OcYwPUwx2paKnzvEzPiLxInJBIDwIgZfRIf+nRKCOnxeKftE560x8XB13sTB34pYCbQDxIAbGxmGUJYhjflmKsbX66UQrQR0zUQ1njSZ7ij/R8e2prKf7Pgr30+W6RNMG6VZnUnsPy6jlnC7X7BEkdb3y6oy5seWacMlCsjab0zNnKAElLyA5EypVS9tq0oAV1gPGCib0S8laEvEjyXtT2WQVIeb9mRvcIf7Mm4U5bxTgDAyqZIqmCuZe20EWm/Bq5CUKZ0qXmOozcTi4+sY3Ua0gXwVH9TxDds9vcBxAogvt/L0cK5nXEzFj/WVrmoA0AHACyvfZiWmpx2hqRcG4vxMrfUlWAKSehSryupD8AJ5Q+Gpiv96ohQrnQXo74gEGoixmQimQuCT7O+PzQY9/WL3q+Z3qxDbJt7CGIWw1kMAMqlcR6CS7Rl7QewDKASEKBJv4Cgw63bs9sBoCgYuS4g+npTcGnmsG4URDEAUMx4BNC6UXPwSvuuFef+jFNu4OkUg5KC0mVkmaP9BeFtPnNmIJzHwKmfSSwIdF5VbmODbZnHHVvfNG3rjaFojlKqEKAqV2r6pNG+3lVtu5fcK7zQdRba2jKqObt9Z84AASBUsyzK6DoJ1gdBJKGdGAvBYAwA3MDaKZbKmM/sjAjpTras+IZbOxY8AJh+D1LNM6/0GkvJ5gnCMLpvbJsXAoj9wR6vgnkabEvbilbdqfB9SeRn3Nex+NM/APirb6u/wHGz3wGXAzUmLQQ4wQAAAABJRU5ErkJggg==",
-                    "desc": ""
+                    "desc": "基于 Web Components 的组件库，这意味着它可以在几乎所有的前端框架中使用，也可以在原生环境（无框架）中使用；并且它还支持服务端渲染（SSR），甚至可以用于 worker 环境。这意味着你几乎可以在任何地方使用它。"
                 },
                 {
                     "id": 831,
@@ -15824,7 +15816,7 @@ export default [
                     "title": "swc-ui 文档",
                     "url": "https://webjeffery.github.io/stencil-component-ui/",
                     "icon": "",
-                    "desc": ""
+                    "desc": "一个使用原生web component技术构建的ui库。"
                 },
                 {
                     "id": 831,
@@ -15840,7 +15832,7 @@ export default [
                     "title": "Vue Amazing UI | Amazing UI Components Library",
                     "url": "https://themusecatcher.github.io/vue-amazing-ui/",
                     "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC+ElEQVQ4jW1TaWxMYRQ99703M286Y/aqDjUa/CqCiEqItTpBgpSpIBQh/BBSYguqkdhiCRIqEZpKVHWsjaClth9+NBkRidSWVKvVxNJqp9M3M2/eu35MMcX5eW/Ouec7370AmPALzEKgmkX8gRFAJoA8QNphtWaMCgT69ZNY/p5tc+6yKaU0IsMy4uC4DH9VYc7WlpK88+3rJu/qALA82Z4uHdnOAwCAAiGeSYzJ0KGQEpcMMHY2bC6YtdN1NDDU69NtNqJsn0gXX1zofKLRgRlj1xh0JZEwJSTdoOCzxBoyNcJHxYlqa6fi1c3GdNlkme4d5Eo4PAw2dwgdgsi17+rCb7XMr7PHINQdaW2zRIflisAooUlAtRxHjqMVA4J+R1PlVGpQWt5/kN2qKDsUtnmYOK2bp40bbZviaT60pYTS9rUNCxti8TzDd5QLoQmkmnpQY+7F6r4gyekebLd5GFZnnGRHDA63RiUbNjoyB2aLABov2bFUSoihtUHqEMBM5X56LvcibXMljwERu+1ul9mpk2SPsNkegydL4obGZzhz/dzhm6tY0iLqBO838WYpWBBAxABg6sJlY0RfAgAtX143rSxb9rLuTW2XyyuS6FTFivt32lVVKYvFUSTG9Dtz71Es5ddYAIC9J7VNJceiswEQgPUPzl7TuaWZG2sfst2evvNyAfsqF6oHAaC0jyMkBUgHmCztQoWhB/OKi1n2pvsSZcHKaFPbl+iVusffurq+njUzijQldjUpAP5rnZIbeXwbLzpRHC8CANnq2Pf09n3O8vl2V03i8cF8dU/q9BQHAEDMYLI+Qo0lZhgdyHnuWjAjf8jdB4+in5qby81OLOmNhC8BTKUg/TfrXxfEFSt4Sk84nHvq1UR/ONIdOp3T9pgFdXjhQ2NZKVhIFfgH3PeU4HzevyjrgB+AeCOfT53O/W7rd3j/d/DHyY1ZGEkGFILxQ0torYvrpVsMJgL1C0/4Lx1AQT29UzXtNbMuL66XbiWn0d/J4ydI+EbfJyleLQAAAABJRU5ErkJggg==",
-                    "desc": ""
+                    "desc": "基于 Vue3 + TypeScript + Vite 开发"
                 },
                 {
                     "id": 831,
