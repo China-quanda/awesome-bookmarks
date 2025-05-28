@@ -644,13 +644,6 @@
     "parentId": 89
   },
   {
-    "id": 95,
-    "title": "html-vue",
-    "icon": null,
-    "description": "",
-    "parentId": 89
-  },
-  {
     "id": 96,
     "title": "vite",
     "icon": null,
@@ -674,27 +667,6 @@
   {
     "id": 99,
     "title": "js根据文章生成目录树",
-    "icon": null,
-    "description": "",
-    "parentId": 89
-  },
-  {
-    "id": 100,
-    "title": "node爬虫",
-    "icon": null,
-    "description": "",
-    "parentId": 89
-  },
-  {
-    "id": 101,
-    "title": "typeorm",
-    "icon": null,
-    "description": "",
-    "parentId": 89
-  },
-  {
-    "id": 102,
-    "title": "vsCode",
     "icon": null,
     "description": "",
     "parentId": 89
@@ -834,5 +806,19 @@
     "parentId": 120,
     "private": true,
     "pawssword": "admin"
+  },
+  {
+    "id": 122,
+    "title": "nest",
+    "icon": null,
+    "description": "",
+    "parentId": 64
+  },
+  {
+    "id": 123,
+    "title": "监控开放平台",
+    "icon": null,
+    "description": "open",
+    "parentId": 33
   }
 ]
