@@ -315,13 +315,6 @@
     "parentId": 40
   },
   {
-    "id": 45,
-    "title": "头部社区",
-    "icon": null,
-    "description": "头部社区",
-    "parentId": 40
-  },
-  {
     "id": 46,
     "title": "技术团队",
     "icon": null,
@@ -378,20 +371,6 @@
     "parentId": 51
   },
   {
-    "id": 54,
-    "title": "资源推荐",
-    "icon": null,
-    "description": "资源推荐",
-    "parentId": 51
-  },
-  {
-    "id": 55,
-    "title": "协同办公",
-    "icon": null,
-    "description": "协同办公",
-    "parentId": 51
-  },
-  {
     "id": 56,
     "title": "ai",
     "icon": null,
@@ -399,31 +378,10 @@
     "parentId": 51
   },
   {
-    "id": 57,
-    "title": "视频教程",
-    "icon": null,
-    "description": "视频教程",
-    "parentId": 40
-  },
-  {
     "id": 58,
     "title": "成人高考",
     "icon": null,
     "description": "成人高考",
-    "parentId": 40
-  },
-  {
-    "id": 59,
-    "title": "资源网站",
-    "icon": null,
-    "description": "资源网站",
-    "parentId": 40
-  },
-  {
-    "id": 60,
-    "title": "GoLang",
-    "icon": null,
-    "description": "GoLang",
     "parentId": 40
   },
   {
@@ -826,5 +784,5 @@
     "title": "ppt",
     "icon": null,
     "parentId": 47
-  },
+  }
 ]
