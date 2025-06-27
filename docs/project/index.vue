@@ -114,6 +114,41 @@ const projectList = ref([
       },
     ]
   },
+   {
+    title: '郴州市殡仪馆',
+    list: [
+      {
+        img: '',
+        name: '智慧殡仪馆综合业务管理系统',
+        url: 'http://1.95.79.30:8886/index'
+      },
+      {
+        img: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAChUlEQVQ4jV2Sz2vcVRTFP+d+f8wkMyEhHbGFDEFEiqUi2rpwZzclQhG6VHEnrRtBgi7c+QcIErCQLsWlCzcqShTFhStRK7QuSinaSGuJNf0Rm5n5vndcfCdR++Bs3n333PPOueqdP/NSURTvkv2wMkgoJISUnUk5ExEY2zbLBxbdn5khB384+c2yQGtCA1LOirbpzngXG2bLmqoosY0xAAg5ZRNxCOe1UjCgSTlCcb8Ze66eYWV4VN2i4tvrl9m8d4t+3QUjY2MjEXmcsoJBaduh0Dg3Ptib56OV1/XEYOhJbjRKDa98sc6X1y7R73SdUhKSja1Aba9RodDO+D6nHzmuJwdDP/bBW5o79yqfXf2J048eIzmDLYQxkgIbYVRa2Jgqav2w9at3JmN9ePIMG79d5P0LG1z4c5N+1SXb/yGxJIxE0T11/B3b6pQll7dv6KtrFzl6YMiJ4eOsPv082Zlvfv+FTlFhYGF2RnVZtgpAJUChYHu0w9vHTrE0t8iLn65BTqyffI3Vp1Z478fPyXspPHBKAANFFHx34wqfPPMCJ5aOcPX2TZ5bOsK5nzcY5Ya6rGlyaiOdAkDz62cNEIi7k10OLxzi5cPPcrC3wNebl/j4yvdIQUjYZnmwSL/TaT0BNH/+7J46SXh3MtFuGk93Jpiru21hOnX5oUX3644yLUMppNYObKPZTsc9utr7Y5MSkva20EJShJWzAMp7W38Z7b83Zj/v9sa0ddvZ2q4qj5sGZ7vXrSmbvycCMnYgPPV0n3GfwBa2R6MJRVEp5ZwnTRNBeIsqgiIyElOYCB6AUSstQrmoirC5E+T0BnC99UH+3+Sp0/+qgNu37nrcNEi62cDqP5cBVT9y0jPgAAAAAElFTkSuQmCC',
+        name: '智慧殡仪馆综合业务管理与服务系统',
+        url: 'https://www.kdocs.cn/l/ceTcLJVZZm7u'
+      },
+    ]
+  },
+   {
+    title: '福城大集',
+    list: [
+      {
+        img: '',
+        name: '福城大集管理平台',
+        url: 'http://mall.api.hnsilian.cn:8036/#/login'
+      },
+    ]
+  },
+  {
+    title: '智慧供热平台',
+    list: [
+      {
+        img: '',
+        name: '智慧供热平台',
+        url: 'http://1.95.79.30:8176/index'
+      },
+    ]
+  },
   {
     title: '小小龙课堂',
     list: [
