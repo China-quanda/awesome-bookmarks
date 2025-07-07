@@ -380,6 +380,12 @@ onMounted(() => {
     .tab-container {
       .list {
         grid-template-columns: repeat(7, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        .item{
+          .title{
+            width: auto;
+          }
+        }
       }
     }
   }
