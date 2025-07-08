@@ -20,7 +20,7 @@
       </div>
       <div class="tab-container">
         <div class="list" v-if="list3.length">
-          <div class="item" :class="{'siteActive':siteActive === site.id}" v-for="site in list3" :key=site.id>
+          <a class="item" :class="{'siteActive':siteActive === site.id}" v-for="site in list3" :key=site.id :href="site.url">
             <div class="button">
               <div @click="clickItem(site, 'nei')">
                 内
@@ -34,7 +34,7 @@
               <p class="title ellipsis1"><b :title="site.title">{{ site.title }}</b></p>
             </div>
             <p class="desc">{{ site.desc || '描述' }}</p>
-          </div>
+          </a>
         </div>
         <div v-else class="empty">
           <svg t="1725088998346" class="icon" viewBox="0 0 1567 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -380,7 +380,7 @@ onMounted(() => {
     .tab-container {
       .list {
         grid-template-columns: repeat(7, minmax(0, 1fr));
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         .item{
           .title{
             width: auto;
