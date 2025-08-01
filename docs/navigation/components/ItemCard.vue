@@ -20,14 +20,14 @@
       </div>
       <div class="tab-container">
         <div class="list" v-if="list3.length">
-          <a class="item" :class="{'siteActive':siteActive === site.id}" v-for="site in list3" :key=site.id :href="site.url">
+          <a class="item" :class="{'siteActive':siteActive === site.id}" v-for="site in list3" :key="site.id">
             <div class="button">
               <div @click="clickItem(site, 'nei')">
                 内
               </div>
-              <div @click="clickItem(site, 'wai')">
+              <a @click="clickItem(site, 'wai')" :href="site.url" target="_blank" rel="noopener noreferrer">
                 外
-              </div>
+              </a>
             </div>
             <div class="top">
               <img v-if="site.icon" class="icon" :src="site.icon">
