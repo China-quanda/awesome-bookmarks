@@ -18,6 +18,12 @@
             }}</span>
         </div>
       </div>
+      <button 
+        style="margin-top: 10px; padding: 5px 10px; border-radius: 4px; color: white; background: #ccc;"
+        @click="clickOpenAllSite"
+      >
+        Open All Site
+      </button>
       <div class="tab-container">
         <div class="list" v-if="list3.length">
           <a class="item" :class="{'siteActive':siteActive === site.id}" v-for="site in list3" :key="site.id">
@@ -142,6 +148,7 @@ function loadSites(tab, operationType?: 'atuo' | 'click') {
       list3.value = []
       tab.private = !tab.private
     }
+    
   } else {
     // 需要权限的数据
     if (operationType && operationType === 'click') {
@@ -156,6 +163,11 @@ function loadSites(tab, operationType?: 'atuo' | 'click') {
   }
 }
 
+function clickOpenAllSite(){
+  list3.value.forEach((site)=>{
+    window.open(site.url, '_blank')
+  })
+}
 onMounted(() => {
   loadSites({ id: 1 })
   // loadSites(props.data.children[0].id)
@@ -290,13 +302,13 @@ onMounted(() => {
         .title,
         .desc {
           text-align: left;
-          width: 180px;
+          // width: 180px;
           font-weight: 400;
           text-indent: 5px;
         }
 
         .desc {
-          width: 180px;
+          // width: 180px;
           white-space: nowrap;
           text-overflow: ellipsis;
           overflow: hidden;
