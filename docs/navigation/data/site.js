@@ -1358,14 +1358,6 @@ export default [
     },
     {
         "categoryId": 12,
-        "id": 176,
-        "url": "http://shouce.jb51.net/velocity/index.html",
-        "icon": "",
-        "title": "Velocity.js",
-        "desc": "Velocity.js 中文文档"
-    },
-    {
-        "categoryId": 12,
         "id": 177,
         "url": "https://wowjs.uk/docs.html",
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB5klEQVQ4jWWTL1RbMRTGf2cH8cUlrpFPDkclsnPMMTckc0PiNtm5yVUimaMOZCU4cH1ukXkucbluE++djpZP5Vzx/bs3/D3An/uvh6M9tJJ3b4B3HMCA/uHH4RiAl/UV6+XZ3uwNATWRHu+woZ/oRjz9viClRCHszY92ynUgbb6j2QlRkZe7SxQiUiD1z9QiUn7raueg9jdIAhcAaOooRHJphK7DR8f9U+LkNADaJxieVkji0/UD1golJ2I3J84iDkOIrutYfZtDzmB24MCLgkdeyCqxOyH1z9w8ZG43CQPMGoSIgug3VwcdhGPY3nO7PAccopByJfUDF+dn+C5CyRgQYsFqeU1g0AofvtxQmvFzec1i3rFYBM4+itoABRQDWAE5qNv/BEN6pNQxU3AB5zxDATk/pg8OrFFbHZWtjlsb+pFAIUJNzHwgxgglUabinA8YDQDhkByl9GBG3q7HEr06JMfpvMOssFytWf3aUJuBFURACpPhNjkw6rCdOpDAGpefF9RaaFTcpAlgVpAiZgVKPx1dwaRXa5xySYZDgGhmSAH5gNVMswoOLBfCrEMhTg6mozDLMGW3cfOUmgBw8jgJTITj98jHncOjob8F76EZ1EzOacorQtcxyjaQIX88CQhs/Bj/ALNgIj92cGh+AAAAAElFTkSuQmCC",
@@ -2230,14 +2222,6 @@ export default [
     },
     {
         "categoryId": 42,
-        "id": 289,
-        "url": "https://ruby-china.org/",
-        "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/ruby.png",
-        "title": "Ruby china",
-        "desc": "国内最权威的 Ruby 社区"
-    },
-    {
-        "categoryId": 42,
         "id": 290,
         "url": "https://studygolang.com/",
         "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/golang.ico",
@@ -2259,14 +2243,6 @@ export default [
         "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_271d8c04c9e54805844359e1e7fec3aa.png",
         "title": "菜鸟教程",
         "desc": "学的不仅是技术，更是梦想"
-    },
-    {
-        "categoryId": 42,
-        "id": 293,
-        "url": "https://gocn.vip",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_58638886f8f9485cab8cd846643c87ea.png",
-        "title": "GoCN社区",
-        "desc": "国内活跃的 Go 社区"
     },
     {
         "categoryId": 43,
@@ -2299,14 +2275,6 @@ export default [
         "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_8eff5cc726bd4d7395cedb21eb0db80d.png",
         "title": "Spring中文手册",
         "desc": "Spring中文手册"
-    },
-    {
-        "categoryId": 43,
-        "id": 298,
-        "url": "http://felord.cn/_doc/_springboot/2.1.5.RELEASE/_book/pages/boot-documentation.html#boot-documentation",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_8eff5cc726bd4d7395cedb21eb0db80d.png",
-        "title": "SpringBoot中文手册",
-        "desc": "SpringBoot中文手册"
     },
     {
         "categoryId": 43,
@@ -2358,14 +2326,6 @@ export default [
     },
     {
         "categoryId": 43,
-        "id": 305,
-        "url": "https://www.mongodb.org.cn/tutorial/",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_68fdfb49d02244f889b2af696cf0fe74.png",
-        "title": "MongoDB教程",
-        "desc": "分布式文件存储的数据库"
-    },
-    {
-        "categoryId": 43,
         "id": 306,
         "url": "https://www.topgoer.com/",
         "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_316cef59a1a04989b23240a4027e315d.png",
@@ -2390,14 +2350,6 @@ export default [
     },
     {
         "categoryId": 43,
-        "id": 309,
-        "url": "https://aiyanbo.gitbooks.io/spark-programming-guide-zh-cn/content/",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_dedc4d67bb79491692f8847e2e282282.png",
-        "title": "Spark编程指南",
-        "desc": "Spark编程指南简体中文版"
-    },
-    {
-        "categoryId": 43,
         "id": 310,
         "url": "https://git-scm.com/book/zh/v2",
         "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_500076cda08d4823b8e08194d992b563.png",
@@ -2411,56 +2363,7 @@ export default [
         "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_607659f922c049ea896f9449bcc198d0.png",
         "title": "SQL教程",
         "desc": "简洁明了的SQL教程手册"
-    },
-    {
-        "categoryId": 43,
-        "id": 312,
-        "url": "http://cn.linux.vbird.org/linux_basic/linux_basic.php",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_3a4825d15ae14ce5bffabccf8aac883b.png",
-        "title": "鸟哥的Linux私房菜",
-        "desc": "非常详细的Linux教程"
-    },
-    {
-        "categoryId": 43,
-        "id": 313,
-        "url": "https://books.sonatype.com/mvnref-book/reference/index.html",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_62c439e2d40f4283a0d7f3718cebb240.png",
-        "title": "maven手册",
-        "desc": "最详细详细的Maven手册"
-    },
-    {
-        "categoryId": 43,
-        "id": 314,
-        "url": "https://books.halfrost.com/leetcode/ChapterOne/",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_6b1c97e60ebf4eb19d8d6cad0728ad37.png",
-        "title": "LeetCode刷题手册",
-        "desc": "经典丰富的算法在线刷题手册"
-    },
-    {
-        "categoryId": 43,
-        "id": 315,
-        "url": "https://design-patterns.readthedocs.io/zh_CN/latest/structural_patterns/structural.html",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_c152812a2a4042fc942db0255c3edead.png",
-        "title": "图说设计模式",
-        "desc": "内容讲解详细生动"
-    },
-    {
-        "categoryId": 43,
-        "id": 316,
-        "url": "https://mybatis.org/mybatis-3/zh/index.html",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_d9bbf97d8e5f43059fc822649399d7dd.png",
-        "title": "Mybatis手册",
-        "desc": "优秀的持久层框架"
-    },
-    {
-        "categoryId": 43,
-        "id": 317,
-        "url": "https://www.oraclejsq.com/article.html",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_5f07e4dd78ef48adb8a5c4499435a4fc.png",
-        "title": "Oracle教程",
-        "desc": "Free IT-Oracle教程"
-    },
-    {
+    },{
         "categoryId": 43,
         "id": 318,
         "url": "http://www.yanhuangxueyuan.com/WebGL/",
@@ -2651,224 +2554,6 @@ export default [
         "icon": "https://qiqihao.oss-cn-beijing.aliyuncs.com/static/coderutil/icon/tianya.png",
         "title": "天眼查",
         "desc": "查公司、查老板、查关系"
-    },
-    {
-        "categoryId": 46,
-        "id": 354,
-        "url": "https://tech.meituan.com",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_63395250de7a43c8a42223e723b45c25.png",
-        "title": "美团技术团队",
-        "desc": "meituan"
-    },
-    {
-        "categoryId": 46,
-        "id": 355,
-        "url": "https://blog.csdn.net/Taobaojishu",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_b2f6357dbd094a31a9f48531d0dbfdcc.png",
-        "title": "阿里淘系技术团队",
-        "desc": "CSDN"
-    },
-    {
-        "categoryId": 46,
-        "id": 356,
-        "url": "https://fex.baidu.com",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_f326100ab94c4992a4e0fd9a990788f4.png",
-        "title": "百度FEX团队",
-        "desc": "FEX"
-    },
-    {
-        "categoryId": 46,
-        "id": 357,
-        "url": "https://blog.csdn.net/ByteDanceTech",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_45125bd292ef430fbb9e4cdafd76b1f3.png",
-        "title": "字节跳动技术团队",
-        "desc": "CSDN"
-    },
-    {
-        "categoryId": 46,
-        "id": 358,
-        "url": "https://blog.csdn.net/Tencent_TEG",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_5fb68f6c152f4559885015420a822a51.png",
-        "title": "腾讯技术工程",
-        "desc": "CSDN"
-    },
-    {
-        "categoryId": 46,
-        "id": 359,
-        "url": "https://blog.csdn.net/devcloud",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_af9f7b7ab037445cb052579d3652cc0b.png",
-        "title": "华为云技术团队",
-        "desc": "CSDN"
-    },
-    {
-        "categoryId": 46,
-        "id": 360,
-        "url": "https://xiaomi-info.github.io/",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_768f4304e81d4002beb35fd041e0ffa0.png",
-        "title": "小米技术团队",
-        "desc": "xiaomi-info"
-    },
-    {
-        "categoryId": 46,
-        "id": 361,
-        "url": "http://www.alloyteam.com/page/0",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_2d73e2a0bfb74ce1a0b3e06035f372c5.png",
-        "title": "腾讯全端",
-        "desc": "alloyteam"
-    },
-    {
-        "categoryId": 46,
-        "id": 362,
-        "url": "https://fed.taobao.org/blogs/1",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_c12c999504a543d58e6d7107cbbac423.png",
-        "title": "淘系前端",
-        "desc": "前端"
-    },
-    {
-        "categoryId": 46,
-        "id": 363,
-        "url": "https://blog.csdn.net/jILRvRTrc",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_afa7d4e0e1b64a738d6a8421acc28734.png",
-        "title": "Google 开发者",
-        "desc": "CSDN"
-    },
-    {
-        "categoryId": 46,
-        "id": 364,
-        "url": "https://blog.csdn.net/UbuntuTouch",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_1a1b401668964f65ba3f07388546185c.png",
-        "title": "Elastic中国社区",
-        "desc": "CSDN"
-    },
-    {
-        "categoryId": 46,
-        "id": 365,
-        "url": "https://blog.csdn.net/weixin_38912070",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_6dfb0ecb87314d64a5490ae69109b28c.png",
-        "title": "咸鱼技术",
-        "desc": "CSDN"
-    },
-    {
-        "categoryId": 46,
-        "id": 366,
-        "url": "https://isux.tencent.com/",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_a5afe9311d504a3bb9bdb9391c4f2279.png",
-        "title": "腾讯ISUX",
-        "desc": "isux"
-    },
-    {
-        "categoryId": 46,
-        "id": 367,
-        "url": "https://jelly.jd.com/",
-        "icon": "https://jelly.jd.com/3.0/fonts/2657ceafd877a9cbe0e7604b36c21906.svg",
-        "title": "京东设计中心",
-        "desc": "jelly"
-    },
-    {
-        "categoryId": 46,
-        "id": 368,
-        "url": "https://zhuanlan.zhihu.com/ElemeFE",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_d2c05dac268c46e989de3d62399886b7.png",
-        "title": "饿了么前端",
-        "desc": ""
-    },
-    {
-        "categoryId": 46,
-        "id": 369,
-        "url": "https://blog.csdn.net/DiDi_Tech",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_b44a121b657048a2b47784a3f9c8b3c2.png",
-        "title": "滴滴技术",
-        "desc": "CSDN"
-    },
-    {
-        "categoryId": 46,
-        "id": 370,
-        "url": "https://blog.csdn.net/HUAWEI_HMSCore",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_071ba3b6d6874fe99afbe8a58adb38bd.png",
-        "title": "华为移动服务",
-        "desc": "CSDN"
-    },
-    {
-        "categoryId": 46,
-        "id": 371,
-        "url": "https://aws.amazon.com/cn/blogs/aws/",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_7c2610f186df46d2a75bd7ebb3328ccb.png",
-        "title": "Amazon Blog",
-        "desc": "亚马逊"
-    },
-    {
-        "categoryId": 46,
-        "id": 372,
-        "url": "https://engineering.fb.com",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_a5f72c028f114584b302954b036c40d9.png",
-        "title": "Facebook",
-        "desc": "Facebook"
-    },
-    {
-        "categoryId": 46,
-        "id": 373,
-        "url": "https://devblogs.microsoft.com/",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_5058ecc4abb0473da60293637b62b790.png",
-        "title": "Microsoft",
-        "desc": "Microsoft"
-    },
-    {
-        "categoryId": 46,
-        "id": 374,
-        "url": "https://eng.uber.com/",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_cfff97ab757b44eca91f5a9f0875cffa.png",
-        "title": "Uber Engineering",
-        "desc": "Uber"
-    },
-    {
-        "categoryId": 46,
-        "id": 375,
-        "url": "https://tech.souyunku.com/",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_b9335d4d5d794b54834d7b32fa08f77e.png",
-        "title": "搜云库技术团队",
-        "desc": "搜云库"
-    },
-    {
-        "categoryId": 46,
-        "id": 376,
-        "url": "https://aotu.io/",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_fe97a9f2fce44bafb481d8590f9678b6.png",
-        "title": "凹凸实验室",
-        "desc": "京东用户体验设计部"
-    },
-    {
-        "categoryId": 46,
-        "id": 377,
-        "url": "https://tech.ebayinc.com/",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_f7156d9d99fe41219f3145c5c6dc864d.png",
-        "title": "eBay Tech",
-        "desc": "eBay"
-    },
-    {
-        "categoryId": 46,
-        "id": 378,
-        "url": "https://developer.ibm.com/blogs/",
-        "icon": "http://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_1e20503c1d304e8a81571125259564a8.png",
-        "title": "IBM Blog",
-        "desc": "IBM"
-    },
-    {
-        "categoryId": 46,
-        "id": 379,
-        "url": "https://blog.csdn.net/tensorflowforum",
-        "icon": "https://profile-avatar.csdnimg.cn/79679033db174a30abf82ba2e03eb4d0_tensorflowforum.jpg!1",
-        "title": "TensorFlow",
-        "desc": "TensorFlow"
-    },
-    {
-        "categoryId": 48,
-        "id": 380,
-        "url": "https://www.baidufe.com/fehelper/index/index.html",
-        "icon": "https://coderutil.oss-cn-beijing.aliyuncs.com/bbs-image/file_bd656703b32a42429e2bb7821c9d9711.png",
-        "title": "FeHelper",
-        "desc": "前端必备，集成了包括 JSON 格式化、二维码生成与解码、信息编解码、代码压缩、美化、页面取色、Markdown与 HTML 互转、网页滚动截屏、正则表达式、时间转换工具、编码规范检测、页面性能检测、Ajax 接口调试、密码生成器、JSON 比对工具、网页编码设置、便签笔记等各种功能。",
-        "tipText": "前端必备",
-        "tipBgColor": "#f6416c"
     },
     {
         "categoryId": 48,
@@ -3181,14 +2866,6 @@ export default [
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABhElEQVQ4jX2SQWsUQRCF36uumdnMDkkIXgKCxIMgKurvyP/NRdCbN4MklxwkeJQlIOsmYdnpruehWz2t3YcuqAf1vldNRQiAhBCIvcesNr2pzWj71YAkSSAdIRjn1d325huT1yEkAAgkIAjA+P61DYMkawr3Mh7kgyEv+jx0c9/N3s2edmbZfbfebD59rl4cpCQ/OV4cTXnOJAGpPSChiNR124uP5de9H03+1yWNTEYQUPPFIBgkANVIBFcEzXY/VvfXN+i8ygkKqGNgqfxc98vRDyeVYJQiUuuNre5AgwQIqqitEMAXz5EMkgsgkA+nq4eHQG1LgCqjEBLJNyWPqQfpkkh++HqtUo6nSRHVPoEaoFq6Tyqqm9n68bGUOH/7ajdnM6rhtYUo1A+DuUcESQdZ8VJKKVqebbsgIbDS/wkz52xmF5dXgk6mZUSNpyI0DALvzp4tFwMAllJIbuf5y+13ot1KYLUSjHz59HQcBgCMCElmxP/+KgBUBob0L8L9pw0lfwOo89kfpezsZgAAAABJRU5ErkJggg==",
         "title": "书栈网",
         "desc": "程序员开源书籍免费读"
-    },
-    {
-        "categoryId": 43,
-        "id": 421,
-        "url": "https://www.zhishikoo.com/",
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4ja3TvSvFURgH8I975a0MFgaLullEJmwMpCwMXsrkZWJTTMpiIyld/gHJovwVN8pAMrIJpawWcS0P/fzuveXtqdM553m+3+95znOek1VqmTK+b1vVf5CnMPHTbD7IvXjA5G8EarGHtvBlK2AzyVgmRhHDuEUPDnCJ6QSxOuY3vJZL/zCE7lHAE7oj3pDAD6SEP20QM3FSHmvhz+McS7iKDIpYqFSPowBcoytId3jEDjpxhu00cSzuXcQNtpCLumwmatCPi4iBFpzgOcgbqENH3L8QfVGPdbxgLvlSTRjHIo4jkAuxUQxhF6fhK2I2xL889T7aY92KVTTHvgbzWEZfuR4ZwUqs0933rf/RGEVKgtOnZAPzp99aYu/uyjN/sNdWlQAAAABJRU5ErkJggg==",
-        "title": "书籍知识库",
-        "desc": "优质的电子书分享站"
     },
     {
         "categoryId": 43,
@@ -4132,14 +3809,6 @@ export default [
         "title": "前景 · Go语言中文文档",
         "url": "https://www.topgoer.com/",
         "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC1UlEQVQ4jXVSv0t0VxA9c+fu+7FvRVxU0IRECEIIErFbwQ+3EEQkiyDbWFoI4n8QSBCClnY2FsFmZUEFUwlW+TClWAQWiwUJIcgaV1DX9za+d++dFN9qSOGBYZhhfh4OLSwsfMXM/4Rh+Aige3h4aPEfuOffcpubm6rRaOSfnp76RCSgSqXSERFnrU2I6E/P835XSv1mrf3l5OTkAQAWFxcHwjD8LsuyGWPMtyLyBTNHAIgqlYoQEYIggLUWSZIgTVP4vv8XEf3onPOI6Ic0TT/zfR9BEEBrjSRJAADaGCN9fX2yu7sL55y0Wi25vLyk8/Pzz+/u7n5WSqFYLKJUKtmJiQk3NjamoihyGxsb6cPDQ14DIBGhgYEBxHEsrVYLKysrWFpasqurq845x1tbWzI6OsqvnFj7iRIiIiUiICLpdrtSq9Xo+flZ9vf3USgUoLUWIqLh4WFqNpuyvb0tp6encM6htxiKiCAipJSiKIpwe3tLURSRtZZE5M3Ozs5oZmYGV1dXuL+/Ry6Xw9sA5xyCIMD09DTq9TpKpRI8z0PvOhhjMDc3h4ODA4yMjGBoaAhZloGI8PoCnHNgZgwODr7FrwjDkPr7+3F9fY2pqSkws3LOgYig3xTDnzRjjPlfMxHJ0dGR1Ot1NTk5ifHxcRhjLDOLiEADEBFBt9uFcw5KKQnDkJRSiplNkiRUq9UwPz+PtbU1ISJ0Oh2ICACI1lpTmqZYX19HPp931lpzcXHBs7OzEBF4nic7Ozvu8fERe3t7rtlscrvd1nEc61wuB6pUKk89QXlExL7vI01TFItFdDqdTESoWCxyq9UiYwyYGURkmDkFYLS19sssywqFQmFIRMbSNP2GmT+02+1Z3/d9IsLNzU3med6vYRh+tNY2APwRx/HfIhIT3sHy8vLXLy8v3xOR53neT8fHx433aqlnqlqtcrlc1u8VlstlXa1WGYB67fsXNjxy8R1L2VcAAAAASUVORK5CYII=",
-        "desc": ""
-    },
-    {
-        "id": 554,
-        "categoryId": 68,
-        "title": "首页 - Go语言中文网 - Golang中文社区",
-        "url": "https://studygolang.com/",
-        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACU0lEQVQ4jVWSTUhUURTHz7nvvufM5Ff5hcOUYIWOYKVuykyCIjLpiz4QoRRatmghhLRp38J1u8B1QYSbpLIWfSgUlRgVTkZp0aQjOs6befPuO/8Wb0Q6m3vuOf9z7j2cH195PkqbJhAmBgCCiBARCEQEQCAgEEiH0vDCxAQwswRSkhIIJJAwC4IqNQcrYoH4MFlvwyAIw4oUESnisBiACg8mrPs5Zo6qyLWWCyfihzxTFMiat77hu1njhh8DoMO3XFM413Ssc0drrugejHfcejOWM26jUzeY7K+yK96tfJpami5TjohY+4eP5Hy3q7atL94z9vHe5NKrCDuJysbU+s/rbYMbhdzEwtRQy/l0PvM9u1imHcVMhcDbV733dfp9yl1SWk8svuhL9N7tud1Rmxyff/QsPTOTnu2sSeYDj5mt9qvdBoHD9vGd3W//znmBd6n5ZGt1882XdyxSh+Nd5XbsdNPR+6nHq35WscUDT0aYyDWFoeYzB+qSblD4mvlmW3bGz45/fji85+z2SNV0+sP08mxMR4wIDzwdCcd3/XwiWq/ZmltL9TR0Xt7dNzoz5voFgmjL3qYjRgQkOlQTUcyO/vJWAHG0M5eZj7fXN0Zr//CKrWyIGAlAAEgDICYRIZCjLJsjTeXxU7t6Z5e//M4ta0ubwAAQAgjErEEIMWHigik2xGr6E72p1R8PFiZZMUG21CAi8MXJGwBCTgAy4ueLeZ+CSqeCQYJANokKl61LHiFEUpGqiJQDJBIIRIjCCbfQ+A9gASkygWxGSgyX+kGI6B9a74d7LHWbkgAAAABJRU5ErkJggg==",
         "desc": ""
     },
     {
