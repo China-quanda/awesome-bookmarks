@@ -315,13 +315,6 @@
     "parentId": 40
   },
   {
-    "id": 46,
-    "title": "技术团队",
-    "icon": null,
-    "description": "技术团队",
-    "parentId": 40
-  },
-  {
     "id": 47,
     "title": "资源下载",
     "icon": null,
@@ -361,13 +354,6 @@
     "title": "招聘求职",
     "icon": null,
     "description": "招聘求职",
-    "parentId": 51
-  },
-  {
-    "id": 53,
-    "title": "创业&科技资讯",
-    "icon": null,
-    "description": "创业&科技资讯",
     "parentId": 51
   },
   {
@@ -502,13 +488,6 @@
     "icon": null,
     "description": "",
     "parentId": 1
-  },
-  {
-    "id": 81,
-    "title": "运维",
-    "icon": null,
-    "description": "运维",
-    "parentId": 40
   },
   {
     "id": 82,
